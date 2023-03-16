@@ -28,12 +28,21 @@ export class BlogsDetails implements OnInit {
     private route: ActivatedRoute,
 
   ) {
+
+    
+  }
+
+  ngOnInit() {
+    // console.log(this.route.snapshot.queryParams.id, 'AOS')
+
     this.getBlogs();
-    this.getBlog();
+ 
     // this.setMetaTag();
     // this.initSpeech();
     // let blog = JSON.parse(localStorage.getItem('currentBlog'));
     // this.blogDetails = blog;
+
+    if(this.latestBLogs.length > 0) {
     this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
 
     this.metaService.addTags([
@@ -43,10 +52,7 @@ export class BlogsDetails implements OnInit {
       { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
     ]);
-    
   }
-
-  ngOnInit() {
     // let blog = JSON.parse(localStorage.getItem('currentBlog'));
     // this.blogDetails = blog;
 
@@ -89,6 +95,7 @@ export class BlogsDetails implements OnInit {
               // Handle the response from the API
               // console.log(response);
               this.latestBLogs = response['items'];
+              this.getBlog();
             },
             error => {
               // Handle any errors that occurred during the request
@@ -97,8 +104,7 @@ export class BlogsDetails implements OnInit {
   }
 
   getBlog() {
-    let id = this.route.snapshot.paramMap.get('id');
-
+    let id = this.route.snapshot.queryParams.id;
     let blog = this.latestBLogs.find(a => a.guid === id);
     this.blogDetails = blog;
   }

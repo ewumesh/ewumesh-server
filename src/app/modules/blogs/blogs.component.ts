@@ -51,7 +51,7 @@ export class BlogsComponent implements OnInit {
     }
 
     gotoBlogDetails(blog) {
-      this.router.navigate(['/blogs/details'],{ queryParams: {id:blog.guid, blogs: blog.title}})
+      this.router.navigate(['/blogs/details'],{ queryParams: {id:blog.guid}})
       this.blogsService.updateBlogs(blog);
     }
 }
