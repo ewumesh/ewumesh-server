@@ -6,7 +6,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'blogs', loadChildren: () => import('./modules/blogs/blogs.module').then(m => m.BlogsModule) },
   { path: 'games/maze', loadChildren: () => import('./modules/games/games.module').then(m => m.GamesModule) },
-  { path: 'ai/object-detection', loadChildren: () => import('./modules/objection-detection/object-detection.module').then(m => m.ObjectDetectionModule) },
+  // { path: 'ai/object-detection', loadChildren: () => import('./modules/objection-detection/object-detection.module').then(m => m.ObjectDetectionModule) },
 
   { path: '**', pathMatch: 'full', redirectTo: '/home' }
 ];
