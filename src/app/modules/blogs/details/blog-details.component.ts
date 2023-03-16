@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
 import { BlogsService } from 'src/app/services/blogs/blogs.service';
 // import Speech from 'speak-tts';
 @Component({
@@ -16,16 +18,22 @@ export class BlogsDetails implements OnInit {
 
   play:boolean = false;
   playing: boolean = false;
+  latestBLogs:any[] = [];
 
   constructor(
     private blogsService: BlogsService,
     private titleService: Title,
-    private metaService: Meta
+    private metaService: Meta,
+    private http: HttpClient,
+    private route: ActivatedRoute,
+
   ) {
+    this.getBlogs();
+    this.getBlog();
     // this.setMetaTag();
     // this.initSpeech();
-    let blog = JSON.parse(localStorage.getItem('currentBlog'));
-    this.blogDetails = blog;
+    // let blog = JSON.parse(localStorage.getItem('currentBlog'));
+    // this.blogDetails = blog;
     this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
 
     this.metaService.addTags([
@@ -72,6 +80,27 @@ export class BlogsDetails implements OnInit {
     // setTimeout(() => {
     //   this.speechAudio();
     // }, 3000);
+  }
+
+  getBlogs() {
+    let url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ewumesh';
+          this.http.get(url).subscribe(
+            response => {
+              // Handle the response from the API
+              // console.log(response);
+              this.latestBLogs = response['items'];
+            },
+            error => {
+              // Handle any errors that occurred during the request
+              console.error(error);
+            })
+  }
+
+  getBlog() {
+    let id = this.route.snapshot.paramMap.get('id');
+
+    let blog = this.latestBLogs.find(a => a.guid === id);
+    this.blogDetails = blog;
   }
 
   removeHTMLTags(c) {
