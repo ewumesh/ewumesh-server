@@ -22,15 +22,8 @@ export class BlogsDetails implements OnInit {
     private titleService: Title,
     private metaService: Meta
   ) {
-    this.setMetaTag();
+    // this.setMetaTag();
     // this.initSpeech();
-    
-  }
-
-  ngOnInit() {
-    let blog = JSON.parse(localStorage.getItem('currentBlog'));
-    this.blogDetails = blog;
-
     this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
 
     this.metaService.addTags([
@@ -40,6 +33,22 @@ export class BlogsDetails implements OnInit {
       { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
     ]);
+    
+  }
+
+  ngOnInit() {
+    let blog = JSON.parse(localStorage.getItem('currentBlog'));
+    this.blogDetails = blog;
+
+    // this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
+
+    // this.metaService.addTags([
+    //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
+    //   { name: 'description', content: this.removeHTMLTags(this.blogDetails.description) },
+    //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    //   { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+    //   { name: 'robots', content: 'index, follow' },
+    // ]);
 
     //  this.metaService.addTags([
     //    {name: 'keywords', content: 'Ewumesh' + '|'+ this.blogDetails.title},
