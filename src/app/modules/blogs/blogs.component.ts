@@ -34,11 +34,14 @@ export class BlogsComponent implements OnInit {
               console.error(error);
             })
 
-            this.titleService.setTitle( "Ewumesh | Latest blogs on medium" );
+            this.titleService.setTitle("Ewumesh | Medium Blogs Collection");
 
             this.metaService.addTags([
-              {name: 'keywords', content: 'Ewumesh' + '|'+ ''},
-              {name: 'description', content: ''}
+              { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity' },
+              { name: 'description', content: 'Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular. In addition, people can start blogging to improve their writing skills or even promote their businesses.' },
+              { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+              { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+              { name: 'robots', content: 'index, follow' },
             ]);
     }
 
