@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, OnInit, AfterViewInit, HostListener, Inject } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { Cell, Maze, keyboardMap } from './models';
 
 @Component({
@@ -23,9 +23,18 @@ export class MazeComponent implements OnInit, AfterViewInit {
 
   constructor(
     private titleService: Title,
-    @Inject(DOCUMENT) private document: Document
+    @Inject(DOCUMENT) private document: Document,
+    private metaService:Meta
     ) {
     this.titleService.setTitle('Ewumesh | Game | Online Maze Game');
+
+            this.metaService.addTags([
+              { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
+              { name: 'description', content: 'A maze game is a type of puzzle game that involves navigating through a complex network of paths and obstacles to reach a specific goal. The goal is typically represented by a specific location within the maze, such as a treasure chest, a key, or a final exit.' },
+              { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+              { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+              { name: 'robots', content: 'index, follow' },
+            ]);
   }
 
   ngOnInit() {
