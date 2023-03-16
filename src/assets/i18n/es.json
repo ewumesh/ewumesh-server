@@ -1,0 +1,243 @@
+{
+    "Header.Home": "Hogar",
+    "Header.Blogs": "Blogs",
+    "Header.AI": "AI",
+    "Header.cvBtn": "Curriculum",
+    "Header.cvName": "ewumesh.pdf",
+
+    "Banner.Title": "Ewumesh",
+    "Banner.Designation":"FDesarrollador frontend",
+    "Banner.Pretitle": "Hola! yo soy",
+    "Banner.Description": "Tengo <span class='underline'>5 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular/Vuejs/React</span> y en ocasiones en <span class='underline'>Nodejs</span> aplicando buenas prácticas y estándares de desarrollo.",
+    "Banner.ActionBtn": "Saludame",
+
+    "AboutMe.Title": "Acerca de mi",
+    "AboutMe.Paragraphs": [
+        "En mis <span class='underline'>5 años como</span> desarrollador, busco capacitarme todos los días. He trabajado escribiendo pruebas unitarias, realizando integración continua y cubriendo roles de desarrollador backend con <span class='underline'>Nodejs y Mysql</span>. He liderado equipos teniendo empatía, ejerciendo la motivación a los socios, y estableciendo planes y metas en conjunto.”,"
+    ],
+
+
+    "Experience.Title": "Experiencia",
+    "Experience.Jobs": [
+      {
+            "Tab": "Venio Systems",
+            "Title": "UI developer",
+            "Date": "Noviembre 2022 - Presente",
+            "Description": [
+              "Coordina con el diseñador de UI en el desarrollo de una interfaz de usuario perfecta.",
+              "Realiza investigaciones sobre el comportamiento del consumidor y el uso del programa.",
+              "Estructura de la interfaz de diseños.",
+              "Identifica áreas de mejora en las estructuras de interfaz existentes.",
+              "Consulta con los desarrolladores para implementar mejoras en los sistemas basados ​​en el usuario."
+            ]
+      },
+      {
+        "Tab": "Sajha",
+        "Title": "Frontend Developer",
+        "Date": "Agosto 2022 - Presente",
+        "Description": [
+          "Use lenguajes de marcado como HTML para crear páginas web fáciles de usar.",
+          "Mantener y mejorar el sitio web.",
+          "Optimice las aplicaciones para obtener la máxima velocidad.",
+          "Diseñe funciones basadas en dispositivos móviles.",
+          "Colabore con desarrolladores back-end y diseñadores web para mejorar la usabilidad.",
+          "Redactar documentos y guías de requisitos funcionales.",
+          "Cree maquetas y prototipos de calidad.",
+          "Manténgase actualizado sobre las tecnologías emergentes."
+        ]
+      },
+      {
+        "Tab": "Allpasal",
+        "Title": "FullStack developer",
+        "Date": "febrero 2021 - septiembre 2022",
+        "Description": [
+          "Gestionar el proceso completo de desarrollo de software desde la concepción hasta la implementación.",
+          "Mantenimiento y actualización del software después de la implementación.",
+          "Gestionar el ciclo de vida de extremo a extremo para la producción de software y aplicaciones.",
+          "Supervisar y guiar el análisis, la escritura, la construcción y la implementación de software.",
+          "Supervisar las pruebas automatizadas y proporcionar comentarios a la gerencia durante el proceso de desarrollo.",
+          "Modificar y probar cambios a programas desarrollados previamente."
+        ]
+      },
+      {
+        "Tab": "Helpinc",
+        "Title": "Frontend developer",
+        "Date": "junio 2018 - febrero 2019",
+        "Description": [
+          "Desarrollar nuevas funciones orientadas al usuario.",
+          "Escriba código y bibliotecas reutilizables.",
+          "Mejore la aplicación para obtener la máxima velocidad y escalabilidad.",
+          "Valide la entrada antes de enviarla al back-end.",
+          "Colaborar con los miembros del equipo y las partes interesadas.",
+          "Acorte la brecha entre el diseño gráfico y la implementación técnica.",
+          "Defina cómo se ve la aplicación y cómo funciona.",
+          "Traducir wireframes de diseño de UI/UX a código real."
+        ]
+      },
+      {
+        "Tab": "Ezinesoft",
+        "Title": "Frontend developer",
+        "Date": "Octubre 2016 - Abril 2018",
+        "Description": [
+          "Desarrollar nuevas funciones orientadas al usuario.",
+          "Cree código y bibliotecas reutilizables para uso futuro.",
+          "Asegurar la viabilidad técnica de los diseños de UI/UX.",
+          "Optimice la aplicación para obtener la máxima velocidad y escalabilidad.",
+          "Asegúrese de que todas las entradas del usuario se validen antes de enviarlas al back-end.",
+          "Colaborar con otros miembros del equipo y partes interesadas."
+        ]
+      },
+      {
+        "Tab": "Odyssey Nepal",
+        "Title": "Miembro del Comité Ejecutivo",
+        "Date": "Noviembre 2020 - Presente",
+        "Description": [
+          "Mantener los valores y objetivos de la organización.",
+          "Dar suficiente tiempo y energía a los deberes de ser un fideicomisario.",
+          "Actuar con integridad y evitar o declarar conflictos de intereses personales.",
+          "Confirmation of the legal status of committee members and their personal liability."
+        ]
+      },
+      {
+        "Tab": "YFE",
+        "Title": "Administrador de redes sociales",
+        "Date": "Octubre 2019 - Presente",
+        "Description": [
+          "Uso de herramientas de marketing en redes sociales para crear y mantener la marca de las organizaciones.",
+          "Interactuar con los usuarios y otros a través de las cuentas de redes sociales de las organizaciones.",
+          "Administra las publicaciones de las cuentas sociales de las organizaciones."
+        ]
+      }
+    ],
+
+    "FeatureProjects.Title": "Mis proyectos",
+    "FeatureProjects.Label": "Proyecto Destacado",
+    "FeatureProjects.Projects": [{
+            "Title": "Venio Systems",
+            "Description": "Venio es la mejor plataforma integrada de eDiscovery del mercado y ofrece la mejor tecnología en su clase como un servicio administrado para agilizar el proceso de eDiscovery, reducir los costos y proporcionar un modelo de precios predecible.",
+            "imgs": [
+              "assets/images/venio/v1.png",
+              "assets/images/venio/v3.png",
+              "assets/images/venio/v2.png",
+              "assets/images/venio/v4.png"
+          ],
+          "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "Sajha Investment",
+            "Description": "Sajha Real Estate Investment Company Pvt. Ltd. se estableció para hacer que el negocio inmobiliario sea sistemático, confiable y accesible para todos. Es una empresa formada por personalidades empresariales jóvenes y enérgicas.",
+            "imgs": [
+              "assets/images/sajha/s1.png",
+              "assets/images/sajha/s2.png",
+              "assets/images/sajha/s3.png",
+              "assets/images/sajha/s4.png",
+              "assets/images/sajha/s5.png"
+          ],
+          "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Allpasal",
+            "Description": "Allpasal es una organización con un claro objetivo de gestionar y distribuir los bienes producidos desde la productora a los mercados. Allpasal, tiene como objetivo distribuir mercancías de la manera más fácil, económica y conveniente para los clientes. A pesar de los ricos recursos y los florecientes mercados de Nepal, el 80% de nuestros mercados nepalíes están controlados por empresas extranjeras y sus diversos productos.",
+            "imgs": [
+              "assets/images/allpasal/a1.png",
+              "assets/images/allpasal/a2.png",
+              "assets/images/allpasal/a3.png",
+              "assets/images/allpasal/a4.png",
+              "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "Omlot Express",
+            "Description": "Omlot Express es una aplicación de software que ayuda a empresas e individuos a administrar las operaciones de su cadena de suministro, incluido el transporte, el almacenamiento, la gestión de inventario y la entrega. La aplicación puede ser utilizada por empresas de logística, fabricantes, minoristas y mayoristas para optimizar sus operaciones y mejorar la eficiencia.",
+            "imgs": [
+              "assets/images/omlot/o1.png",
+            "assets/images/omlot/o2.png",
+            "assets/images/omlot/o3.png",
+            "assets/images/omlot/o5.png",
+            "assets/images/omlot/o6.png"],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "BRIKSHYA PRODUCTION",
+            "Description": "El equipo de producción de Brikshya es una empresa que proporciona la base física para trabajos en los campos de las artes escénicas, el arte de los nuevos medios, el cine, la televisión, la radio, los cómics, las artes interactivas, los videojuegos, los sitios web y los videos.",
+            "imgs": [
+              "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "Mas proyectos",
+    "OtherProjects.Projects": [{
+            "Title": "Ewumesh Blogging Site",
+            "Description": "Ewumesh es una plataforma donde individuos u organizaciones pueden crear y publicar contenido escrito sobre varios temas, generalmente en forma de artículos o publicaciones de blog. Los sitios de blogs permiten a los usuarios expresar sus opiniones, compartir sus experiencias y conectarse con una amplia audiencia.",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+          "Title": "IBA Travel and Tours",
+          "Description": "IBA Travel and Tours es una aplicación web diseñada para ayudar a las personas a planificar, reservar y organizar sus experiencias de viaje. Por lo general, incluye funciones como herramientas de planificación de viajes, guías de viaje, sistemas de reserva de vuelos, hoteles y actividades, así como reseñas y calificaciones de los usuarios.",
+          "ghLink": "https://github.com/umeshthapa12/iba-travel",
+          "demoLink": "https://iba-travel.netlify.app/home",
+          "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+      },
+      {
+          "Title": "Generate College card",
+          "Description": "Generate College card es una aplicación de software que permite a los usuarios crear e imprimir tarjetas de identificación de aspecto profesional. La aplicación generalmente ofrece una interfaz fácil de usar con varias plantillas y opciones de personalización para diferentes tipos de tarjetas de identificación.",
+          "ghLink": "https://github.com/ewumesh",
+          "demoLink": "https://tucl-card.netlify.app/",
+          "Technologies": ["Angular", "SASS", "CSS GRID"]
+      },
+      {
+          "Title": "Lumbini Academic College",
+          "Description": "Lumbini Academic College es una plataforma en línea para que las universidades muestren sus programas académicos, las instalaciones del campus, la vida estudiantil y los recursos para estudiantes potenciales, profesores y público en general.",
+          "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+          "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+          "Technologies": ["Angular", "CSS GRID", "GIT"]
+      },
+      {
+          "Title": "Hand man game",
+          "Description": "Hangman es un juego de adivinanzas de palabras que pueden jugar uno o más jugadores. El juego comienza cuando un jugador elige una palabra y escribe una serie de guiones en una hoja de papel para representar el número de letras de la palabra. Los otros jugadores intentan adivinar las letras de la palabra, una a la vez.",
+          "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+          "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+          "Technologies": ["React", "CSS GRID", "HTML"]
+      },
+      {
+          "Title": "Tic Tac Toe Game",
+          "Description": "Tic-tac-toe, también conocido como tres en raya, es un simple juego de estrategia para dos jugadores que se juega en una cuadrícula de 3x3. El objetivo del juego es conseguir tres de tus símbolos (ya sea X u O) en una fila, ya sea horizontal, vertical o diagonal.",
+          "ghLink": "https://github.com/umeshthapa12/tictactoe",
+          "demoLink": "https://game-tiktac.netlify.app/",
+          "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+      }
+    ],
+
+    "Contact.Pretitle": "Que sigue",
+    "Contact.Title": "¡Ponerse en contacto!",
+    "Contact.Content": "Estaré encantado de recibir tu contacto si quieres hablar de nuevas oportunidades. Escríbeme y te responderé tan pronto como vea tu mensaje.",
+    "Contact.Btn": "Di hola",
+    "Footer.Content": "Construido con angular por Ewumesh",
+    "Footer.Shortcuts": [
+      {"ID":1,"Name": "Hogar", "link": "/home"},
+      {"ID":2,"Name": "Acerca de mí","link": "/home"},
+      {"ID":3,"Name": "Proyectos","link": "/home"},
+      {"ID":5,"Name": "Experiencia","link": "/home"},
+      {"ID":6,"Name": "Blogs","link": "/blogs"},
+      {"ID":7,"Name": "Reanudar","link": "/assets/cv/ewumesh.pdf"},
+      {"ID":4,"Name": "Contacto","link": "/home"},
+      {"ID":8,"Name": "Jugar juegos","link": "/games/maze"},
+      {"ID":9,"Name": "IBA Educación","link": "https://ibaintedu.com/"},
+      {"ID":10,"Name": "Allpasal","link": "https://allpasal.com/"},
+      {"ID":11, "Name":"Odisea Nepal", "link":"https://odysseynepal.org.np/"},
+      {"ID":12, "Name":"Inteligencia artificial", "link":"/ai/object-detection"}
+  ],
+  "Blogs.LatestBlogs": "Últimos blogs"
+
+}

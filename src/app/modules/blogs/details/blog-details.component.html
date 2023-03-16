@@ -1,0 +1,39 @@
+<section class="section-box more-proyects">
+    <div class="container">
+        <div class="" data-aos="fade-up" data-aos-duration="1000">
+            <h3>
+                 {{blogDetails.title}}
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <span class="underline">
+                {{blogDetails.pubDate | date:'longDate'}}
+                </span>&nbsp; &nbsp;
+                <span class="underline">by Ewumesh</span>
+            </div>
+            <!-- <div class="col-6 text-right">
+                <button (click)="playAudio()" class="btn btn-sm btn-secondary mr-1">Play the audio</button>
+                <button *ngIf="playing" (click)="speechAudio()" class="btn btn-sm btn-primary">
+                    <i *ngIf="!play" class="fas fa-play"></i>
+                    <i *ngIf="play" class="fas fa-pause"></i>
+                </button>
+            </div> -->
+        </div>
+        <hr>
+        <div data-aos="fade-up" data-aos-duration="1100" class="blog-content" [innerHTML]="blogDetails.content"></div>
+        <br/>
+        <div>
+            <div class="" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    Tags
+                </h3>
+            </div>
+            <ul data-aos="fade-up" data-aos-duration="1000" class="more-proyects-skills">
+                <li *ngFor='let tag of blogDetails.categories'>
+                  <span class="underline">{{tag}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

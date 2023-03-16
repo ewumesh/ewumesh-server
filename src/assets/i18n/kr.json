@@ -1,0 +1,251 @@
+{
+
+    "Header.Home": "집",
+    "Header.Blogs": "블로그",
+    "Header.AI": "일체 포함",
+    "Header.cvBtn" : "재개하다",
+    "Header.cvName": "ewumesh.pdf", 
+
+    "Banner.Title": "에우메쉬",
+    "Banner.Designation":"프론트엔드 개발자",
+    "Banner.Pretitle": "안녕하세요! 그래요",
+    "Banner.Description": "저는 <span class='underline'>5년의 경험</span>을 통해 웹을 더 나은 곳으로 만들기 위한 시스템, 인터페이스, 봇 및 기술 솔루션을 개발했습니다. 저는 <span class='underline'>Angular/Vuejs/React</span>에서, 때로는 <span class='underline'>Nodejs</span>에서 깨끗하고 재사용 가능하며 확장 가능한 코드를 작성하고 리팩토링하는 데 전념하고 있습니다. 관행 및 개발 표준.",
+    "Banner.ActionBtn": "연락하기",
+
+    "AboutMe.Title": "나에 대해서",
+    "AboutMe.Paragraphs": [
+        "<span class='underline'>개발자로서 5년 동안</span> 저는 매일 훈련하려고 합니다. 저는 <span class='underline'>단위 테스트</span>를 작성하고, <span class='underline'>지속적인 통합을 수행</span>하고, <span class='underline'>Nodejs로 백엔드 개발자 역할을 담당했습니다. 그리고 Mysql</span>. 공감하고, 파트너에게 동기를 부여하고, 함께 계획과 목표를 설정하는 팀을 이끌었습니다.",
+        "제 기술에는 시스템 개선 구현, 사이트 최적화, 패턴 표준화, 작업 중인 프로젝트에 가치를 더하는 아이디어 제안 및 실행도 포함됩니다.",
+        "내가 교육하고 작업한 일부 기술에는 다음이 포함됩니다(그러나 이에 국한되지는 않음)."
+    ],
+
+
+    "Experience.Title": "경험",
+    "Experience.Jobs": [
+        {
+            "Tab": "베니오 시스템",
+            "Title": "UI 개발자",
+            "Date": "2022년 11월 - 현재",
+            "Description": [
+                "원활한 사용자 인터페이스를 개발하기 위해 UI 디자이너와 협력합니다.",
+                "소비자 행동 및 프로그램 사용에 대한 연구를 수행합니다.",
+                "인터페이스 구조를 디자인합니다.",
+                "기존 인터페이스 구조의 개선 영역을 식별합니다.",
+                "사용자 기반 시스템의 개선 사항을 구현하기 위해 개발자와 상의합니다."
+            ]
+        },
+        {
+            "Tab": "사자",
+            "Title": "프론트엔드 개발자",
+            "Date": "2022년 8월 - 현재",
+            "Description": [
+                "HTML과 같은 마크업 언어를 사용하여 사용자에게 친숙한 웹 페이지를 만드십시오.",
+                "웹사이트 유지 및 개선",
+                "최대 속도를 위해 애플리케이션을 최적화합니다.",
+                "모바일 기반 기능 디자인.",
+                "백엔드 개발자 및 웹 디자이너와 협력하여 사용성을 개선합니다.",
+                "기능 요구 사항 문서 및 가이드를 작성합니다.",
+                "고품질 목업 및 프로토타입을 만드십시오.",
+                "신기술에 대한 최신 정보를 얻으십시오."
+            ]
+        },
+        {
+            "Tab": "올파살",
+            "Title": "풀스택 개발자",
+            "Date": "2021년 2월 - 2022년 9월",
+            "Description": [
+                "개념에서 배포까지 전체 소프트웨어 개발 프로세스를 관리합니다.",
+                "배포 후 소프트웨어 유지 관리 및 업그레이드.",
+                "소프트웨어 및 응용 프로그램 생산을 위한 종단 간 수명 주기 관리",
+                "소프트웨어의 분석, 작성, 구축 및 배포를 감독하고 안내합니다.",
+                "자동화된 테스트를 감독하고 개발 과정에서 경영진에게 피드백을 제공합니다.",
+                "이전에 개발된 프로그램의 변경 사항 수정 및 테스트."
+            ]
+        },
+        {
+            "Tab": "헬핀크",
+            "Title": "프론트엔드 개발자",
+            "Date": "2018년 6월 - 2019년 2월",
+            "Description": [
+                "새로운 사용자 대상 기능을 개발합니다.",
+                "재사용 가능한 코드 및 라이브러리를 작성합니다.",
+                "최고의 속도와 확장성을 위해 애플리케이션을 향상시키십시오.",
+                "백 엔드에 제출하기 전에 입력을 확인하십시오.",
+                "팀 구성원 및 이해관계자와 협력합니다.",
+                "그래픽 디자인과 기술 구현 간의 격차를 해소하십시오.",
+                "응용 프로그램의 모양과 작동 방식을 정의합니다.",
+                "UI/UX 디자인 와이어프레임을 실제 코드로 변환합니다."
+            ]
+        },
+        {
+            "Tab": "이진소프트",
+            "Title": "프론트엔드 개발자",
+            "Date": "2016년 10월 - 2018년 4월",
+            "Description": [
+                "새로운 사용자용 기능을 개발합니다.",
+                "나중에 사용할 수 있도록 재사용 가능한 코드 및 라이브러리를 구축합니다.",
+                "UI/UX 디자인의 기술적 타당성을 보장합니다.",
+                "최고의 속도와 확장성을 위해 애플리케이션을 최적화합니다.",
+                "백엔드에 제출하기 전에 모든 사용자 입력이 검증되었는지 확인하십시오.",
+                "다른 팀원 및 이해 관계자와 협력하십시오."
+            ]
+        },
+        {
+            "Tab": "오디세이 네팔",
+            "Title": "집행위원회 위원",
+            "Date": "2020년 11월 - 현재",
+            "Description": [
+                "조직의 가치와 목표를 지지합니다.",
+                "수탁자로서의 의무에 충분한 시간과 에너지를 제공합니다.",
+                "정직하게 행동하고 개인적인 이해 충돌을 피하거나 선언합니다.",
+                "위원의 법적 지위와 개인의 책임 확인."
+            ]
+        },
+        {
+            "Tab": "YFE",
+            "Title": "소셜 미디어 관리자",
+            "Date": "2019년 10월 - 현재",
+            "Description": [
+                "소셜 미디어 마케팅 도구를 사용하여 조직의 브랜드를 만들고 유지합니다.",
+                "조직의 소셜 미디어 계정을 통해 사용자 및 다른 사람들과 상호 작용합니다.",
+                "조직의 소셜 계정 게시물을 관리합니다."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "내 프로젝트",
+    "FeatureProjects.Label": "주요 프로젝트",
+    "FeatureProjects.Projects": [{
+            "Title": "베니오 시스템",
+            "Description": "이것은 시장에서 최고의 통합 eDiscovery 플랫폼이며 <span class='underline'>OPTiMO</span>는 eDiscovery 프로세스를 간소화하고 비용을 절감하며 예측 가능한 가격 모델.",
+            "imgs": [
+                "assets/images/venio/v1.png",
+                "assets/images/venio/v3.png",
+                "assets/images/venio/v2.png",
+                "assets/images/venio/v4.png"
+            ],
+            "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "사자투자",
+            "Description": "체계적이고 신뢰할 수 있으며 누구나 쉽게 접근할 수 있는 부동산 사업을 하기 위해 설립되었습니다. 젊고 활기찬 사업가들이 모여 만든 회사입니다.",
+            "imgs": [
+                "assets/images/sajha/s1.png",
+                "assets/images/sajha/s2.png",
+                "assets/images/sajha/s3.png",
+                "assets/images/sajha/s4.png",
+                "assets/images/sajha/s5.png"
+            ],
+            "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "올파살",
+            "Description": "생산회사에서 생산된 상품을 시장에 유통, 관리하는 명확한 목표를 가진 조직입니다. 올파살은 고객에게 가장 쉽고, 저렴하고, 가장 편리한 방법으로 상품을 유통하는 것을 목표로 합니다. 네팔의 풍부한 자원과 번성하는 시장에도 불구하고 네팔 시장의 80%는 외국 기업과 다양한 제품에 의해 통제되고 있습니다.",
+            "imgs": [
+                "assets/images/allpasal/a1.png",
+                "assets/images/allpasal/a2.png",
+                "assets/images/allpasal/a3.png",
+                "assets/images/allpasal/a4.png",
+                "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "오믈롯 익스프레스",
+            "Description": "기업과 개인이 운송, 창고 보관, 재고 관리 및 배송을 포함한 공급망 운영을 관리하는 데 도움이 되는 소프트웨어 애플리케이션입니다. 이 앱은 물류 회사, 제조업체, 소매업체 및 도매업체에서 운영을 간소화하고 효율성을 개선하는 데 사용할 수 있습니다.",
+            "imgs": [
+                "assets/images/omlot/o1.png",
+                "assets/images/omlot/o2.png",
+                "assets/images/omlot/o3.png",
+                "assets/images/omlot/o5.png",
+                "assets/images/omlot/o6.png"
+            ],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "브릭샤 프로덕션",
+            "Description": "Brikshya 프로덕션 팀은 공연 예술, 뉴미디어 아트, 영화, 텔레비전, 라디오, 만화, 인터랙티브 아트, 비디오 게임, 웹 사이트 및 비디오 분야의 작품에 대한 물리적 기반을 제공하는 사업체입니다.",
+            "imgs": [
+                "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "더 많은 프로젝트",
+    "OtherProjects.Projects": [{
+            "Title": "블로깅 사이트",
+            "Description": "개인이나 조직이 일반적으로 기사나 블로그 게시물의 형태로 다양한 주제에 대한 서면 콘텐츠를 만들고 게시할 수 있는 플랫폼입니다. 블로깅 사이트를 통해 사용자는 자신의 의견을 표현하고 경험을 공유하며 다양한 청중과 연결할 수 있습니다.",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+            "Title": "IBA 여행 및 투어",
+            "Description": "사람들이 여행 경험을 계획, 예약 및 구성할 수 있도록 설계된 웹 애플리케이션입니다. 여기에는 일반적으로 여행 계획 도구, 여행 가이드, 항공편, 호텔 및 활동 예약 시스템, 사용자 리뷰 및 평가와 같은 기능이 포함됩니다.",
+            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "demoLink": "https://iba-travel.netlify.app/home",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "대학 카드 생성",
+            "Description": "사용자가 전문가 수준의 신분증을 만들고 인쇄할 수 있는 소프트웨어 응용 프로그램입니다. 이 앱은 일반적으로 다양한 유형의 ID 카드에 대한 다양한 템플릿 및 사용자 지정 옵션이 포함된 사용자 친화적인 인터페이스를 제공합니다.",
+            "ghLink": "https://github.com/ewumesh",
+            "demoLink": "https://tucl-card.netlify.app/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "룸비니 아카데믹 컬리지",
+            "Description": "대학이 학업 프로그램, 캠퍼스 시설, 학생 생활 및 리소스를 잠재 학생, 교수진 및 일반 대중에게 선보일 수 있는 온라인 플랫폼입니다.",
+            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "핸드맨 게임",
+            "Description": "행맨은 한 명 이상의 플레이어가 할 수 있는 단어 추측 게임입니다. 게임은 한 플레이어가 단어를 선택하고 단어의 문자 수를 나타내는 일련의 대시를 종이에 쓰는 것으로 시작됩니다. 그런 다음 다른 플레이어는 한 번에 하나씩 단어의 문자를 추측하려고 합니다.",
+            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "Technologies": ["React", "CSS GRID", "HTML"]
+        },
+        {
+            "Title": "박하 사탕 발가락 게임",
+            "Description": "noughts and crosses라고도 하는 Tic-tac-toe는 3x3 그리드에서 플레이하는 간단한 2인용 전략 게임입니다. 이 게임의 목표는 가로, 세로 또는 대각선으로 세 개의 기호(X 또는 O)를 한 줄에 모으는 것입니다.",
+            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "demoLink": "https://game-tiktac.netlify.app/",
+            "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+        }
+    ],
+    "Contact.Pretitle": "무엇 향후 계획",
+    "Contact.Title": "연락하세요!",
+    "Contact.Content": "새로운 기회에 대해 이야기하고 싶다면 기꺼이 연락드리겠습니다. 저에게 편지를 보내 주시면 귀하의 메시지를 보는 즉시 답장을 드리겠습니다.",
+    "Contact.Btn": "안녕하세요",
+    "Footer.Content": "Ewumesh가 Angular로 제작",
+    "Footer.Shortcuts": [
+        {"ID":1,"Name": "집", "link": "/home"},
+        {"ID":2,"Name": "나에 대해서","link": "/home"},
+        {"ID":3,"Name": "프로젝트","link": "/home"},
+        {"ID":5,"Name": "경험","link": "/home"},
+        {"ID":6,"Name": "블로그","link": "/blogs"},
+        {"ID":7,"Name": "재개하다","link": "/assets/cv/ewumesh.pdf"},
+        {"ID":4,"Name": "연락하다","link": "/home"},
+        {"ID":8,"Name": "게임을하다","link": "/games/maze"},
+        {"ID":9,"Name": "IBA 교육","link": "https://ibaintedu.com/"},
+        {"ID":10,"Name": "올파살","link": "https://allpasal.com/"},
+        {"ID":11, "Name":"오디세이 네팔", "link":"https://odysseynepal.org.np/"},
+        {"ID":12, "Name":"인공 지능", "link":"/ai/object-detection"}
+    ],
+    "Blogs.LatestBlogs": "최신 블로그",
+
+
+    "Game.MazeGame": "미로 게임",
+    "Game.GameDetails": ""
+
+
+}

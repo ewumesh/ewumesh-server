@@ -1,0 +1,246 @@
+{
+
+    "Header.Home": "家",
+    "Header.Blogs": "博客",
+    "Header.AI": "人工智能",
+    "Header.cvBtn" : "恢复",
+    "Header.cvName": "ewumesh.pdf", 
+
+    "Banner.Title": "尤梅什",
+    "Banner.Designation":"前端开发人员",
+    "Banner.Pretitle": "你好！我是",
+    "Banner.Description": "我有 <span class='underline'>5 年</span>开发系统、界面、机器人和技术解决方案的经验，旨在让网络变得更美好。我致力于在 <span class='underline'>Angular/Vuejs/React</span> 中编写和重构干净、可重用和可扩展的代码，有时在 <span class='underline'>Nodejs</span> 中应用良好实践和开发标准",
+    "Banner.ActionBtn": "保持联系",
+
+    "AboutMe.Title": "关于我",
+    "AboutMe.Paragraphs": [
+        "在我作为开发人员的 <span class='underline'>5 年</span> 中，我每天都在寻求培训。我曾编写<span class='underline'>单元测试</span>、<span class='underline'>执行持续集成</span>，并使用 <span class='underline'>Nodejs 涵盖后端开发人员角色和 Mysql</span>。我领导过具有同理心的团队，对合作伙伴进行激励，并共同制定计划和目标。",
+        "我的技能还包括实施系统改进、优化站点、标准化模式以及提出和执行可为我正在从事的项目增值的想法。",
+        "我培训和从事的一些技术包括（但不限于）："
+    ],
+
+
+    "Experience.Title": "经验",
+    "Experience.Jobs": [
+        {
+            "Tab": "Venio Systems",
+            "Title": "界面开发人员",
+            "Date": "2022 年 11 月 - 至今",
+            "Description": [
+              "与 UI 设计师协调开发无缝的用户界面。",
+              "对消费者行为和程序使用进行研究。",
+              "设计接口结构。",
+              "确定现有界面结构中需要改进的地方。",
+              "咨询开发人员以实施基于用户的系统的改进。"
+            ]
+        },
+        {
+            "Tab": "Sajha",
+            "Title": "前端开发人员",
+            "Date": "2022 年 8 月 - 至今",
+            "Description": [
+              "使用 HTML 等标记语言创建用户友好的网页。",
+              "维护和改进网站。",
+              "优化应用程序以获得最大速度。",
+              "设计基于移动的功能。",
+              "与后端开发人员和网页设计师合作以提高可用性。",
+              "编写功能需求文档和指南。",
+              "创建高质量的模型和原型。",
+              "随时了解新兴技术。"
+            ]
+        },
+        {
+            "Tab": "Allpasal",
+            "Title": "全栈开发人员",
+            "Date": "2021 年 2 月 - 2022 年 9 月",
+            "Description": [
+              "管理从概念到部署的完整软件开发过程。",
+              "部署后维护和升级软件。",
+              "管理软件和应用程序生产的端到端生命周期。",
+              "监督和指导软件的分析、编写、构建和部署。",
+              "在开发过程中监督自动化测试并向管理层提供反馈。",
+              "修改和测试对以前开发的程序的更改。"
+            ]
+        },
+        {
+            "Tab": "Helpinc",
+            "Title": "前端开发人员",
+            "Date": "2018 年 6 月 - 2019 年 2 月",
+            "Description": [
+              "开发面向用户的新功能。",
+              "编写可重用的代码和库。",
+              "增强应用程序以获得最大速度和可扩展性。",
+              "在提交到后端之前验证输入。",
+              "与团队成员和利益相关者合作。",
+              "弥合图形设计和技术实施之间的差距。",
+              "定义应用程序的外观和工作方式。",
+              "将 UI/UX 设计线框转换为实际代码。"
+            ]
+        },
+        {
+            "Tab": "Ezinesoft",
+            "Title": "前端开发人员",
+            "Date": "2016 年 10 月 - 2018 年 4 月",
+            "Description": [
+              "开发面向用户的新功能。",
+              "构建可重复使用的代码和库以供将来使用。",
+              "确保 UI/UX 设计的技术可行性。",
+              "优化应用程序以获得最大速度和可扩展性。",
+              "确保在提交到后端之前验证所有用户输入。",
+              "与其他团队成员和利益相关者协作。"
+            ]
+        },
+        {
+            "Tab": "Odyssey Nepal",
+            "Title": "执行委员",
+            "Date": "2020 年 11 月 - 至今",
+            "Description": [
+                "坚持组织的价值观和目标。",
+                "给予足够的时间和精力履行受托人的职责。",
+                "诚信行事，避免或声明个人利益冲突。",
+                "确认委员会成员的法律地位及其个人责任。"
+            ]
+        },
+        {
+            "Tab": "YFE",
+            "Title": "社交媒体经理",
+            "Date": "2019 年 10 月 - 至今",
+            "Description": [
+                "使用社交媒体营销工具来创建和维护组织的品牌。",
+                "通过组织的社交媒体帐户与用户和其他人互动。",
+                "管理组织的社交帐户帖子。"
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "我的项目",
+    "FeatureProjects.Label": "特色项目",
+    "FeatureProjects.Projects": [{
+            "Title": "Venio Systems",
+            "Description": "Venio 是市场上最好的集成电子取证平台，<span class='underline'>OPTiMO</span> 提供同类最佳技术作为托管服务，以简化电子取证流程、降低成本并提供可预测的服务定价模型。",
+            "imgs": [
+                "assets/images/venio/v1.png",
+                "assets/images/venio/v3.png",
+                "assets/images/venio/v2.png",
+                "assets/images/venio/v4.png"
+            ],
+            "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "Sajha Investment",
+            "Description": "Sajha 房地产投资公司列兵。 Ltd. 的成立是为了使房地产业务系统化、可靠并为所有人所用。它是由年轻而充满活力的商业人士组成的公司。",
+            "imgs": [
+                "assets/images/sajha/s1.png",
+                "assets/images/sajha/s2.png",
+                "assets/images/sajha/s3.png",
+                "assets/images/sajha/s4.png",
+                "assets/images/sajha/s5.png"
+            ],
+            "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Allpasal",
+            "Description": "Allpasal 是一个目标明确的组织，负责管理生产公司生产的产品并将其分配到市场。 Allpasal，旨在以最简单、最便宜和最方便的方式向客户分发商品。尽管尼泊尔拥有丰富的资源和繁荣的市场，但我们尼泊尔80%的市场都被外国公司及其各种产品所控制。",
+            "imgs": [
+                "assets/images/allpasal/a1.png",
+                "assets/images/allpasal/a2.png",
+                "assets/images/allpasal/a3.png",
+                "assets/images/allpasal/a4.png",
+                "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "Omlot Express",
+            "Description": "Omlot Express 是一款软件应用程序，可帮助企业和个人管理其供应链运营，包括运输、仓储、库存管理和交付。物流公司、制造商、零售商和批发商可以使用该应用程序来简化他们的运营并提高效率。",
+            "imgs": [
+                "assets/images/omlot/o1.png",
+                "assets/images/omlot/o2.png",
+                "assets/images/omlot/o3.png",
+                "assets/images/omlot/o5.png",
+                "assets/images/omlot/o6.png"
+            ],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "BRIKSHYA PRODUCTION",
+            "Description": "Brikshya Production team 是一家为表演艺术、新媒体艺术、电影、电视、广播、漫画、互动艺术、视频游戏、网站和视频领域的作品提供物理基础的企业。",
+            "imgs": [
+                "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "更多项目",
+    "OtherProjects.Projects": [{
+            "Title": "Ewumesh Blogging Site",
+            "Description": "Ewumesh 是一个平台，个人或组织可以在其中创建和发布关于各种主题的书面内容，通常以文章或博客文章的形式。博客站点允许用户表达他们的意见、分享他们的经验并与广大受众建立联系。",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+            "Title": "IBA Travel and Tours",
+            "Description": "IBA Travel and Tours 是一个网络应用程序，旨在帮助人们计划、预订和组织他们的旅行体验。它通常包括旅行计划工具、旅行指南、航班、酒店和活动预订系统以及用户评论和评级等功能。",
+            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "demoLink": "https://iba-travel.netlify.app/home",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Generate College card",
+            "Description": "Generate College card 是一款软件应用程序，允许用户创建和打印具有专业外观的身份证。该应用程序通常提供一个用户友好的界面，其中包含适用于不同类型身份证的各种模板和自定义选项。",
+            "ghLink": "https://github.com/ewumesh",
+            "demoLink": "https://tucl-card.netlify.app/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Lumbini Academic College",
+            "Description": "Lumbini Academic College 是一个在线平台，供大学向潜在的学生、教职员工和公众展示他们的学术课程、校园设施、学生生活和资源。",
+            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "Hand man game",
+            "Description": "Hangman 是一种可以由一个或多个玩家玩的猜词游戏。游戏开始时，一个玩家选择一个单词并在一张纸上写下一系列破折号来表示单词中的字母数。然后其他玩家尝试猜测单词中的字母，一次一个。",
+            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "Technologies": ["React", "CSS GRID", "HTML"]
+        },
+        {
+            "Title": "Tic Tac Toe Game",
+            "Description": "Tic-tac-toe，也称为 noughts 和 crosses，是一种在 3x3 网格上玩的简单的两人策略游戏。游戏的目标是让您的三个符号（X 或 O）水平、垂直或对角连续。",
+            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "demoLink": "https://game-tiktac.netlify.app/",
+            "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+        }
+    ],
+    "Contact.Pretitle": "下一步是什么",
+    "Contact.Title": "保持联系！",
+    "Contact.Content": "如果您想谈论新的机会，我将很高兴收到您的联系方式。写信给我，我会在看到您的消息后立即回复。",
+    "Contact.Btn": "问好！",
+    "Footer.Content": "由 Ewumesh 使用 Angular 构建",
+    "Footer.Shortcuts": [
+        {"ID":1,"Name": "家", "link": "/home"},
+        {"ID":2,"Name": "关于我","link": "/home"},
+        {"ID":3,"Name": "项目","link": "/home"},
+        {"ID":5,"Name": "经验","link": "/home"},
+        {"ID":6,"Name": "博客","link": "/blogs"},
+        {"ID":7,"Name": "恢复","link": "/assets/cv/ewumesh.pdf"},
+        {"ID":4,"Name": "接触","link": "/home"},
+        {"ID":8,"Name": "玩游戏","link": "/games/maze"},
+        {"ID":9,"Name": "IBA教育","link": "https://ibaintedu.com/"},
+        {"ID":10,"Name": "奥帕萨","link": "https://allpasal.com/"},
+        {"ID":11, "Name":"尼泊尔奥德赛", "link":"https://odysseynepal.org.np/"},
+        {"ID":12, "Name":"人工智能", "link":"/ai/object-detection"}
+    ],
+    "Blogs.LatestBlogs": "最新博客"
+
+}

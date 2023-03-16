@@ -1,0 +1,66 @@
+<section class="section more-proyects">
+    <div class="container">
+        <div id="load" *ngIf="latestBLogs.length < 1">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+          </div>
+        <div *ngIf="latestBLogs.length > 0" class="section-box">
+            <div class="">
+                <h3 class="section-title">
+                    <span class='n-section-title'>02.</span> {{"Blogs.LatestBlogs" | translate}}
+                </h3>
+            </div>
+            <div class="mt-5">
+                <div class="row p-0">
+
+                    <div *ngFor='let blog of latestBLogs; let i = index' (click)="gotoBlogDetails(blog)"
+                        class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col" data-aos="fade-up"
+                        data-aos-duration="1000">
+
+                        <div class="more-proyect-box"
+                            (click)='analyticsService.sendAnalyticEvent("click_medium_box", "blogs", "click")'>
+                            <div class="row">
+                                <div class="col-12">
+                                    <img style="max-width:100%" [src]="blog.thumbnail" />
+                                </div>
+                            </div>
+
+                            <div class="row w-100 text-left m-0 p-0">
+                                <div class="col-6 p-0">
+                                    <a (click)='analyticsService.sendAnalyticEvent("click_medium", "blogs", "medium")'
+                                        href="https://medium.com/@ewumesh" target='_blank'>
+                                        <i class="fab fa-medium"></i>
+                                    </a>
+                                </div>
+                                <div class="col-6 d-flex p-0 justify-content-end">
+                                    <a [href]="blog.link"
+                                        (click)='analyticsService.sendAnalyticEvent("click_medium_link", "blogs", "click")'
+                                        style='color: inherit' target="_blank"><i id="demoLink"
+                                            class="ml-3 fas fa-link"></i></a>
+                                </div>
+                                <h5 (click)='analyticsService.sendAnalyticEvent("click_medium_title", "blogs", "click")'
+                                    class="other-proyect-title mt-4">{{blog?.title}}</h5>
+                                <p (click)='analyticsService.sendAnalyticEvent("click_medium_content", "blogs", "click")'
+                                    class="other-proyect-description" [innerHTML]="removeTags(blog.description)">..</p>
+                            </div>
+                            <div>
+                                <span
+                                    (click)='analyticsService.sendAnalyticEvent("click_medium_published_date", "blogs", "click")'>{{blog.pubDate
+                                    | date:'mediumDate'}}</span> &nbsp; &nbsp; <span class="underline">by Ewumesh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="w-100 text-center mt-5 pt-5">
+                <a [routerLink]="'/en/proyectos'" class='main-btn'>Ver todo</a>
+            </div> -->
+        </div>
+    </div>
+</section>

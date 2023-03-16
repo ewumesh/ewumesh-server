@@ -1,0 +1,245 @@
+{
+
+    "Header.Home": "家",
+    "Header.Blogs": "ブログ",
+    "Header.AI": "AI",
+    "Header.cvBtn" : "履歴書",
+    "Header.cvName": "ewumesh.pdf", 
+
+    "Banner.Title": "エウメシュ",
+    "Banner.Designation":"フロントエンドの開発者",
+    "Banner.Pretitle": "こんにちは！私は",
+    "Banner.Description": "<span class='underline'>5 年の経験</span>で、ウェブをより良い場所にするためのシステム、インターフェース、ボット、技術ソリューションの開発に携わってきました。 <span class='underline'>Angular/Vuejs/React</span> で、時には <span class='underline'>Nodejs</span> で適切に適用される、クリーンで再利用可能でスケーラブルなコードの作成とリファクタリングに専念しています慣行と開発基準。",
+    "Banner.ActionBtn": "連絡する",
+
+    "AboutMe.Title": "私について",
+    "AboutMe.Paragraphs": [
+        "<span class='underline'>開発者としての 5 年間</span>、私は毎日トレーニングに努めています。 <span class='underline'>単体テスト</span>の作成、<span class='underline'>継続的インテグレーションの実行</span>、<span class='underline'>Nodejs によるバックエンド開発者の役割のカバーに取り組んできましたそしてMysql</span>。私は共感を持ち、パートナーに動機を与え、計画と目標を一緒に設定するチームを率いてきました。",
+        "私のスキルには、システム改善の実装、サイトの最適化、パターンの標準化、取り組んでいるプロジェクトに付加価値を与えるアイデアの提案と実行も含まれます。",
+        "私が訓練し、取り組んできた技術には次のものがあります (ただし、これらに限定されません)。"
+    ],
+
+
+    "Experience.Title": "経験",
+    "Experience.Jobs": [
+        {
+            "Tab": "Venio Systems",
+            "Title": "UI 開発者",
+            "Date": "2022年11月～現在",
+            "Description": [
+              "シームレスなユーザー インターフェイスの開発において、UI デザイナーと連携します。",
+              "消費者の行動やプログラムの利用に関する研究を行っています。",
+              "インターフェイス構造を設計します。",
+              "既存のインターフェース構造の改善領域を特定します。",
+              "開発者と相談して、ユーザーベースのシステムの改善を実装します。"
+            ]
+        },
+        {
+            "Tab": "Sajha",
+            "Title": "フロントエンドの開発者",
+            "Date": "2022年8月～現在",
+            "Description": [
+              "HTML などのマークアップ言語を使用して、ユーザー フレンドリーな Web ページを作成します。",
+              "ウェブサイトの維持と改善。",
+              "アプリケーションを最適化して最大速度を実現します。",
+              "モバイルベースの機能を設計します。",
+              "バックエンドの開発者や Web デザイナーと協力して、使いやすさを向上させます。",
+              "機能要件のドキュメントとガイドを作成します。",
+              "高品質のモックアップとプロトタイプを作成します。",
+              "新しいテクノロジーの最新情報を入手してください。"
+            ]
+        },
+        {
+            "Tab": "Allpasal",
+            "Title": "フルスタック開発者",
+            "Date": "2021年2月～2022年9月",
+            "Description": [
+              "構想から展開までの完全なソフトウェア開発プロセスを管理します。",
+              "展開後のソフトウェアの保守とアップグレード。",
+              "ソフトウェアとアプリケーションの生産のためのエンド ツー エンドのライフ サイクルを管理します。",
+              "ソフトウェアの分析、作成、構築、および展開を監督および指導します。",
+              "自動化されたテストを監督し、開発プロセス中に経営陣にフィードバックを提供します。",
+              "以前に開発されたプログラムへの変更の変更とテスト。"
+            ]
+        },
+        {
+            "Tab": "Helpinc",
+            "Title": "フロントエンドの開発者",
+            "Date": "2018年6月～2019年2月",
+            "Description": [
+              "ユーザー向けの新しい機能を開発します。",
+              "再利用可能なコードとライブラリを作成します。",
+              "アプリケーションを強化して、最大の速度とスケーラビリティを実現します。",
+              "バックエンドに送信する前に入力を検証します。",
+              "チームメンバーや利害関係者と協力します。",
+              "グラフィック デザインと技術的な実装の間のギャップを埋めます。",
+              "アプリケーションの外観と動作を定義します。",
+              "UI/UX デザインのワイヤーフレームを実際のコードに変換します。"
+            ]
+        },
+        {
+            "Tab": "Ezinesoft",
+            "Title": "フロントエンドの開発者",
+            "Date": "2016年10月～2018年4月",
+            "Description": [
+              "ユーザー向けの新しい機能を開発します。",
+              "将来の使用のために再利用可能なコードとライブラリを構築します。",
+              "UI/UX デザインの技術的な実現可能性を確認します。",
+              "速度とスケーラビリティを最大化するためにアプリケーションを最適化します。",
+              "バックエンドに送信する前に、すべてのユーザー入力が検証されていることを確認してください。",
+              "他のチーム メンバーや利害関係者と協力します。"
+            ]
+        },
+        {
+            "Tab": "Odyssey Nepal",
+            "Title": "実行委員",
+            "Date": "2020年11月～現在",
+            "Description": [
+                "組織の価値と目的を支持する。",
+                "受託者としての義務に十分な時間とエネルギーを与える。",
+                "誠実に行動し、個人的な利益相反を回避または宣言します。",
+                "委員会メンバーの法的地位と個人的責任の確認。"
+            ]
+        },
+        {
+            "Tab": "YFE",
+            "Title": "ソーシャル メディア マネージャー",
+            "Date": "2019年10月～現在",
+            "Description": [
+                "ソーシャル メディア マーケティング ツールを使用して、組織のブランドを作成および維持します。",
+                "組織のソーシャル メディア アカウントを介してユーザーや他のユーザーと対話する。",
+                "組織のソーシャル アカウントの投稿を管理します。"
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "私のプロジェクト",
+    "FeatureProjects.Label": "注目のプロジェクト",
+    "FeatureProjects.Projects": [{
+            "Title": "Venio Systems",
+            "Description": "Venio は、市場で最高の統合型 eDiscovery プラットフォームです。<span class='underline'>OPTiMO</span> は、eDiscovery プロセスを合理化し、コストを削減し、予測可能な価格モデル。",
+            "imgs": [
+                "assets/images/venio/v1.png",
+                "assets/images/venio/v3.png",
+                "assets/images/venio/v2.png",
+                "assets/images/venio/v4.png"
+            ],
+            "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "Sajha Investment",
+            "Description": "Sajha Real Estate Investment Company Pvt。株式会社は、不動産ビジネスを体系的で信頼性が高く、誰もがアクセスできるようにするために設立されました。若くてエネルギッシュなビジネスパーソナリティによって形成された会社です。",
+            "imgs": [
+                "assets/images/sajha/s1.png",
+                "assets/images/sajha/s2.png",
+                "assets/images/sajha/s3.png",
+                "assets/images/sajha/s4.png",
+                "assets/images/sajha/s5.png"
+            ],
+            "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Allpasal",
+            "Description": "アルパサールは、制作会社から制作された商品を管理し、市場に流通させるという明確な目的を持つ組織です。 Allpasal は、最も簡単で、最も安価で、最も便利な方法で商品を顧客に配布することを目指しています。ネパールの豊富な資源と繁栄する市場にもかかわらず、ネパール市場の 80% は外国企業とそのさまざまな製品によって支配されています。",
+            "imgs": [
+                "assets/images/allpasal/a1.png",
+                "assets/images/allpasal/a2.png",
+                "assets/images/allpasal/a3.png",
+                "assets/images/allpasal/a4.png",
+                "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "Omlot Express",
+            "Description": "Omlot Express は、企業や個人が輸送、倉庫保管、在庫管理、配送などのサプライ チェーン業務を管理するのに役立つソフトウェア アプリケーションです。このアプリは、物流会社、メーカー、小売業者、および卸売業者が業務を合理化し、効率を向上させるために使用できます。",
+            "imgs": [
+                "assets/images/omlot/o1.png",
+                "assets/images/omlot/o2.png",
+                "assets/images/omlot/o3.png",
+                "assets/images/omlot/o5.png",
+                "assets/images/omlot/o6.png"
+            ],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "BRIKSHYA PRODUCTION",
+            "Description": "Brikshya プロダクション チームは、パフォーミング アーツ、ニュー メディア アート、映画、テレビ、ラジオ、コミック、インタラクティブ アート、ビデオ ゲーム、ウェブサイト、ビデオの分野の作品に物理的な基盤を提供するビジネスです。",
+            "imgs": [
+                "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "その他のプロジェクト",
+    "OtherProjects.Projects": [{
+            "Title": "Ewumesh Blogging Site",
+            "Description": "Ewumesh は、個人または組織が、通常は記事やブログ投稿の形式で、さまざまなトピックに関するコンテンツを作成および公開できるプラットフォームです。ブログ サイトを使用すると、ユーザーは自分の意見を表明し、経験を共有し、幅広い視聴者とつながることができます。",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+            "Title": "IBA Travel and Tours",
+            "Description": "IBA Travel and Tours は、人々が旅行体験を計画、予約、整理できるように設計された Web アプリケーションです。通常、旅行計画ツール、旅行ガイド、フライト、ホテル、アクティビティの予約システム、ユーザー レビューや評価などの機能が含まれます。",
+            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "demoLink": "https://iba-travel.netlify.app/home",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Generate College card",
+            "Description": "Generate College card は、ユーザーがプロフェッショナルな外観の ID カードを作成および印刷できるようにするソフトウェア アプリケーションです。アプリは通常、さまざまな種類の ID カードのさまざまなテンプレートとカスタマイズ オプションを備えたユーザー フレンドリーなインターフェイスを提供します。",
+            "ghLink": "https://github.com/ewumesh",
+            "demoLink": "https://tucl-card.netlify.app/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Lumbini Academic College",
+            "Description": "ルンビニ アカデミック カレッジは、大学がアカデミック プログラム、キャンパス施設、学生生活、およびリソースを潜在的な学生、教職員、および一般大衆に紹介するためのオンライン プラットフォームです。",
+            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "Hand man game",
+            "Description": "Hangman は、1 人または複数のプレイヤーがプレイできる単語推測ゲームです。ゲームは、1 人のプレーヤーが単語を選択し、単語の文字数を表す一連のダッシュを紙に書くことから始まります。次に、他のプレーヤーは、単語の文字を 1 つずつ推測しようとします。",
+            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "Technologies": ["React", "CSS GRID", "HTML"]
+        },
+        {
+            "Title": "Tic Tac Toe Game",
+            "Description": "Tic-tac-toe (三目並べ) は、3x3 グリッドでプレイされるシンプルな 2 人用戦略ゲームです。ゲームの目的は、シンボル (X または O) を横、縦、または斜めに 3 つ並べることです。",
+            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "demoLink": "https://game-tiktac.netlify.app/",
+            "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+        }
+    ],
+    "Contact.Pretitle": "次は何ですか",
+    "Contact.Title": "連絡する！",
+    "Contact.Content": "新しい機会について話したい場合は、喜んでご連絡を差し上げます。私に書いてください。あなたのメッセージを見たらすぐに返信します。",
+    "Contact.Btn": "こんにちはと言う",
+    "Footer.Content": "Ewumesh によって Angular で構築されました",
+    "Footer.Shortcuts": [
+        {"ID":1,"Name": "家", "link": "/home"},
+        {"ID":2,"Name": "私について","link": "/home"},
+        {"ID":3,"Name": "プロジェクト","link": "/home"},
+        {"ID":5,"Name": "経験","link": "/home"},
+        {"ID":6,"Name": "ブログ","link": "/blogs"},
+        {"ID":7,"Name": "履歴書","link": "/assets/cv/ewumesh.pdf"},
+        {"ID":4,"Name": "コンタクト","link": "/home"},
+        {"ID":8,"Name": "ゲームをする","link": "/games/maze"},
+        {"ID":9,"Name": "IBA教育","link": "https://ibaintedu.com/"},
+        {"ID":10,"Name": "アルパサル","link": "https://allpasal.com/"},
+        {"ID":11, "Name":"オデッセイ ネパール", "link":"https://odysseynepal.org.np/"},
+        {"ID":12, "Name":"人工知能", "link":"/ai/object-detection"}
+    ],
+    "Blogs.LatestBlogs": "最新のブログ"
+}

@@ -1,0 +1,104 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a title="Medium" (click)='analyticsService.sendAnalyticEvent("click_medium", "footer", "medium")'
+                    href="https://medium.com/@ewumesh" target='_blank'>
+                    <i class="fab fa-medium"></i>
+                </a>
+            </li>
+            <li>
+                <a title="Instagram"
+                    (click)='analyticsService.sendAnalyticEvent("click_instagram", "footer", "instagram")'
+                    href="https://instagram.com/ewumesh" target='_blank'>
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a title="Facebook" (click)='analyticsService.sendAnalyticEvent("click_facebook", "footer", "facebook")'
+                    href="https://facebook.com/ewumesh" target='_blank'>
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a title="Twitter" (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")'
+                    href="https://twitter.com/ewumesh" target='_blank'>
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a title="GitLab" (click)='analyticsService.sendAnalyticEvent("click_gitlab", "footer", "gitlab")'
+                    href="https://gitlab.com/umesh122" target='_blank'>
+                    <i class="fab fa-gitlab"></i>
+                </a>
+            </li>
+            <li>
+                <a title="Github" (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                    href="https://github.com/umeshthapa12/" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a title="Linkedin" (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
+                    href="https://www.linkedin.com/in/ewumesh/" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")'
+                href="mailto:ewumesh@gmail.com" target='_blank'>ewumesh@gmail.com </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center">
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_ewumesh", "footer", "click")'
+            href="https://github.com/ewumesh" target="_blank" rel="nofollow noopener noreferrer">
+            <div>{{"Footer.Content" | translate}}</div>
+        </a>
+        <ul style="margin-top: 1%;">
+            <li class="cursor-pointer" style="display: inline;margin: 1% 0.6%;"
+                *ngFor='let l of "Footer.Shortcuts" | translate; let i = index'>
+                <a *ngIf="l.ID === 7" (click)='downloadCV()' class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID !== 7 && l.ID !== 5 && l.ID !== 2 && l.ID !== 3 && l.ID !== 4 && l.ID !==9 && l.ID !==10 && l.ID !==11"
+                    [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 5" (click)="scroll('jobs')" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 2" (click)="scroll('about')" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 3" (click)="scroll('proyects')" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 4" (click)="scroll('contact')" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 9" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 10" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 11" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+
+            </li>
+        </ul>
+
+        <ul style="margin-top: 1%;">
+            <li class="cursor-pointer" (click)="changeLanguage(l.value)" style="display: inline;margin: 1% 0.6%;"
+                *ngFor='let l of languages'>
+                <img [src]="l.image" width="20" /> <span class="underline">{{l.name}}</span>
+            </li>
+        </ul>
+    </div>
+
+</footer>
+
+<!-- https://erdemisbilen.medium.com/building-realtime-object-detection-webapp-with-tensorflow-js-and-angular-a4ff5062bdf1 -->
+<!-- https://github.com/eisbilen/TFJS-ObjectDetection -->
+<!-- https://appuals.com/fix-webgl-is-not-supported/ -->
+
+<!-- Open Graph / Facebook -->
+  <!-- <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ewumesh.com/">
+  <meta property="og:title" content="Ewumesh | Discover yourself">
+  <meta property="og:description"
+    content="Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others. It is typically designed and developed to reflect the unique style, personality, and interests of the website owner.">
+  <meta property="og:image" content="https://ewumesh.com/assets/images/lo.png"> -->
+
+  <!-- Twitter -->
+  <!-- <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ewumesh.com/">
+  <meta property="twitter:title" content="Ewumesh | Discover yourself">
+  <meta property="twitter:description"
+    content="Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others. It is typically designed and developed to reflect the unique style, personality, and interests of the website owner.">
+  <meta property="twitter:image" content="https://ewumesh.com/assets/images/lo.png"> -->

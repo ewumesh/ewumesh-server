@@ -1,0 +1,53 @@
+.maze-form {
+    margin: 5% 0;
+  }
+  
+  .maze-form input {
+    /* max-width: 3rem; */
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+  }
+  
+  .maze-form button {
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+  }
+  
+  .arrows span {
+    font-size: xx-large;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .maze-container {
+    margin: 15%;
+  }
+
+  input {
+    box-sizing: border-box;
+    /* height: 35px; */
+    width: 100px;
+    /* padding: 12.5px; */
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(15, 15, 51, 0.4);
+    font-size: 25px;
+    color: rgba(15, 15, 51, 0.8);
+    background-color: #E5E5E5;
+    transition: .4s;
+    
+  }
+  
+  input:hover, :focus {
+    width: 375px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(15, 15, 51, 0.4);
+  }
+  
+  input:not(:placeholder-shown) {
+    margin-bottom: 10px;
+    border-bottom: 6px solid #3782F7;
+    height: 40px;
+  }
+  

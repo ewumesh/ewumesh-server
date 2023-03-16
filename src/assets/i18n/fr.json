@@ -1,0 +1,247 @@
+{
+
+    "Header.Home": "Maison",
+    "Header.Blogs": "Blogs",
+    "Header.AI": "IA",
+    "Header.cvBtn" : "Blogues",
+    "Header.cvName": "ewumesh.pdf", 
+
+    "Banner.Title": "Ewumesh",
+    "Banner.Designation":"Développeur frontal",
+    "Banner.Pretitle": "Bonjour! Je suis",
+    "Banner.Description": "J'ai <span class='underline'>5 ans d'expérience</span> dans le développement de systèmes, d'interfaces, de bots et de solutions technologiques pour améliorer le Web. Je me consacre à l'écriture et à la refactorisation de code propre, réutilisable et évolutif dans <span class='underline'>Angular/Vuejs/React</span> et parfois dans <span class='underline'>Nodejs</span> en appliquant de bonnes pratiques et normes de développement.",
+    "Banner.ActionBtn": "Entrer en contact",
+
+    "AboutMe.Title": "Sur moi",
+    "AboutMe.Paragraphs": [
+        "Dans mes <span class='underline'>5 ans en tant que développeur</span>, je cherche à me former tous les jours. J'ai travaillé à l'écriture de <span class='underline'>tests unitaires</span>, <span class='underline'>à l'intégration continue</span> et à la couverture des rôles de développeur backend avec <span class='underline'>Nodejs et Mysql</span>. J'ai dirigé des équipes en faisant preuve d'empathie, en faisant preuve de motivation envers les partenaires et en établissant des plans et des objectifs ensemble.",
+        "Mes compétences comprennent également la mise en œuvre d'améliorations du système, l'optimisation de sites, la normalisation de modèles et la suggestion et l'exécution d'idées qui ajoutent de la valeur au projet sur lequel je travaille.",
+        "Certaines des technologies que j'ai formées et sur lesquelles j'ai travaillé incluent (mais ne sont pas limitées à):"
+    ],
+
+
+    "Experience.Title": "Expérience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Venio Systems",
+            "Title": "Développeur d'interface utilisateur",
+            "Date": "Novembre 2022 - Présent",
+            "Description": [
+                "Se coordonne avec le concepteur d'interface utilisateur pour développer une interface utilisateur transparente.",
+                "Effectue des recherches sur le comportement des consommateurs et l'utilisation du programme.",
+                "Conçoit la structure de l'interface.",
+                "Identifie les domaines d'amélioration des structures d'interface existantes.",
+                "Consulte les développeurs pour mettre en œuvre des améliorations dans les systèmes basés sur l'utilisateur."
+            ]
+        },
+        {
+            "Tab": "Sajha",
+            "Title": "Développeur frontal",
+            "Date": "Août 2022 - Présent",
+            "Description": [
+                "Utilisez des langages de balisage comme HTML pour créer des pages Web conviviales.",
+                "Maintenir et améliorer le site Web.",
+                "Optimisez les applications pour une vitesse maximale.",
+                "Concevoir des fonctionnalités mobiles.",
+                "Collaborez avec les développeurs back-end et les concepteurs Web pour améliorer la convivialité.",
+                "Rédiger des documents et des guides d'exigences fonctionnelles.",
+                "Créer des maquettes et des prototypes de qualité.",
+                "Restez à jour sur les technologies émergentes."
+            ]
+        },
+        {
+            "Tab": "Allpasal",
+            "Title": "Développeur FullStack",
+            "Date": "février 2021 - septembre 2022",
+            "Description": [
+                "Gérer le processus complet de développement logiciel de la conception au déploiement.",
+                "Maintenir et mettre à jour le logiciel après le déploiement.",
+                "Gérer le cycle de vie de bout en bout pour la production de logiciels et d'applications.",
+                "Superviser et guider l'analyse, l'écriture, la construction et le déploiement de logiciels.",
+                "Superviser les tests automatisés et fournir des commentaires à la direction pendant le processus de développement.",
+                "Modifier et tester les changements apportés aux programmes précédemment développés."
+            ]
+        },
+        {
+            "Tab": "Helpinc",
+            "Title": "Développeur frontal",
+            "Date": "juin 2018 - février 2019",
+            "Description": [
+                "Développer de nouvelles fonctionnalités destinées aux utilisateurs.",
+                "Écrire du code et des bibliothèques réutilisables.",
+                "Améliorez l'application pour une vitesse et une évolutivité maximales.",
+                "Valider l'entrée avant de la soumettre au backend.",
+                "Collaborer avec les membres de l'équipe et les parties prenantes.",
+                "Combler le fossé entre la conception graphique et la mise en œuvre technique.",
+                "Définir l'apparence et le fonctionnement de l'application.",
+                "Traduire les wireframes de conception UI/UX en code réel."
+            ]
+        },
+        {
+            "Tab": "Ezinesoft",
+            "Title": "Développeur frontal",
+            "Date": "Octobre 2016 - Avril 2018",
+            "Description": [
+                "Développer de nouvelles fonctionnalités destinées aux utilisateurs.",
+                "Construisez du code et des bibliothèques réutilisables pour une utilisation future.",
+                "Assurer la faisabilité technique des conceptions UI/UX.",
+                "Optimisez l'application pour une vitesse et une évolutivité maximales.",
+                "Assurez-vous que toutes les entrées de l'utilisateur sont validées avant de les soumettre au back-end.",
+                "Collaborer avec les autres membres de l'équipe et les parties prenantes."
+            ]
+        },
+        {
+            "Tab": "Odyssey Nepal",
+            "Title": "Membre du comité exécutif",
+            "Date": "Novembre 2020 - Présent",
+            "Description": [
+                "Défendre les valeurs et les objectifs de l'organisation.",
+                "Consacrer suffisamment de temps et d'énergie aux fonctions d'administrateur.",
+                "Agir avec intégrité et éviter ou déclarer les conflits d'intérêts personnels.",
+                "Confirmation du statut juridique des membres du comité et de leur responsabilité personnelle."
+            ]
+        },
+        {
+            "Tab": "YFE",
+            "Title": "Gestionnaire des médias sociaux",
+            "Date": "Octobre 2019 - Présent",
+            "Description": [
+                "Utiliser les outils de marketing des médias sociaux pour créer et maintenir la marque des organisations.",
+                "Interagir avec les utilisateurs et autres via les comptes de médias sociaux des organisations.",
+                "Gère les publications des comptes sociaux des organisations."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "Mes projets",
+    "FeatureProjects.Label": "Projet en vedette",
+    "FeatureProjects.Projects": [{
+            "Title": "Venio Systems",
+            "Description": "Venio est la meilleure plate-forme d'eDiscovery intégrée sur le marché, et <span class='underline'>OPTiMO</span> offre cette technologie de pointe en tant que service géré pour rationaliser le processus d'eDiscovery, réduire les coûts et fournir une solution prévisible Modèle de prix.",
+            "imgs": [
+                "assets/images/venio/v1.png",
+                "assets/images/venio/v3.png",
+                "assets/images/venio/v2.png",
+                "assets/images/venio/v4.png"
+            ],
+            "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "Sajha Investment",
+            "Description": "Sajha Real Estate Investment Company Pvt. Ltd. a été créée pour rendre l'activité immobilière systématique, fiable et accessible à tous. C'est une entreprise formée par des personnalités d'affaires jeunes et énergiques.",
+            "imgs": [
+                "assets/images/sajha/s1.png",
+                "assets/images/sajha/s2.png",
+                "assets/images/sajha/s3.png",
+                "assets/images/sajha/s4.png",
+                "assets/images/sajha/s5.png"
+            ],
+            "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Allpasal",
+            "Description": "Allpasal est une organisation avec un objectif clair de gestion et de distribution des biens produits par l'entreprise de production vers les marchés. Allpasal vise à distribuer les marchandises de la manière la plus simple, la moins chère et la plus pratique aux clients. Malgré les riches ressources du Népal et ses marchés florissants, 80% de nos marchés népalais sont contrôlés par des sociétés étrangères et leurs différents produits.",
+            "imgs": [
+                "assets/images/allpasal/a1.png",
+                "assets/images/allpasal/a2.png",
+                "assets/images/allpasal/a3.png",
+                "assets/images/allpasal/a4.png",
+                "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "Omlot Express",
+            "Description": "Omlot Express est une application logicielle qui aide les entreprises et les particuliers à gérer les opérations de leur chaîne d'approvisionnement, y compris le transport, l'entreposage, la gestion des stocks et la livraison. L'application peut être utilisée par les entreprises de logistique, les fabricants, les détaillants et les grossistes pour rationaliser leurs opérations et améliorer leur efficacité.",
+            "imgs": [
+                "assets/images/omlot/o1.png",
+                "assets/images/omlot/o2.png",
+                "assets/images/omlot/o3.png",
+                "assets/images/omlot/o5.png",
+                "assets/images/omlot/o6.png"
+            ],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "BRIKSHYA PRODUCTION",
+            "Description": "L'équipe de production de Brikshya est une entreprise qui fournit la base physique d'œuvres dans les domaines des arts de la scène, de l'art des nouveaux médias, du cinéma, de la télévision, de la radio, de la bande dessinée, des arts interactifs, des jeux vidéo, des sites Web et de la vidéo.",
+            "imgs": [
+                "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "Plus de projets",
+    "OtherProjects.Projects": [{
+            "Title": "Site de blogs Ewumesh",
+            "Description": "Ewumesh est une plate-forme où des individus ou des organisations peuvent créer et publier du contenu écrit sur divers sujets, généralement sous la forme d'articles ou de billets de blog. Les sites de blogs permettent aux utilisateurs d'exprimer leurs opinions, de partager leurs expériences et de se connecter avec un large public.",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+            "Title": "Voyages et circuits IBA",
+            "Description": "IBA Travel and Tours est une application Web conçue pour aider les gens à planifier, réserver et organiser leurs expériences de voyage. Il comprend généralement des fonctionnalités telles que des outils de planification de voyage, des guides de voyage, des systèmes de réservation de vols, d'hôtels et d'activités, ainsi que des avis et des évaluations d'utilisateurs.",
+            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "demoLink": "https://iba-travel.netlify.app/home",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Générer une carte universitaire",
+            "Description": "Il s'agit d'une application logicielle qui permet aux utilisateurs de créer et d'imprimer des cartes d'identité d'aspect professionnel. L'application offre généralement une interface conviviale avec divers modèles et options de personnalisation pour différents types de cartes d'identité.",
+            "ghLink": "https://github.com/ewumesh",
+            "demoLink": "https://tucl-card.netlify.app/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Collège universitaire de Lumbini",
+            "Description": "Il s'agit d'une plate-forme en ligne permettant aux collèges de présenter leurs programmes universitaires, les installations du campus, la vie étudiante et les ressources aux étudiants potentiels, aux membres du corps professoral et au grand public.",
+            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "Jeu de l'homme à la main",
+            "Description": "C'est un jeu de devinettes qui peut être joué par un ou plusieurs joueurs. Le jeu commence avec un joueur choisissant un mot et écrivant une série de tirets sur un morceau de papier pour représenter le nombre de lettres dans le mot. Les autres joueurs essaient ensuite de deviner les lettres du mot, une à la fois.",
+            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "Technologies": ["React", "CSS GRID", "HTML"]
+        },
+        {
+            "Title": "Jeu de tic tac toe",
+            "Description": "Tic-tac-toe, également connu sous le nom de morpion, est un simple jeu de stratégie à deux joueurs joué sur une grille 3x3. L'objectif du jeu est d'obtenir trois de vos symboles (X ou O) à la suite, horizontalement, verticalement ou en diagonale.",
+            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "demoLink": "https://game-tiktac.netlify.app/",
+            "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+        }
+    ],
+    "Contact.Pretitle": "Et après",
+    "Contact.Title": "Entrer en contact!",
+    "Contact.Content": "Je serai heureux de recevoir votre contact si vous souhaitez parler de nouvelles opportunités. Écrivez-moi, et je vous répondrai dès que je verrai votre message.",
+    "Contact.Btn": "Dis bonjour",
+    "Footer.Content": "Construit avec Angular par Ewumesh",
+    "Footer.Shortcuts": [
+        {"ID":1,"Name": "Maison", "link": "/home"},
+        {"ID":2,"Name": "Sur moi","link": "/home"},
+        {"ID":3,"Name": "Projets","link": "/home"},
+        {"ID":5,"Name": "Expérience","link": "/home"},
+        {"ID":6,"Name": "Blogues","link": "/blogs"},
+        {"ID":7,"Name": "CV","link": "/assets/cv/ewumesh.pdf"},
+        {"ID":4,"Name": "Contact","link": "/home"},
+        {"ID":8,"Name": "Jouer à des jeux","link": "/games/maze"},
+        {"ID":9,"Name": "IBA Éducation","link": "https://ibaintedu.com/"},
+        {"ID":10,"Name": "Allpasal","link": "https://allpasal.com/"},
+        {"ID":11, "Name":"Odyssée Népal", "link":"https://odysseynepal.org.np/"},
+        {"ID":12, "Name":"Intelligence artificielle", "link":"/ai/object-detection"}
+    ],
+    "Blogs.LatestBlogs": "Derniers blogs"
+
+
+}

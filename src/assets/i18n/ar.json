@@ -1,0 +1,245 @@
+{
+
+    "Header.Home": "بيت",
+    "Header.Blogs": "المدونات",
+    "Header.AI": "منظمة العفو الدولية",
+    "Header.cvBtn" : "سيرة ذاتية",
+    "Header.cvName": "ewumesh.pdf", 
+
+    "Banner.Title": "اوميش",
+    "Banner.Designation":"مطور الواجهة الأمامية",
+    "Banner.Pretitle": "مرحبًا! أنا أكون",
+    "Banner.Description": "لدي 5 سنوات من الخبرة في تطوير الأنظمة والواجهات والروبوتات والحلول التكنولوجية لجعل الويب مكانًا أفضل. أنا مكرس لكتابة وإعادة بناء التعليمات البرمجية النظيفة والقابلة لإعادة الاستخدام والقابلة للتطوير في Angular / Vuejs / React وأحيانًا في Nodejs لتطبيق الممارسات الجيدة ومعايير التطوير.",
+    "Banner.ActionBtn": "ابقى على تواصل",
+
+    "AboutMe.Title": "ْعَنِّي",
+    "AboutMe.Paragraphs": [
+        "في السنوات الخمس التي قضيتها كمطور ، أسعى للتدريب كل يوم. لقد عملت في اختبارات وحدة الكتابة ، وإجراء التكامل المستمر ، وتغطية أدوار مطوري الواجهة الخلفية مع Nodejs و Mysql. لقد قادت فرقًا لديها التعاطف ، وممارسة الحافز للشركاء ، ووضع الخطط والأهداف معًا.",
+        "تشمل مهاراتي أيضًا تنفيذ تحسينات النظام ، وتحسين المواقع ، وتوحيد الأنماط ، واقتراح وتنفيذ الأفكار التي تضيف قيمة إلى المشروع الذي أعمل عليه.",
+        "تتضمن بعض التقنيات التي قمت بتدريبها وعملت عليها (على سبيل المثال لا الحصر):"
+    ],
+
+
+    "Experience.Title": "خبرة",
+    "Experience.Jobs": [
+        {
+            "Tab": "Venio Systems",
+            "Title": "مطور واجهة المستخدم",
+            "Date": "نوفمبر 2022 - حتى الآن",
+            "Description": [
+              "ينسق مع مصمم واجهة المستخدم في تطوير واجهة مستخدم سلسة.",
+              "يجري بحثًا عن سلوك المستهلك واستخدام البرنامج.",
+              "تصميمات هيكل الواجهة.",
+              "يحدد مجالات التحسين في هياكل الواجهة الحالية.",
+              "التشاور مع المطورين لتنفيذ التحسينات في الأنظمة القائمة على المستخدم."
+            ]
+        },
+        {
+            "Tab": "Sajha",
+            "Title": "مطور الواجهة الأمامية",
+            "Date": "أغسطس 2022 - حتى الآن",
+            "Description": [
+              "استخدم لغات الترميز مثل HTML لإنشاء صفحات ويب سهلة الاستخدام.",
+              "صيانة وتحسين الموقع.",
+              "تحسين التطبيقات لأقصى سرعة.",
+              "تصميم الميزات المستندة إلى الهاتف المحمول.",
+              "تعاون مع مطوري الواجهة الخلفية ومصممي الويب لتحسين إمكانية الاستخدام.",
+              "اكتب مستندات وأدلة المتطلبات الوظيفية.",
+              "قم بإنشاء نماذج بالأحجام الطبيعية ونماذج أولية عالية الجودة.",
+              "ابق على اطلاع على أحدث التقنيات."
+            ]
+        },
+        {
+            "Tab": "Allpasal",
+            "Title": "مطور Full Stack",
+            "Date": "فبراير 2021 - سبتمبر 2022",
+            "Description": [
+              "إدارة عملية تطوير البرمجيات الكاملة من الفكرة إلى النشر.",
+              "الحفاظ على البرنامج وترقيته بعد النشر.",
+              "إدارة دورة الحياة الشاملة لإنتاج البرامج والتطبيقات.",
+              "الإشراف على تحليل وكتابة وبناء ونشر البرامج وتوجيهها.",
+              "الإشراف على الاختبار الآلي وتقديم التغذية الراجعة للإدارة أثناء عملية التطوير.",
+              "تعديل واختبار التغييرات على البرامج المطورة سابقاً."
+            ]
+        },
+        {
+            "Tab": "Helpinc",
+            "Title": "مطور الواجهة الأمامية",
+            "Date": "يونيو 2018 - فبراير 2019",
+            "Description": [
+              "تطوير ميزات جديدة تواجه المستخدم.",
+              "اكتب رمزًا ومكتبات قابلة لإعادة الاستخدام.",
+              "تحسين التطبيق لأقصى سرعة وقابلية للتوسع.",
+              "تحقق من صحة الإدخال قبل الإرسال إلى النهاية الخلفية.",
+              "تعاون مع أعضاء الفريق وأصحاب المصلحة.",
+              "سد الفجوة بين التصميم الجرافيكي والتنفيذ الفني.",
+              "حدد كيف يبدو التطبيق وكيف يعمل.",
+              "ترجمة الإطارات السلكية لتصميم UI / UX إلى كود فعلي."
+            ]
+        },
+        {
+            "Tab": "Ezinesoft",
+            "Title": "مطور الواجهة الأمامية",
+            "Date": "أكتوبر 2016 - أبريل 2018",
+            "Description": [
+              "تطوير ميزات جديدة تواجه المستخدم.",
+              "بناء رموز ومكتبات قابلة لإعادة الاستخدام لاستخدامها في المستقبل.",
+              "تأكد من الجدوى الفنية لتصميمات UI / UX.",
+              "تحسين التطبيق لأقصى سرعة وقابلية للتوسع.",
+              "تأكد من التحقق من صحة كل مدخلات المستخدم قبل إرسالها إلى النهاية الخلفية.",
+              "تعاون مع أعضاء الفريق وأصحاب المصلحة الآخرين."
+            ]
+        },
+        {
+            "Tab": "Odyssey Nepal",
+            "Title": "عضو اللجنة التنفيذية",
+            "Date": "نوفمبر 2020 - الآن",
+            "Description": [
+                "التمسك بقيم وأهداف المنظمة.",
+                "إعطاء الوقت والطاقة الكافيين لواجبات الوصي.",
+                "التصرف بنزاهة وتجنب تضارب المصالح الشخصية أو التصريح به.",
+                "تأكيد الوضع القانوني لأعضاء اللجنة ومسؤوليتهم الشخصية."
+            ]
+        },
+        {
+            "Tab": "YFE",
+            "Title": "مدير التواصل الاجتماعي",
+            "Date": "أكتوبر 2019 - الآن",
+            "Description": [
+                "استخدام أدوات التسويق عبر وسائل التواصل الاجتماعي لإنشاء العلامة التجارية للمنظمات والحفاظ عليها.",
+                "التفاعل مع المستخدمين وغيرهم عبر حسابات المنظمات على وسائل التواصل الاجتماعي.",
+                "يدير منشورات الحساب الاجتماعي للمنظمات."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "مشاريعي",
+    "FeatureProjects.Label": "مشروع مميز",
+    "FeatureProjects.Projects": [{
+            "Title": "Venio Systems",
+            "Description": "Venio هي أفضل منصة eDiscovery متكاملة في السوق ، وتقدم OPTiMO تلك التكنولوجيا الأفضل في فئتها كخدمة مُدارة لتبسيط عملية eDiscovery ، وخفض التكاليف ، وتقديم نموذج تسعير يمكن التنبؤ به.",
+            "imgs": [
+                "assets/images/venio/v1.png",
+                "assets/images/venio/v3.png",
+                "assets/images/venio/v2.png",
+                "assets/images/venio/v4.png"
+            ],
+            "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
+        },
+        {
+            "Title": "Sajha Investment",
+            "Description": "شركة صاجها للاستثمار العقاري الجندي. تم إنشاء شركة ليمتد لجعل الأعمال العقارية منهجية وموثوقة ومتاحة للجميع. إنها شركة مكونة من شخصيات أعمال شابة وحيوية.",
+            "imgs": [
+                "assets/images/sajha/s1.png",
+                "assets/images/sajha/s2.png",
+                "assets/images/sajha/s3.png",
+                "assets/images/sajha/s4.png",
+                "assets/images/sajha/s5.png"
+            ],
+            "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Allpasal",
+            "Description": "Allpasal هي منظمة ذات هدف واضح لإدارة وتوزيع البضائع المنتجة من شركة الإنتاج إلى الأسواق. يهدف Allpasal إلى توزيع البضائع بأسهل الطرق وأرخصها وأكثرها ملاءمة للعملاء. على الرغم من موارد نيبال الغنية والأسواق المزدهرة ، فإن 80٪ من أسواقنا النيبالية تخضع لسيطرة الشركات الأجنبية ومنتجاتها المختلفة.",
+            "imgs": [
+                "assets/images/allpasal/a1.png",
+                "assets/images/allpasal/a2.png",
+                "assets/images/allpasal/a3.png",
+                "assets/images/allpasal/a4.png",
+                "assets/images/allpasal/a5.png"
+            ],
+            "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
+        },
+        {
+            "Title": "Omlot Express",
+            "Description": "Omlot Express هو تطبيق برمجي يساعد الشركات والأفراد على إدارة عمليات سلسلة التوريد الخاصة بهم ، بما في ذلك النقل والتخزين وإدارة المخزون والتسليم. يمكن استخدام التطبيق من قبل شركات الخدمات اللوجستية والمصنعين وتجار التجزئة وتجار الجملة لتبسيط عملياتهم وتحسين الكفاءة.",
+            "imgs": [
+                "assets/images/omlot/o1.png",
+                "assets/images/omlot/o2.png",
+                "assets/images/omlot/o3.png",
+                "assets/images/omlot/o5.png",
+                "assets/images/omlot/o6.png"
+            ],
+            "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
+        },
+        {
+            "Title": "BRIKSHYA PRODUCTION",
+            "Description": "فريق Brikshya للإنتاج هو عمل يوفر الأساس المادي للأعمال في مجالات الفنون المسرحية ، وفن الوسائط الجديدة ، والأفلام ، والتلفزيون ، والراديو ، والقصص المصورة ، والفنون التفاعلية ، وألعاب الفيديو ، والمواقع الإلكترونية ، والفيديو.",
+            "imgs": [
+                "assets/images/brikshya/b1.png",
+                "assets/images/brikshya/b2.png",
+                "assets/images/brikshya/b3.png",
+                "assets/images/brikshya/b4.png",
+                "assets/images/brikshya/b5.png"
+            ],
+            "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "المزيد من المشاريع",
+    "OtherProjects.Projects": [{
+            "Title": "Ewumesh Blogging Site",
+            "Description": "Ewumesh عبارة عن منصة حيث يمكن للأفراد أو المنظمات إنشاء ونشر محتوى مكتوب حول مواضيع مختلفة ، عادة في شكل مقالات أو منشورات مدونة. تسمح مواقع التدوين للمستخدمين بالتعبير عن آرائهم ومشاركة تجاربهم والتواصل مع جمهور عريض.",
+            "ghLink": "https://github.com/umeshthapa12/ewumesh",
+            "demoLink": "https://thapaumesh.com.np/",
+            "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
+        },
+        {
+            "Title": "IBA Travel and Tours",
+            "Description": "IBA Travel and Tours هو تطبيق ويب مصمم لمساعدة الأشخاص على تخطيط تجارب سفرهم وحجزها وتنظيمها. يتضمن عادةً ميزات مثل أدوات تخطيط الرحلة ، وأدلة السفر ، وأنظمة الحجز للرحلات الجوية ، والفنادق ، والأنشطة ، بالإضافة إلى تقييمات المستخدمين وتقييماتهم.",
+            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "demoLink": "https://iba-travel.netlify.app/home",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Generate College card",
+            "Description": "Generate College Card هو تطبيق برمجي يتيح للمستخدمين إنشاء وطباعة بطاقات تعريف ذات مظهر احترافي. يوفر التطبيق عادةً واجهة سهلة الاستخدام مع العديد من القوالب وخيارات التخصيص لأنواع مختلفة من بطاقات الهوية.",
+            "ghLink": "https://github.com/ewumesh",
+            "demoLink": "https://tucl-card.netlify.app/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Lumbini Academic College",
+            "Description": "Lumbini Academic College هي عبارة عن منصة عبر الإنترنت للكليات لعرض برامجها الأكاديمية ومرافق الحرم الجامعي والحياة الطلابية والموارد للطلاب المحتملين وأعضاء هيئة التدريس وعامة الناس.",
+            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "demoLink": "https://lumbiniacademiccollege.netlify.app/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "Hand man game",
+            "Description": "الجلاد هي لعبة تخمين الكلمات يمكن أن يلعبها لاعب واحد أو أكثر. تبدأ اللعبة باختيار لاعب واحد للكلمة وكتابة سلسلة من الشرطات على قطعة من الورق لتمثيل عدد الأحرف في الكلمة. ثم حاول اللاعب (اللاعبون) الآخر تخمين الأحرف في الكلمة ، واحدًا تلو الآخر.",
+            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "Technologies": ["React", "CSS GRID", "HTML"]
+        },
+        {
+            "Title": "Tic Tac Toe Game",
+            "Description": "Tic-tac-toe ، المعروفة أيضًا باسم noughts والصلبان ، هي لعبة إستراتيجية بسيطة للاعبين يتم لعبها على شبكة 3x3. الهدف من اللعبة هو الحصول على ثلاثة من رموزك (إما X أو O) على التوالي ، إما أفقيًا أو رأسيًا أو قطريًا.",
+            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "demoLink": "https://game-tiktac.netlify.app/",
+            "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
+        }
+    ],
+    "Contact.Pretitle": "ماذا بعد",
+    "Contact.Title": "ابقى على تواصل!",
+    "Contact.Content": "سأكون سعيدًا بتلقي جهة الاتصال الخاصة بك إذا كنت تريد التحدث عن الفرص الجديدة. اكتب لي وسأرد بمجرد أن أرى رسالتك.",
+    "Contact.Btn": "قل مرحبا",
+    "Footer.Content": "بنيت مع Angular بواسطة Ewumesh",
+    "Footer.Shortcuts": [
+        {"ID":1,"Name": "بيت", "link": "/home"},
+        {"ID":2,"Name": "ْعَنِّي","link": "/home"},
+        {"ID":3,"Name": "المشاريع","link": "/home"},
+        {"ID":5,"Name": "خبرة","link": "/home"},
+        {"ID":6,"Name": "المدونات","link": "/blogs"},
+        {"ID":7,"Name": "سيرة ذاتية","link": "/assets/cv/ewumesh.pdf"},
+        {"ID":4,"Name": "اتصال","link": "/home"},
+        {"ID":8,"Name": "يلعب العاب","link": "/games/maze"},
+        {"ID":9,"Name": "IBA التعليم","link": "https://ibaintedu.com/"},
+        {"ID":10,"Name": "Allpasal","link": "https://allpasal.com/"},
+        {"ID":11, "Name":"أوديسي نيبال", "link":"https://odysseynepal.org.np/"},
+        {"ID":12, "Name":"الذكاء الاصطناعي", "link":"/ai/object-detection"}
+    ],
+    "Blogs.LatestBlogs": "أحدث المدونات"
+}

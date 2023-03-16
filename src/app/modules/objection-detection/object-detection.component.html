@@ -1,0 +1,110 @@
+<section class="section banner" style="margin-bottom: 25%;">
+  <div [@bannerTrigger] class="container">
+    <div class="section-box-banner">
+      <div class="content">
+        <div>
+          <h3>
+            <span class='n-section-title'>03.</span>Real Time Object Detection
+          </h3>
+          <p>Real-time object detection using TensorFlow can be achieved using TensorFlow's Object Detection API. This
+            API provides pre-trained models for detecting objects in images and videos, and also allows users to train
+            their own models on custom datasets.</p>
+        </div>
+        <button style="margin-right:10px" class="main-btn" (click)="webcam_init()">Start webcam</button>
+        <button class="main-btn" (click)="stopWebcam()">Stop</button>
+
+        <div class="text-center">
+          <div id="load" *ngIf="loading">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+          </div>
+
+
+          <canvas id="canvas"></canvas>
+          <video hidden id="vid" width="300" height="300"></video>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h3>
+              What is AI?
+            </h3>
+            <p>
+              AI stands for Artificial Intelligence, which refers to the ability of machines to perform tasks that
+              typically require human intelligence,
+              such as recognizing speech, understanding natural language, making decisions, and learning from
+              experience.
+              AI is a rapidly growing field of computer science and engineering, which has its roots in the development
+              of machine learning algorithms and neural networks.
+              Some of the key applications of AI include natural language processing, computer vision, robotics, and
+              autonomous systems.
+              AI technology is used in a wide range of industries, including healthcare, finance, transportation, and
+              manufacturing, to improve efficiency, accuracy, and decision-making.
+            </p>
+
+            <h3>
+              What is Tensorflow?
+            </h3>
+
+            <p>TensorFlow is an open-source software library developed by Google Brain Team that is used for building
+              and training machine learning models. It was initially released in 2015 and has since become one of the
+              most popular libraries for machine learning and deep learning.</p>
+
+            <p>TensorFlow allows users to build and train models using various machine learning techniques such as deep
+              neural networks, convolutional neural networks, and recurrent neural networks. It provides a flexible and
+              efficient platform for implementing these techniques, and can run on a variety of platforms, including
+              CPUs, GPUs, and even mobile devices.</p>
+
+            <p>In addition to its core machine learning capabilities, TensorFlow also provides tools and libraries for
+              data manipulation, visualization, and high-level APIs for building and deploying machine learning models.
+              TensorFlow is widely used in both academia and industry, and has been used to develop applications in
+              areas such as image recognition, natural language processing, and robotics.</p>
+
+            <h3>
+              WebGL is Not Supported?
+            </h3>
+            <p>Some users are reportedly unable to use WebGL-based sites like WebGL Earth, Shadertoy, etc.
+              The message that comes up is ‘WebGL is not supported‘.
+              Although the message is much more common with Google Chrome, it’s also confirmed to appear with other
+              browsers (Opera & Firefox).
+              The issue is not exclusive to a certain Windows version, but it’s mostly reported to occur with systems
+              using an older GPU model.<a target="_blank" href="https://appuals.com/fix-webgl-is-not-supported/">Read
+                all..</a></p>
+
+            <h3>TENSORFLOW.JS</h3>
+            <p>Tensorflow.js is an open-source library enabling us to define, train and run machine learning models in
+              the browser, using Javascript.
+              For more information about <a href="https://js.tensorflow.org/">Tensorflow.js</a>, check out its official
+              webpage. I will use Tensorflow.js library in
+              Angular to build a Web App which detects multiple objects on webcam video feed.
+            </p>
+
+            <h3>COCO-SSD MODEL</h3>
+            <p>First, we have to select the pre-trained model which we are going to use for object detection.
+              Tensorflow.js provides several pre-trained models for classification, pose estimation,
+              speech recognition and object detection purposes.
+              Check out all the <a href="https://github.com/tensorflow/tfjs-models">Tensoflow.js pre-trained models</a>
+              for more information.</p>
+
+            <p>COCO-SSD model, which is a pre-trained object detection model that aims to localize and identify
+              multiple objects in an image, is the one that we will use for object detection.
+              Original <a href="https://github.com/tensorflow/tfjs-models">ssd_mobilenet_v2_coco model</a> size is 187.8
+              MB and can be downloaded from tensorflow model zoo.
+              Compared to original model, Tensorflow.js version of the model is very lightweight and
+              optimized for browser execution. The default object detection model for Tensorflow.js
+              COCO-SSD is ‘lite_mobilenet_v2’ which is very very small in size, under 1MB,
+              and fastest in inference speed. If you would like better classification accuracy you can
+              use ‘mobilenet_v2’, in this case the size of the model increases to 75 MB which is not suitable for
+              web-browser experience.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
