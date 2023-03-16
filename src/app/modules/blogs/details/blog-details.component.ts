@@ -28,7 +28,7 @@ export class BlogsDetails implements OnInit {
 
     this.metaService.addTags([
       { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
-      { name: 'description', content: this.removeHTMLTags(this.blogDetails.description) },
+      { name: 'description', content: this.blogDetails.description },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
