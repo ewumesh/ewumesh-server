@@ -35,7 +35,8 @@ export class FooterComponent implements OnInit {
     {name: 'Chinese', value: 'ch', image:'https://www.worldometers.info/img/flags/small/tn_ch-flag.gif'},
     {name: 'Arabic', value: 'ar', image:'https://www.worldometers.info/img/flags/small/tn_sa-flag.gif'},
     {name: 'French', value: 'fr', image:'https://www.worldometers.info/img/flags/small/tn_fr-flag.gif'},
-    {name: 'Korean', value: 'kr', image:'https://www.worldometers.info/img/flags/small/tn_ks-flag.gif'}
+    {name: 'Korean', value: 'kr', image:'https://www.worldometers.info/img/flags/small/tn_ks-flag.gif'},
+    {name: 'Thai', value: 'kr', image:'https://www.worldometers.info/img/flags/small/tn_th-flag.gif'}
   ]
 
   cvName;
