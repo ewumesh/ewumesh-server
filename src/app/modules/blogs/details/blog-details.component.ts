@@ -16,9 +16,9 @@ export class BlogsDetails implements OnInit {
   speech: any;
   speechData: any;
 
-  play:boolean = false;
+  play: boolean = false;
   playing: boolean = false;
-  latestBLogs:any[] = [];
+  latestBLogs: any[] = [];
 
   constructor(
     private blogsService: BlogsService,
@@ -29,78 +29,46 @@ export class BlogsDetails implements OnInit {
 
   ) {
 
-    
+
   }
 
   ngOnInit() {
     // console.log(this.route.snapshot.queryParams.id, 'AOS')
 
     this.getBlogs();
- 
+
     // this.setMetaTag();
     // this.initSpeech();
     // let blog = JSON.parse(localStorage.getItem('currentBlog'));
     // this.blogDetails = blog;
 
-    if(this.latestBLogs.length > 0) {
-    this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
+    if (this.latestBLogs.length > 0) {
+      // this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
+      this.setMetaTag();
 
-    this.metaService.addTags([
-      { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
-      { name: 'description', content: this.removeHTMLTags(this.blogDetails.description) },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
-      { name: 'robots', content: 'index, follow' },
-    ]);
-  }
-    // let blog = JSON.parse(localStorage.getItem('currentBlog'));
-    // this.blogDetails = blog;
-
-    // this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
-
-    // this.metaService.addTags([
-    //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
-    //   { name: 'description', content: this.removeHTMLTags(this.blogDetails.description) },
-    //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    //   { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
-    //   { name: 'robots', content: 'index, follow' },
-    // ]);
-
-    //  this.metaService.addTags([
-    //    {name: 'keywords', content: 'Ewumesh' + '|'+ this.blogDetails.title},
-    //    {name: 'description', content: this.removeHTMLTags(this.blogDetails.description)}
-    //  ]);
-
-    // let metaTags = [
-    //   { name: 'description', content: 'Ewumesh' + '|' + this.blogDetails.title + '...' },
-    //   { property: 'og:title', content: "Ewumesh | " + this.blogDetails.title },
-    //   { proprety: 'og:description', content: this.removeHTMLTags(this.blogDetails.description) },
-    //   { property: 'og:image', content: 'src/assets/images/banner.png' },
-    //   // { property: 'og:url', content: '' },
-    //   { name: "twitter:card", content: "summary_large_image" },
-    // ]
-
-    // metaTags.forEach(m => this.metaService.updateTag(m));
-    // this.setMetaTag();
-
-    // setTimeout(() => {
-    //   this.speechAudio();
-    // }, 3000);
+      // this.metaService.addTags([
+      //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
+      //   { name: 'description', content: this.removeHTMLTags(this.blogDetails.description) },
+      //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      //   { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+      //   { name: 'robots', content: 'index, follow' },
+      // ]);
+    }
   }
 
   getBlogs() {
     let url = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ewumesh';
-          this.http.get(url).subscribe(
-            response => {
-              // Handle the response from the API
-              // console.log(response);
-              this.latestBLogs = response['items'];
-              this.getBlog();
-            },
-            error => {
-              // Handle any errors that occurred during the request
-              console.error(error);
-            })
+    this.http.get(url).subscribe(
+      response => {
+        // Handle the response from the API
+        // console.log(response);
+        this.latestBLogs = response['items'];
+        this.getBlog();
+      },
+      error => {
+        // Handle any errors that occurred during the request
+        console.error(error);
+      })
   }
 
   getBlog() {
@@ -159,26 +127,12 @@ export class BlogsDetails implements OnInit {
   //   })
   // }
 
-    private setMetaTag() {
-      // this.metaService.addTags([
-      //   { name: 'description', content: 'This is a test' },
-      //   { name: 'author', content: 'Mr Bobo' },
-      //   { name: 'keywords', content: 'Angular, Meta Service' },
-      //   { name: 'twitter:card', content: 'summary_large_image' },
-      //     { name: 'twitter:title', content: 'MERO BLOG TITLE'},
-      //     { name: 'twitter:description', content: 'MERO BLOG DESCRIPTION'},
-      //     { name: 'twitter:image', content: 'https://ewumesh.com/assets/images/cme.png'},
-      //     { name: 'twitter:image:alt', content: 'Blog Title'},
-      //     { property: 'og:title', content: 'Mero Blog Title'},
-      //     { property: 'og:description', content: 'Mero Blog Description'},
-      //     { property: 'og:url', content: 'https://ewumesh.com/blogs/details'},
-      //     { property: 'og:image', content:'https://ewumesh.com/assets/images/cme.png'},
-      //     { property: 'og:image:alt', content: 'Mro00000.0 .0 .00 .0.0..0.0.00'},
-      // ]);
+  private setMetaTag() {
+    this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
     this.metaService.addTags([
       {
         property: 'og:title',
-        content: this.blogDetails.title,
+        content: `${"Ewumesh | " + this.blogDetails.title}`,
       },
       {
         property: 'og:url',
@@ -187,7 +141,7 @@ export class BlogsDetails implements OnInit {
 
       {
         property: 'og:description',
-        content: `${this.blogDetails.description}`,
+        content: `${this.removeHTMLTags(this.blogDetails.description)}`,
       },
       {
         property: 'og:type',
@@ -199,29 +153,29 @@ export class BlogsDetails implements OnInit {
       },
       {
         property: 'og:image',
-        content: `https://ewumesh.com/assets/images/cme.png`,
+        content: 'https://ewumesh.com/assets/images/bd.jpg',
       },
 
       {
         property: 'twitter:card',
-        content: `summary_large_image_mmm`, 
+        content: `summary_large_image`,
       },
 
       {
         property: 'twitter:site',
-        content: `@Ewumesh`,
+        content: `@ewumesh`,
       },
       {
         property: 'twitter:title',
-        content: `$${this.blogDetails.title}`,
+        content: `${"Ewumesh | " + this.blogDetails.title}`,
       },
       {
         property: 'twitter:description',
-        content: `$${this.blogDetails.description}`,
+        content: `${this.removeHTMLTags(this.blogDetails.description)}`,
       },
       {
         property: 'twitter:image',
-        content: `https://ewumesh.com/assets/images/cme.png`,
+        content: 'https://ewumesh.com/assets/images/bd.jpg',
       },
       {
         property: 'twitter:url',
