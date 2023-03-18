@@ -29,13 +29,13 @@ export class BlogsDetails implements OnInit {
 
   ) {
 
-
+    this.getBlogs();
   }
 
   ngOnInit() {
     // console.log(this.route.snapshot.queryParams.id, 'AOS')
 
-    this.getBlogs();
+    
 
     // this.setMetaTag();
     // this.initSpeech();
@@ -44,7 +44,7 @@ export class BlogsDetails implements OnInit {
 
     if (this.latestBLogs.length > 0) {
       // this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
-      this.setMetaTag();
+      
 
       // this.metaService.addTags([
       //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
@@ -75,6 +75,7 @@ export class BlogsDetails implements OnInit {
     let id = this.route.snapshot.queryParams.id;
     let blog = this.latestBLogs.find(a => a.guid === id);
     this.blogDetails = blog;
+    this.setMetaTag();
   }
 
   removeHTMLTags(c) {
