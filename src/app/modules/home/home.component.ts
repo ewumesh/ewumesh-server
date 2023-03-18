@@ -23,11 +23,11 @@ export class HomeComponent implements OnInit {
   }
 
   private setMetaTag() {
-    this.titleService.setTitle("Ewumesh | Fullstack Developer");
+    this.titleService.setTitle("Ewumesh | Frontend Developer");
     this.metaService.addTags([
       {
         property: 'og:title',
-        content: "Ewumesh | Fullstack Developer",
+        content: "Ewumesh | Frontend Developer",
       },
       {
         property: 'og:url',
@@ -62,7 +62,7 @@ export class HomeComponent implements OnInit {
       },
       {
         property: 'twitter:title',
-        content: `${'Ewumesh | Fullstack Developer'}`,
+        content: `${'Ewumesh | Frontend Developer'}`,
       },
       {
         property: 'twitter:description',
