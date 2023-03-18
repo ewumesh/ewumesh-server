@@ -76,6 +76,7 @@ export class BlogsDetails implements OnInit {
     let id = this.route.snapshot.queryParams.id;
     let blog = this.latestBLogs.find(a => a.guid === id);
     this.blogDetails = blog;
+    this.setMetaTag();
   }
 
   removeHTMLTags(c) {
