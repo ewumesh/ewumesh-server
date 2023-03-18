@@ -26,15 +26,16 @@ export class MazeComponent implements OnInit, AfterViewInit {
     @Inject(DOCUMENT) private document: Document,
     private metaService:Meta
     ) {
-    this.titleService.setTitle('Ewumesh | Game | Online Maze Game');
+      this.setMetaTag();
+    // this.titleService.setTitle('Ewumesh | Game | Online Maze Game');
 
-            this.metaService.addTags([
-              { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
-              { name: 'description', content: 'A maze game is a type of puzzle game that involves navigating through a complex network of paths and obstacles to reach a specific goal. The goal is typically represented by a specific location within the maze, such as a treasure chest, a key, or a final exit.' },
-              { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-              { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
-              { name: 'robots', content: 'index, follow' },
-            ]);
+    //         this.metaService.addTags([
+    //           { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity, games, game, online game, live' },
+    //           { name: 'description', content: 'A maze game is a type of puzzle game that involves navigating through a complex network of paths and obstacles to reach a specific goal. The goal is typically represented by a specific location within the maze, such as a treasure chest, a key, or a final exit.' },
+    //           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    //           { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+    //           { name: 'robots', content: 'index, follow' },
+    //         ]);
   }
 
   ngOnInit() {
@@ -135,5 +136,66 @@ export class MazeComponent implements OnInit, AfterViewInit {
   private hooray() {
     var audio = new Audio('assets/KidsCheering.mp3');
     audio.play();
+  }
+
+  private setMetaTag() {
+    this.titleService.setTitle('Ewumesh | Play Online Game | Online Maze Game');
+    this.metaService.addTags([
+      {
+        property: 'og:title',
+        content: `${'Ewumesh | Game | Online Maze Game'}`,
+      },
+      {
+        property: 'og:url',
+        content: `${window.location.href}`,
+      },
+
+      {
+        property: 'og:description',
+        content: `${'A maze game is a type of puzzle game that involves navigating through a complex network of paths and obstacles to reach a specific goal. The goal is typically represented by a specific location within the maze, such as a treasure chest, a key, or a final exit.'}`,
+      },
+      {
+        property: 'og:type',
+        content: `article`,
+      },
+      {
+        property: 'og:site_name',
+        content: `Ewumesh`,
+      },
+      {
+        property: 'og:image',
+        content: `${'https://ewumesh.com/assets/images/maze.png'}`,
+      },
+
+      {
+        property: 'twitter:card',
+        content: `summary_large_image`,
+      },
+
+      {
+        property: 'twitter:site',
+        content: `@ewumesh`,
+      },
+      {
+        property: 'twitter:title',
+        content: `${'Ewumesh | Game | Online Maze Game'}`,
+      },
+      {
+        property: 'twitter:description',
+        content: `${'A maze game is a type of puzzle game that involves navigating through a complex network of paths and obstacles to reach a specific goal. The goal is typically represented by a specific location within the maze, such as a treasure chest, a key, or a final exit.'}`,
+      },
+      {
+        property: 'twitter:image',
+        content: `${'https://ewumesh.com/assets/images/maze.png'}`,
+      },
+      {
+        property: 'twitter:url',
+        content: `${window.location.href}`,
+      },
+      {
+        name: 'twitter:name:alt',
+        content: `${window.location.href}`,
+      },
+    ]);
   }
 }
