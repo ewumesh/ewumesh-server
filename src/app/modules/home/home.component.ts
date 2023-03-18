@@ -17,13 +17,69 @@ export class HomeComponent implements OnInit {
   ) {
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
     this.analyticsService.sendAnalyticPageView("/home", "Home");
-    this.titleService.setTitle( "Ewumesh | Frontend Developer" );
+    this.setMetaTag();
+  }
 
+  private setMetaTag() {
+    this.titleService.setTitle("Ewumesh | Fullstack Developer");
     this.metaService.addTags([
-      {name: 'keywords', content: 'Frontend, software, developer'},
-      {name: 'description', content: 'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'}
+      {
+        property: 'og:title',
+        content: "Ewumesh | Fullstack Developer",
+      },
+      {
+        property: 'og:url',
+        content: `${window.location.href}`,
+      },
+
+      {
+        property: 'og:description',
+        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+      },
+      {
+        property: 'og:type',
+        content: `article`,
+      },
+      {
+        property: 'og:site_name',
+        content: `Ewumesh`,
+      },
+      {
+        property: 'og:image',
+        content: 'https://ewumesh.com/assets/images/profile.JPG',
+      },
+
+      {
+        property: 'twitter:card',
+        content: `summary_large_image`,
+      },
+
+      {
+        property: 'twitter:site',
+        content: `@ewumesh`,
+      },
+      {
+        property: 'twitter:title',
+        content: `${'Ewumesh | Fullstack Developer'}`,
+      },
+      {
+        property: 'twitter:description',
+        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+      },
+      {
+        property: 'twitter:image',
+        content: 'https://ewumesh.com/assets/images/profile.JPG',
+      },
+      {
+        property: 'twitter:url',
+        content: `${window.location.href}`,
+      },
+      {
+        name: 'twitter:name:alt',
+        content: `${window.location.href}`,
+      },
     ]);
   }
 

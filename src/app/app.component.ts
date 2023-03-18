@@ -48,25 +48,25 @@ export class AppComponent {
 
   }
 
-  private setMetaTag() {
-    this.titleService.setTitle("Ewumesh | Frontend Developer");
+  private setMetaTag() { 
+    this.titleService.setTitle("Ewumesh | Discover Yourself!");
     this.meta.addTags([
       {
         property: 'og:title',
-        content: "Ewumesh | Frontend Developer",
+        content: "Ewumesh | Discover Yourself!",
       },
       {
         property: 'og:url',
-        content: `${window.location.href}`,
+        content: `${'https://ewumesh.com'}`,
       },
 
       {
         property: 'og:description',
-        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+        content: `${'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others. It is typically designed and developed to reflect the unique style, personality, and interests of the website owner.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
       },
       {
         property: 'og:type',
-        content: `article`,
+        content: `website`,
       },
       {
         property: 'og:site_name',
@@ -74,7 +74,7 @@ export class AppComponent {
       },
       {
         property: 'og:image',
-        content: 'https://ewumesh.com/assets/images/profile.JPG',
+        content: 'https://ewumesh.com/assets/images/lo.png',
       },
 
       {
@@ -88,23 +88,23 @@ export class AppComponent {
       },
       {
         property: 'twitter:title',
-        content: `${'Ewumesh | Frontend Developer'}`,
+        content: `${'Ewumesh | Discover Yourself!'}`,
       },
       {
         property: 'twitter:description',
-        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+        content: `${'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others. It is typically designed and developed to reflect the unique style, personality, and interests of the website owner.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
       },
       {
         property: 'twitter:image',
-        content: 'https://ewumesh.com/assets/images/profile.JPG',
+        content: 'https://ewumesh.com/assets/images/lo.png',
       },
       {
         property: 'twitter:url',
-        content: `${window.location.href}`,
+        content: `${'https://ewumesh.com'}`,
       },
       {
         name: 'twitter:name:alt',
-        content: `${window.location.href}`,
+        content: `${'https://ewumesh.com/'}`,
       },
     ]);
   }
