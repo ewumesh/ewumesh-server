@@ -153,7 +153,7 @@ export class BlogsDetails implements OnInit {
       },
       {
         property: 'og:image',
-        content: 'https://ewumesh.com/assets/images/bd.jpg',
+        content: `${this.blogDetails.thumbnail}`,
       },
 
       {
@@ -175,7 +175,7 @@ export class BlogsDetails implements OnInit {
       },
       {
         property: 'twitter:image',
-        content: 'https://ewumesh.com/assets/images/bd.jpg',
+        content: `${this.blogDetails.thumbnail}`,
       },
       {
         property: 'twitter:url',
