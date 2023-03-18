@@ -34,15 +34,17 @@ export class BlogsComponent implements OnInit {
               console.error(error);
             })
 
-            this.titleService.setTitle("Ewumesh | Medium Blogs Collection");
+            this.setMetaTag();
 
-            this.metaService.addTags([
-              { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity' },
-              { name: 'description', content: 'Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular. In addition, people can start blogging to improve their writing skills or even promote their businesses.' },
-              { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-              { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
-              { name: 'robots', content: 'index, follow' },
-            ]);
+            // this.titleService.setTitle("Ewumesh | Medium Blogs Collection");
+
+            // this.metaService.addTags([
+            //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity' },
+            //   { name: 'description', content: 'Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular. In addition, people can start blogging to improve their writing skills or even promote their businesses.' },
+            //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            //   { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
+            //   { name: 'robots', content: 'index, follow' },
+            // ]);
     }
 
     removeTags(c) {
@@ -53,5 +55,66 @@ export class BlogsComponent implements OnInit {
     gotoBlogDetails(blog) {
       this.router.navigate(['/blogs/details'],{ queryParams: {id:blog.guid}})
       this.blogsService.updateBlogs(blog);
+    }
+
+    private setMetaTag() {
+      this.titleService.setTitle("Ewumesh | Medium Blogs Collection");
+      this.metaService.addTags([
+        {
+          property: 'og:title',
+          content: "Ewumesh | Medium Blogs Collection",
+        },
+        {
+          property: 'og:url',
+          content: `${window.location.href}`,
+        },
+  
+        {
+          property: 'og:description',
+          content: `${'Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular. In addition, people can start blogging to improve their writing skills or even promote their businesses.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity'}`,
+        },
+        {
+          property: 'og:type',
+          content: `article`,
+        },
+        {
+          property: 'og:site_name',
+          content: `Ewumesh`,
+        },
+        {
+          property: 'og:image',
+          content: 'https://ewumesh.com/assets/images/blogs.png',
+        },
+  
+        {
+          property: 'twitter:card',
+          content: `summary_large_image`,
+        },
+  
+        {
+          property: 'twitter:site',
+          content: `@ewumesh`,
+        },
+        {
+          property: 'twitter:title',
+          content: `${'Ewumesh | Medium Blogs Collection'}`,
+        },
+        {
+          property: 'twitter:description',
+          content: `${'Blogging is a fun and flexible way for self-expression and social connection, so it is no wonder blogs have become very popular. In addition, people can start blogging to improve their writing skills or even promote their businesses.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali, blogs, medium, coding, javascript, productivity'}`,
+        },
+        {
+          property: 'twitter:image',
+          content: 'https://ewumesh.com/assets/images/blogs.png',
+        },
+        {
+          property: 'twitter:url',
+          content: `${window.location.href}`,
+        },
+        {
+          name: 'twitter:name:alt',
+          content: `${window.location.href}`,
+        },
+      ]);
     }
 }
