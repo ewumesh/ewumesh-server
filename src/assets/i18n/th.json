@@ -20,104 +20,104 @@
     ],
 
 
-    "Experience.Title": "Experience",
+    "Experience.Title": "ประสบการณ์",
     "Experience.Jobs": [
         {
-            "Tab": "Venio Systems",
-            "Title": "UI Developer",
-            "Date": "November 2022 - Present",
+            "Tab": "เวนิโอซิสเต็มส์",
+            "Title": "นักพัฒนา UI",
+            "Date": "พฤศจิกายน 2565 - ปัจจุบัน",
             "Description": [
-              "Coordinates with UI designer in developing a seamless user interface.",
-              "Conducts research on consumer behavior and program use.",
-              "Designs interface structure.",
-              "Dentifies areas for improvement in existing interface structures.",
-              "Consults with developers to implement improvements in user-based systems."
+                "ประสานงานกับนักออกแบบ UI ในการพัฒนาส่วนติดต่อผู้ใช้ที่ราบรื่น",
+                "ดำเนินการวิจัยเกี่ยวกับพฤติกรรมผู้บริโภคและการใช้โปรแกรม",
+                "ออกแบบโครงสร้างส่วนต่อประสาน",
+                "ระบุพื้นที่สำหรับการปรับปรุงในโครงสร้างอินเทอร์เฟซที่มีอยู่",
+                "ปรึกษากับนักพัฒนาเพื่อดำเนินการปรับปรุงในระบบที่อิงตามผู้ใช้"
             ]
         },
         {
-            "Tab": "Sajha",
-            "Title": "Frontend Developer",
-            "Date": "August 2022 - Present",
+            "Tab": "สัจจะ",
+            "Title": "นักพัฒนาส่วนหน้า",
+            "Date": "สิงหาคม 2565 - ปัจจุบัน",
             "Description": [
-              "Use markup languages like HTML to create user-friendly web pages.",
-              "Maintain and improve the website.",
-              "Optimize applications for maximum speed.",
-              "Design mobile-based features.",
-              "Collaborate with back-end developers and web designers to improve usability.",
-              "Write functional requirement documents and guides.",
-              "Create quality mockups and prototypes.",
-              "Stay up-to-date on emerging technologies."
+                "ใช้ภาษามาร์กอัป เช่น HTML เพื่อสร้างหน้าเว็บที่ใช้งานง่าย",
+                "ดูแลและปรับปรุงเว็บไซต์",
+                "ปรับแต่งแอพพลิเคชั่นเพื่อความเร็วสูงสุด",
+                "ออกแบบฟีเจอร์บนมือถือ",
+                "ทำงานร่วมกับนักพัฒนาส่วนหลังและนักออกแบบเว็บไซต์เพื่อปรับปรุงความสามารถในการใช้งาน",
+                "เขียนเอกสารข้อกำหนดการทำงานและคำแนะนำ",
+                "สร้างแบบจำลองและต้นแบบที่มีคุณภาพ",
+                "ติดตามข่าวสารล่าสุดเกี่ยวกับเทคโนโลยีที่เกิดขึ้นใหม่"
             ]
         },
         {
-            "Tab": "Allpasal",
-            "Title": "FullStack developer",
-            "Date": "February 2021 - September 2022",
+            "Tab": "ออลปาซัล",
+            "Title": "ผู้พัฒนา FullStack",
+            "Date": "กุมภาพันธ์ 2564 - กันยายน 2565",
             "Description": [
-              "Managing the complete software development process from conception to deployment.",
-              "Maintaining and upgrading the software following deployment.",
-              "Managing the end-to-end life cycle for the production of software and applications.",
-              "Overseeing and guiding the analyzing, writing, building, and deployment of software.",
-              "Overseeing the automated testing and providing feedback to management during the development process.",
-              "Modifying and testing changes to previously developed programs."
+                "การจัดการกระบวนการพัฒนาซอฟต์แวร์ที่สมบูรณ์ตั้งแต่แนวคิดไปจนถึงการปรับใช้",
+                "การบำรุงรักษาและอัปเกรดซอฟต์แวร์หลังการปรับใช้",
+                "การจัดการวงจรชีวิตแบบ end-to-end สำหรับการผลิตซอฟต์แวร์และแอพพลิเคชั่น",
+                "ดูแลและแนะนำการวิเคราะห์ เขียน สร้าง และปรับใช้ซอฟต์แวร์",
+                "ดูแลการทดสอบอัตโนมัติและให้ข้อเสนอแนะแก่ผู้บริหารในระหว่างขั้นตอนการพัฒนา",
+                "การแก้ไขและทดสอบการเปลี่ยนแปลงโปรแกรมที่พัฒนาก่อนหน้านี้"
             ]
         },
         {
-            "Tab": "Helpinc",
-            "Title": "Frontend developer",
-            "Date": "June 2018 - February 2019",
+            "Tab": "ความช่วยเหลือ",
+            "Title": "นักพัฒนาส่วนหน้า",
+            "Date": "มิถุนายน 2561 - กุมภาพันธ์ 2562",
             "Description": [
-              "Develop new user facing features.",
-              "Write reusable code and libraries.",
-              "Enhance application for maximum speed and scalability.",
-              "Validate input before submitting to back end.",
-              "Collaborate with team members and stakeholder.",
-              "Bridge the gap between graphic design and technical implementation.",
-              "Define how the application looks and how it works.",
-              "Translate UI/UX design wireframes to actual code."
+                "พัฒนาคุณลักษณะใหม่สำหรับผู้ใช้",
+                "เขียนโค้ดและไลบรารีที่ใช้ซ้ำได้",
+                "ปรับปรุงแอปพลิเคชันเพื่อความเร็วและความสามารถในการปรับขนาดสูงสุด",
+                "ตรวจสอบความถูกต้องของข้อมูลก่อนส่งไปยังส่วนหลัง",
+                "ทำงานร่วมกับสมาชิกในทีมและผู้มีส่วนได้ส่วนเสีย",
+                "เชื่อมช่องว่างระหว่างการออกแบบกราฟิกและการใช้งานทางเทคนิค",
+                "กำหนดลักษณะของแอปพลิเคชันและวิธีการทำงาน",
+                "แปลโครงร่างการออกแบบ UI/UX เป็นโค้ดจริง"
             ]
         },
         {
-            "Tab": "Ezinesoft",
-            "Title": "Frontend developer",
-            "Date": "October 2016 - April 2018",
+            "Tab": "เอซีนซอฟท์",
+            "Title": "นักพัฒนาส่วนหน้า",
+            "Date": "ตุลาคม 2559 - เมษายน 2561",
             "Description": [
-              "Develop new user-facing features.",
-              "Build reusable code and libraries for future use.",
-              "Ensure the technical feasibility of UI/UX designs.",
-              "Optimize application for maximum speed and scalability.",
-              "Assure that all user input is validated before submitting to back-end.",
-              "Collaborate with other team members and stakeholders."
+                "พัฒนาคุณลักษณะใหม่สำหรับผู้ใช้",
+                "สร้างโค้ดและไลบรารีที่ใช้ซ้ำได้เพื่อใช้ในอนาคต",
+                "ตรวจสอบความเป็นไปได้ทางเทคนิคของการออกแบบ UI/UX",
+                "ปรับแต่งแอปพลิเคชันเพื่อความเร็วสูงสุดและความสามารถในการปรับขนาด",
+                "ตรวจสอบให้แน่ใจว่าการป้อนข้อมูลของผู้ใช้ทั้งหมดได้รับการตรวจสอบก่อนที่จะส่งไปยังส่วนหลัง",
+                "ทำงานร่วมกับสมาชิกในทีมและผู้มีส่วนได้ส่วนเสียอื่น ๆ "
             ]
         },
         {
-            "Tab": "Odyssey Nepal",
-            "Title": "Executive Committee Member",
-            "Date": "November 2020 - Present",
+            "Tab": "โอดิสซีย์เนปาล",
+            "Title": "กรรมการบริหาร",
+            "Date": "พฤศจิกายน 2563 - ปัจจุบัน",
             "Description": [
-                "Upholding the values and objectives of the organisation.",
-                "Giving adequate time and energy to the duties of being a trustee.",
-                "Acting with integrity and avoiding or declaring personal conflicts of interest.",
-                "Confirmation of the legal status of committee members and their personal liability."
+                "การรักษาคุณค่าและวัตถุประสงค์ขององค์กร",
+                "ให้เวลาและกำลังอย่างเพียงพอในการทำหน้าที่ผู้จัดการมรดก",
+                "ปฏิบัติหน้าที่ด้วยความซื่อสัตย์สุจริตและหลีกเลี่ยงหรือประกาศความขัดแย้งทางผลประโยชน์ส่วนบุคคล",
+                "การยืนยันสถานะทางกฎหมายของคณะกรรมการและความรับผิดส่วนบุคคล"
             ]
         },
         {
-            "Tab": "YFE",
-            "Title": "Social Media Manager",
-            "Date": "October 2019 - Present",
+            "Tab": "กปปส",
+            "Title": "ผู้จัดการโซเชียลมีเดีย",
+            "Date": "ตุลาคม 2562 - ปัจจุบัน",
             "Description": [
-                "Using social media marketing tools to create and maintain the organizations' brand.",
-                "Interacting with users and other via the organizations' social media accounts.",
-                "Manages the organizations' social account posts."
+                "การใช้เครื่องมือการตลาดโซเชียลมีเดียเพื่อสร้างและรักษาแบรนด์ขององค์กร",
+                "โต้ตอบกับผู้ใช้และอื่น ๆ ผ่านบัญชีโซเชียลมีเดียขององค์กร",
+                "จัดการโพสต์บัญชีโซเชียลขององค์กร"
             ]
         }
     ],
 
-    "FeatureProjects.Title": "My projects",
-    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Title": "โครงการของฉัน",
+    "FeatureProjects.Label": "โครงการเด่น",
     "FeatureProjects.Projects": [{
-            "Title": "Venio Systems",
-            "Description": "Venio is the best integrated eDiscovery platform on the market, and <span class='underline'>OPTiMO</span> offers that best-in-breed technology as a managed service to streamline the eDiscovery process, lower costs, and provide a predictable pricing model.",
+            "Title": "เวนิโอซิสเต็มส์",
+            "Description": "Venio เป็นแพลตฟอร์ม eDiscovery ที่ผสานรวมที่ดีที่สุดในตลาด และ <span class='underline'>OPTiMO</span> นำเสนอเทคโนโลยีที่ดีที่สุดในสายพันธุ์เป็นบริการที่มีการจัดการเพื่อปรับปรุงกระบวนการ eDiscovery ลดค่าใช้จ่าย และจัดเตรียมสิ่งที่คาดการณ์ได้ รูปแบบการกำหนดราคา",
             "imgs": [
                 "assets/images/venio/v1.png",
                 "assets/images/venio/v3.png",
@@ -127,8 +127,8 @@
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
         {
-            "Title": "Sajha Investment",
-            "Description": "Sajha Real Estate Investment Company Pvt. Ltd. was established to make the real estate business systematic, reliable, and accessible to everyone. It is a company formed by young and energetic business personalities.",
+            "Title": "สัจจะการลงทุน",
+            "Description": "ก่อตั้งขึ้นเพื่อทำให้ธุรกิจอสังหาริมทรัพย์เป็นระบบ น่าเชื่อถือ และเข้าถึงได้สำหรับทุกคน เป็นบริษัทที่ก่อตั้งโดยนักธุรกิจรุ่นใหม่ไฟแรง",
             "imgs": [
                 "assets/images/sajha/s1.png",
                 "assets/images/sajha/s2.png",
@@ -139,8 +139,8 @@
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
         {
-            "Title": "Allpasal",
-            "Description": "Allpasal is an organization with a clear objective to manage, and distribute the goods produced from the production company to the markets. Allpasal, aims to distribute goods in the easiest ,cheapest and most convenient ways to the customers. Despite Nepal's rich resources and flourishing markets, 80% of our Nepalese markets are controlled by foreign companies and their various products.",
+            "Title": "ออลปาซัล",
+            "Description": "เป็นองค์กรที่มีวัตถุประสงค์ชัดเจนในการจัดการและกระจายสินค้าที่ผลิตจากบริษัทผู้ผลิตไปสู่ตลาด Allpasal มีเป้าหมายในการกระจายสินค้าด้วยวิธีที่ง่าย ถูกที่สุด และสะดวกที่สุดให้กับลูกค้า แม้ว่าเนปาลจะมีทรัพยากรที่อุดมสมบูรณ์และตลาดที่เฟื่องฟู แต่ 80% ของตลาดเนปาลของเราถูกควบคุมโดยบริษัทต่างชาติและผลิตภัณฑ์ต่างๆ ของพวกเขา",
             "imgs": [
                 "assets/images/allpasal/a1.png",
                 "assets/images/allpasal/a2.png",
@@ -151,8 +151,8 @@
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
         {
-            "Title": "Omlot Express",
-            "Description": "Omlot Express is a software application that helps businesses and individuals manage their supply chain operations, including transportation, warehousing, inventory management, and delivery. The app can be used by logistics companies, manufacturers, retailers, and wholesalers to streamline their operations and improve efficiency.",
+            "Title": "ออมลอต เอ็กซ์เพรส",
+            "Description": "เป็นแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ธุรกิจและบุคคลจัดการการดำเนินงานของห่วงโซ่อุปทาน รวมถึงการขนส่ง คลังสินค้า การจัดการสินค้าคงคลัง และการจัดส่ง บริษัทโลจิสติกส์ ผู้ผลิต ผู้ค้าปลีก และผู้ค้าส่งสามารถใช้แอปนี้เพื่อปรับปรุงการดำเนินงานและปรับปรุงประสิทธิภาพ",
             "imgs": [
                 "assets/images/omlot/o1.png",
                 "assets/images/omlot/o2.png",
@@ -163,8 +163,8 @@
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
         {
-            "Title": "BRIKSHYA PRODUCTION",
-            "Description": "Brikshya Production team is a business that provides the physical basis for works in the fields of performing arts, new media art, film, television, radio, comics, interactive arts, video games, websites, and video.",
+            "Title": "บริคชยา โปรดักชั่น",
+            "Description": "ทีมคือธุรกิจที่ให้บริการพื้นฐานทางกายภาพสำหรับผลงานในด้านศิลปะการแสดง ศิลปะสื่อใหม่ ภาพยนตร์ โทรทัศน์ วิทยุ การ์ตูน ศิลปะเชิงโต้ตอบ วิดีโอเกม เว็บไซต์ และวิดีโอ",
             "imgs": [
                 "assets/images/brikshya/b1.png",
                 "assets/images/brikshya/b2.png",
@@ -178,55 +178,55 @@
 
 
 
-    "OtherProjects.Title": "More projects",
+    "OtherProjects.Title": "โครงการเพิ่มเติม",
     "OtherProjects.Projects": [{
-            "Title": "Ewumesh Blogging Site",
-            "Description": "Ewumesh is a platform where individuals or organizations can create and publish written content on various topics, usually in the form of articles or blog posts. Blogging sites allow users to express their opinions, share their experiences, and connect with a wide audience.",
+            "Title": "เว็บไซต์บล็อก Ewumesh",
+            "Description": "เป็นแพลตฟอร์มที่บุคคลหรือองค์กรสามารถสร้างและเผยแพร่เนื้อหาที่เป็นลายลักษณ์อักษรในหัวข้อต่างๆ โดยปกติจะอยู่ในรูปของบทความหรือบล็อกโพสต์ ไซต์บล็อกช่วยให้ผู้ใช้สามารถแสดงความคิดเห็น แบ่งปันประสบการณ์ และเชื่อมต่อกับผู้ชมจำนวนมาก",
             "ghLink": "https://github.com/umeshthapa12/ewumesh",
             "demoLink": "https://thapaumesh.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
-            "Title": "IBA Travel and Tours",
-            "Description": "IBA Travel and Tours is a web application designed to help people plan, book and organize their travel experiences. It typically includes features such as trip planning tools, travel guides, booking systems for flights, hotels, and activities, as well as user reviews and ratings.",
+            "Title": "ไอบีเอทราเวลแอนด์ทัวร์",
+            "Description": "เป็นเว็บแอปพลิเคชันที่ออกแบบมาเพื่อช่วยให้ผู้คนวางแผน จอง และจัดการประสบการณ์การเดินทางของตน โดยทั่วไปจะประกอบด้วยคุณสมบัติต่างๆ เช่น เครื่องมือวางแผนการเดินทาง คู่มือการเดินทาง ระบบจองเที่ยวบิน โรงแรม และกิจกรรม ตลอดจนบทวิจารณ์และการให้คะแนนของผู้ใช้",
             "ghLink": "https://github.com/umeshthapa12/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
         {
-            "Title": "Generate College card",
-            "Description": "Generate College card is a software application that allows users to create and print professional-looking identification cards. The app typically offers a user-friendly interface with various templates and customization options for different types of ID cards.",
+            "Title": "สร้างบัตรวิทยาลัย",
+            "Description": "เป็นแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ผู้ใช้สร้างและพิมพ์บัตรประจำตัวที่ดูเป็นมืออาชีพ โดยทั่วไปแล้วแอปจะมีอินเทอร์เฟซที่เป็นมิตรกับผู้ใช้พร้อมเทมเพลตและตัวเลือกการปรับแต่งที่หลากหลายสำหรับบัตรประจำตัวประเภทต่างๆ",
             "ghLink": "https://github.com/ewumesh",
             "demoLink": "https://tucl-card.netlify.app/",
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
-            "Title": "Lumbini Academic College",
-            "Description": "Lumbini Academic College is an online platform for colleges to showcase their academic programs, campus facilities, student life, and resources to potential students, faculty members, and the general public.",
+            "Title": "วิทยาลัยอาชีวศึกษาลุมพินี",
+            "Description": "วิทยาลัยทุกแห่งมักเป็นแพลตฟอร์มออนไลน์สำหรับวิทยาลัยในการแสดงโปรแกรมวิชาการ สิ่งอำนวยความสะดวกในวิทยาเขต ชีวิตนักศึกษา และทรัพยากรต่างๆ แก่นักศึกษา คณาจารย์ และบุคคลทั่วไป",
             "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
-            "Title": "Hand man game",
-            "Description": "Hangman is a word-guessing game that can be played by one or more players. The game begins with one player choosing a word and writing a series of dashes on a piece of paper to represent the number of letters in the word. The other player(s) then try to guess the letters in the word, one at a time.",
+            "Title": "เกมมือคน",
+            "Description": "เป็นเกมทายคำศัพท์ที่ผู้เล่นหนึ่งคนหรือหลายคนสามารถเล่นได้ เกมเริ่มต้นด้วยผู้เล่นคนหนึ่งเลือกคำและเขียนชุดขีดบนกระดาษเพื่อแสดงจำนวนตัวอักษรในคำนั้น ผู้เล่นคนอื่นพยายามเดาตัวอักษรในคำนั้นทีละตัว",
             "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
             "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
-            "Title": "Tic Tac Toe Game",
-            "Description": "Tic-tac-toe, also known as noughts and crosses, is a simple two-player strategy game played on a 3x3 grid. The objective of the game is to get three of your symbols (either X or O) in a row, either horizontally, vertically, or diagonally.",
+            "Title": "เกม Tic Tac Toe",
+            "Description": "Tic-tac-toe หรือที่เรียกว่า nought and crosses เป็นเกมกลยุทธ์ผู้เล่นสองคนที่เล่นบนตาราง 3x3 วัตถุประสงค์ของเกมคือการได้รับสัญลักษณ์ของคุณสามตัว (อาจเป็น X หรือ O) ในแถว แนวนอน แนวตั้ง หรือแนวทแยงมุม",
             "ghLink": "https://github.com/umeshthapa12/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }
     ],
-    "Contact.Pretitle": "What’s Next",
-    "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
-    "Contact.Btn": "Say Hello",
-    "Footer.Content": "Built with Angular by Ewumesh",
+    "Contact.Pretitle": "อะไรต่อไป",
+    "Contact.Title": "ได้รับการติดต่อ!",
+    "Contact.Content": "เรายินดีที่จะได้รับการติดต่อจากคุณ หากคุณต้องการพูดคุยเกี่ยวกับโอกาสใหม่ๆ เขียนถึงฉันและฉันจะตอบกลับทันทีที่ฉันเห็นข้อความของคุณ",
+    "Contact.Btn": "พูดสวัสดี",
+    "Footer.Content": "สร้างด้วย Angular โดย Ewumesh",
     "Footer.Shortcuts": [
         {"ID":1,"Name": "Home", "link": "/home"},
         {"ID":2,"Name": "About me","link": "/home"},
@@ -243,7 +243,7 @@
     ],
 
 
-    "Blogs.LatestBlogs": "Latest Blogs"
+    "Blogs.LatestBlogs": "บล็อกล่าสุด"
 
 
 }
