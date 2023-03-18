@@ -28,6 +28,9 @@ export class BlogsDetails implements OnInit {
     private route: ActivatedRoute,
 
   ) {
+    let blog = JSON.parse(localStorage.getItem('currentBlog'));
+    this.blogDetails = blog;
+    this.setMetaTag();
 
     this.getBlogs();
   }
@@ -39,8 +42,6 @@ export class BlogsDetails implements OnInit {
 
     // this.setMetaTag();
     // this.initSpeech();
-    // let blog = JSON.parse(localStorage.getItem('currentBlog'));
-    // this.blogDetails = blog;
 
     if (this.latestBLogs.length > 0) {
       // this.titleService.setTitle("Ewumesh | " + this.blogDetails.title);
@@ -75,7 +76,6 @@ export class BlogsDetails implements OnInit {
     let id = this.route.snapshot.queryParams.id;
     let blog = this.latestBLogs.find(a => a.guid === id);
     this.blogDetails = blog;
-    this.setMetaTag();
   }
 
   removeHTMLTags(c) {
