@@ -7,7 +7,7 @@ import { Location } from '@angular/common';
 })
 export class LanguageService {
 
-  language: "es" | "en" | "jp" | "ch" | "ar";
+  language: "es" | "en" | "jp" | "ch" | "ar" | "fr" | "kr" | "ru" | 'th';
 
   constructor(
     public translateService: TranslateService,
@@ -20,7 +20,7 @@ export class LanguageService {
   }
 
   initLanguage(){
-    this.translateService.addLangs(["en", "es", "jp", "ch", "ar"])
+    this.translateService.addLangs(["en", "es", "jp", "ch", "ar", "fr", "kr", "ru", "th"])
     let language = navigator.language || (navigator as any).userLanguage;
     // language = language.split("-").includes("es") ? "es" : "en"
 

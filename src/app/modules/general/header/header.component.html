@@ -28,6 +28,9 @@
             <li>
                 <div ngbDropdown class="d-inline-block">
                     <div class="language-container" id="dropdownForm1" ngbDropdownToggle>
+                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' width="20px"
+                            src="https://www.worldometers.info/img/flags/small/tn_th-flag.gif" alt="Thailand">
+                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' class="flag-text">Thai</span>
 
                         <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "kr"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_ks-flag.gif" alt="Korea">
@@ -69,6 +72,21 @@
                         </svg>
                     </div>
                     <div ngbDropdownMenu aria-labelledby="dropdownForm1">
+                        <div (click)='changeLanguage("th")'
+                            style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
+                            class="language-container language-container-selector active"
+                            [class.active]='languageFormControl.value == "th"'>
+                            <img width="20px"
+                                src="https://www.worldometers.info/img/flags/small/tn_th-flag.gif"
+                                alt="Thailand">
+                            <span class="flag-text">Thai</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                        </div>
+
                         <div (click)='changeLanguage("kr")'
                             style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                             class="language-container language-container-selector active"
@@ -223,6 +241,20 @@
                                             d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                                     </svg>
                                 </div>
+
+                                <div (click)='changeLanguage("th")'
+                                    style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
+                                    class="language-container language-container-selector active"
+                                    [class.active]='languageFormControl.value == "th"'>
+                                    <img src="https://www.worldometers.info/img/flags/small/tn_th-flag.gif" alt="Thailand">
+                                    <span class="flag-text">Thai</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                    </svg>
+                                </div>
+
                                 <div (click)='changeLanguage("ru")'
                                     style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                                     class="language-container language-container-selector active"
