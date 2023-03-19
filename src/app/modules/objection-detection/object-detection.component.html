@@ -4,14 +4,12 @@
       <div class="content">
         <div>
           <h3>
-            <span class='n-section-title'>03.</span>Real Time Object Detection
+            <span class='n-section-title'>03.</span>{{"AI.Title"| translate}}
           </h3>
-          <p>Real-time object detection using TensorFlow can be achieved using TensorFlow's Object Detection API. This
-            API provides pre-trained models for detecting objects in images and videos, and also allows users to train
-            their own models on custom datasets.</p>
+          <p [innerHTML]="AI.Sub"></p>
         </div>
-        <button style="margin-right:10px" class="main-btn" (click)="webcam_init()">Start webcam</button>
-        <button class="main-btn" (click)="stopWebcam()">Stop</button>
+        <button style="margin-right:10px" class="main-btn" (click)="webcam_init()">{{"AI.StartWebcam"}}</button>
+        <button class="main-btn" (click)="stopWebcam()">{{"AI.StopWebcam"}}</button>
 
         <div class="text-center">
           <div id="load" *ngIf="loading">

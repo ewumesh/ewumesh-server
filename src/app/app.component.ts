@@ -35,14 +35,6 @@ export class AppComponent {
     } else {
       this.languageService.initLanguage();
     }
-
-    // this.meta.addTags([
-    //   { name: 'keywords', content: 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali' },
-    //   { name: 'description', content: 'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.' },
-    //   { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    //   { name: 'date', content: '2023-03-17', scheme: 'YYYY-MM-DD' },
-    //   { name: 'robots', content: 'index, follow' },
-    // ]);
     this.setMetaTag();
     AOS.init();
 
