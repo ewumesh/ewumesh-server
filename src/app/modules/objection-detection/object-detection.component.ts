@@ -1,7 +1,7 @@
 import { animate, query, stagger, style, transition, trigger } from '@angular/animations';
 import { DOCUMENT } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnDestroy, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 
 // import COCO-SSD model as cocoSSD
@@ -38,9 +38,10 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
         private elementRef: ElementRef,
         private router: Router,
         private titleService: Title,
+        private meta: Meta
         // @Inject(DOCUMENT) private document: Document
     ) {
-        this.titleService.setTitle('Ewumesh | AI | Real Time Object Detection');
+        this.setMetaTag();
     }
 
     ngOnInit() {
@@ -80,8 +81,8 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
     }
 
     stopWebcam() {
-        if(this.video) {
-        (<MediaStream>this.video.srcObject).getTracks().forEach(stream => stream.stop());
+        if (this.video) {
+            (<MediaStream>this.video.srcObject).getTracks().forEach(stream => stream.stop());
         }
     }
 
@@ -99,19 +100,19 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
         const canvas = <HTMLCanvasElement>document.getElementById("canvas");
         let ctx
         let font
-        if(canvas) {
-         ctx = canvas.getContext("2d");
-         canvas.width = 300;
-        canvas.height = 300;
-        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-                // Font options.
-                 font = "16px sans-serif";
-                ctx.font = font;
-                ctx.textBaseline = "top";
-                ctx.drawImage(this.video, 0, 0, 300, 350);
+        if (canvas) {
+            ctx = canvas.getContext("2d");
+            canvas.width = 300;
+            canvas.height = 300;
+            ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+            // Font options.
+            font = "16px sans-serif";
+            ctx.font = font;
+            ctx.textBaseline = "top";
+            ctx.drawImage(this.video, 0, 0, 300, 350);
         }
 
-    
+
 
         predictions.forEach(prediction => {
             const x = prediction.bbox[0];
@@ -136,11 +137,72 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             ctx.fillStyle = "#000000";
             ctx.fillText(prediction.class, x, y);
         });
-    // }
+        // }
     }
 
     ngOnDestroy() {
         this.stopWebcam();
+    }
+
+    private setMetaTag() {
+        this.titleService.setTitle('Ewumesh | AI | Real Time Object Detection using Tensorflow | Artificial Intelligence');
+        this.meta.addTags([
+            {
+                property: 'og:title',
+                content: 'Ewumesh | AI | Real Time Object Detection using Tensorflow | Artificial Intelligence',
+            },
+            {
+                property: 'og:url',
+                content: `${window.location.href}`,
+            },
+
+            {
+                property: 'og:description',
+                content: `${'Real-time object detection using TensorFlow can be achieved using TensorFlows Object Detection API. This API provides pre-trained models for detecting objects in images and videos, and also allows users to train their own models on custom datasets. AI stands for Artificial Intelligence, which refers to the ability of machines to perform tasks that typically require human intelligence, such as recognizing speech, understanding natural language, making decisions, and learning from experience. AI is a rapidly growing field of computer science and engineering, which has its roots in the development of machine learning algorithms and neural networks. Some of the key applications of AI include natural language processing, computer vision, robotics, and autonomous systems. AI technology is used in a wide range of industries, including healthcare, finance, transportation, and manufacturing, to improve efficiency, accuracy, and decision-making.' + 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+            },
+            {
+                property: 'og:type',
+                content: `website`,
+            },
+            {
+                property: 'og:site_name',
+                content: `Ewumesh`,
+            },
+            {
+                property: 'og:image',
+                content: 'https://ewumesh.com/assets/images/AI.png',
+            },
+
+            {
+                property: 'twitter:card',
+                content: `summary_large_image`,
+            },
+
+            {
+                property: 'twitter:site',
+                content: `@ewumesh`,
+            },
+            {
+                property: 'twitter:title',
+                content: `${'Ewumesh | Discover Yourself!'}`,
+            },
+            {
+                property: 'twitter:description',
+                content: `${'Real-time object detection using TensorFlow can be achieved using TensorFlows Object Detection API. This API provides pre-trained models for detecting objects in images and videos, and also allows users to train their own models on custom datasets. AI stands for Artificial Intelligence, which refers to the ability of machines to perform tasks that typically require human intelligence, such as recognizing speech, understanding natural language, making decisions, and learning from experience. AI is a rapidly growing field of computer science and engineering, which has its roots in the development of machine learning algorithms and neural networks. Some of the key applications of AI include natural language processing, computer vision, robotics, and autonomous systems. AI technology is used in a wide range of industries, including healthcare, finance, transportation, and manufacturing, to improve efficiency, accuracy, and decision-making.' + 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+            },
+            {
+                property: 'twitter:image',
+                content: 'https://ewumesh.com/assets/images/AI.png',
+            },
+            {
+                property: 'twitter:url',
+                content: `${window.location.href}`,
+            },
+            {
+                name: 'twitter:name:alt',
+                content: `${window.location.href}`,
+            },
+        ]);
     }
 
 }
