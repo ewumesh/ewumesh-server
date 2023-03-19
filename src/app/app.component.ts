@@ -76,7 +76,7 @@ export class AppComponent {
       },
       {
         property: 'og:image',
-        content: 'https://ewumesh.com/assets/images/lo.png',
+        content: 'https://ewumesh.com/assets/images/banner.png',
       },
 
       {
@@ -98,7 +98,7 @@ export class AppComponent {
       },
       {
         property: 'twitter:image',
-        content: 'https://ewumesh.com/assets/images/lo.png',
+        content: 'https://ewumesh.com/assets/images/banner.png',
       },
       {
         property: 'twitter:url',

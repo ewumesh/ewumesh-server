@@ -1,8 +1,6 @@
 import { animate, query, stagger, style, transition, trigger } from '@angular/animations';
-import { DOCUMENT } from '@angular/common';
-import { ChangeDetectionStrategy, Component, ElementRef, Inject, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 
 // import COCO-SSD model as cocoSSD
 import * as cocoSSD from '@tensorflow-models/coco-ssd';
@@ -11,7 +9,6 @@ import * as cocoSSD from '@tensorflow-models/coco-ssd';
     selector: 'app-name',
     templateUrl: './object-detection.component.html',
     styleUrls: ['./object-detection.component.scss'],
-    // changeDetection:ChangeDetectionStrategy.OnPush,
     animations: [
         trigger('bannerTrigger', [
             transition(":enter", [
@@ -35,19 +32,13 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
     loading: boolean;
 
     constructor(
-        private elementRef: ElementRef,
-        private router: Router,
         private titleService: Title,
         private meta: Meta
-        // @Inject(DOCUMENT) private document: Document
     ) {
         this.setMetaTag();
     }
 
-    ngOnInit() {
-        // this.webcam_init();
-
-    }
+    ngOnInit() { }
 
     public async predictWithCocoModel() {
         // const model = await cocoSSD.load({base:'lite_mobilenet_v2'})
@@ -56,7 +47,6 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
     }
 
     webcam_init() {
-        // if (typeof document !== "undefined"){
         this.loading = true;
         this.video = <HTMLVideoElement>document.getElementById("vid");
 
@@ -77,7 +67,6 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
 
         // this.loading = false;
         this.predictWithCocoModel();
-        // }
     }
 
     stopWebcam() {
@@ -96,7 +85,6 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
     }
 
     renderPredictions = predictions => {
-        // if (typeof document !== "undefined"){
         const canvas = <HTMLCanvasElement>document.getElementById("canvas");
         let ctx
         let font
@@ -137,7 +125,6 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             ctx.fillStyle = "#000000";
             ctx.fillText(prediction.class, x, y);
         });
-        // }
     }
 
     ngOnDestroy() {
@@ -153,7 +140,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'og:url',
-                content: `${'https://ewumesh.com/ai/object-detection'}`,
+                content: 'https://ewumesh.com/ai/object-detection',
             },
 
             {
