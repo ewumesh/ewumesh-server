@@ -153,7 +153,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'og:url',
-                content: `${window.location.href}`,
+                content: `${'https://ewumesh.com/ai/object-detection'}`,
             },
 
             {
@@ -196,11 +196,11 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'twitter:url',
-                content: `${window.location.href}`,
+                content: `${'https://ewumesh.com/ai/object-detection'}`,
             },
             {
                 name: 'twitter:name:alt',
-                content: `${window.location.href}`,
+                content: `${'https://ewumesh.com/ai/object-detection'}`,
             },
         ]);
     }
