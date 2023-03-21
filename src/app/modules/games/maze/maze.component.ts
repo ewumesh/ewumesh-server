@@ -164,7 +164,7 @@ export class MazeComponent implements OnInit, AfterViewInit {
       },
       {
         property: 'og:image',
-        content: `${'https://ewumesh.com/assets/images/maze.png'}`,
+        content: `${'https://ewumesh.com/assets/images/maze.webp'}`,
       },
 
       {
@@ -186,7 +186,7 @@ export class MazeComponent implements OnInit, AfterViewInit {
       },
       {
         property: 'twitter:image',
-        content: `${'https://ewumesh.com/assets/images/maze.png'}`,
+        content: `${'https://ewumesh.com/assets/images/maze.webp'}`,
       },
       {
         property: 'twitter:url',

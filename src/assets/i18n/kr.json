@@ -119,10 +119,10 @@
             "Title": "베니오 시스템",
             "Description": "이것은 시장에서 최고의 통합 eDiscovery 플랫폼이며 <span class='underline'>OPTiMO</span>는 eDiscovery 프로세스를 간소화하고 비용을 절감하며 예측 가능한 가격 모델.",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "사자투자",
             "Description": "체계적이고 신뢰할 수 있으며 누구나 쉽게 접근할 수 있는 부동산 사업을 하기 위해 설립되었습니다. 젊고 활기찬 사업가들이 모여 만든 회사입니다.",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "올파살",
             "Description": "생산회사에서 생산된 상품을 시장에 유통, 관리하는 명확한 목표를 가진 조직입니다. 올파살은 고객에게 가장 쉽고, 저렴하고, 가장 편리한 방법으로 상품을 유통하는 것을 목표로 합니다. 네팔의 풍부한 자원과 번성하는 시장에도 불구하고 네팔 시장의 80%는 외국 기업과 다양한 제품에 의해 통제되고 있습니다.",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "오믈롯 익스프레스",
             "Description": "기업과 개인이 운송, 창고 보관, 재고 관리 및 배송을 포함한 공급망 운영을 관리하는 데 도움이 되는 소프트웨어 애플리케이션입니다. 이 앱은 물류 회사, 제조업체, 소매업체 및 도매업체에서 운영을 간소화하고 효율성을 개선하는 데 사용할 수 있습니다.",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "브릭샤 프로덕션",
             "Description": "Brikshya 프로덕션 팀은 공연 예술, 뉴미디어 아트, 영화, 텔레비전, 라디오, 만화, 인터랙티브 아트, 비디오 게임, 웹 사이트 및 비디오 분야의 작품에 대한 물리적 기반을 제공하는 사업체입니다.",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

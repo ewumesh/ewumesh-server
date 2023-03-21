@@ -157,7 +157,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'og:image',
-                content: 'https://ewumesh.com/assets/images/AI.png',
+                content: 'https://ewumesh.com/assets/images/AI.webp',
             },
 
             {
@@ -179,7 +179,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'twitter:image',
-                content: 'https://ewumesh.com/assets/images/AI.png',
+                content: 'https://ewumesh.com/assets/images/AI.webp',
             },
             {
                 property: 'twitter:url',

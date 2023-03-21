@@ -119,10 +119,10 @@
             "Title": "Venio Systems",
             "Description": "Venio is the best integrated eDiscovery platform on the market, and <span class='underline'>OPTiMO</span> offers that best-in-breed technology as a managed service to streamline the eDiscovery process, lower costs, and provide a predictable pricing model.",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "Sajha Investment",
             "Description": "Sajha Real Estate Investment Company Pvt. Ltd. was established to make the real estate business systematic, reliable, and accessible to everyone. It is a company formed by young and energetic business personalities.",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "Allpasal",
             "Description": "Allpasal is an organization with a clear objective to manage, and distribute the goods produced from the production company to the markets. Allpasal, aims to distribute goods in the easiest ,cheapest and most convenient ways to the customers. Despite Nepal's rich resources and flourishing markets, 80% of our Nepalese markets are controlled by foreign companies and their various products.",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "Omlot Express",
             "Description": "Omlot Express is a software application that helps businesses and individuals manage their supply chain operations, including transportation, warehousing, inventory management, and delivery. The app can be used by logistics companies, manufacturers, retailers, and wholesalers to streamline their operations and improve efficiency.",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "BRIKSHYA PRODUCTION",
             "Description": "Brikshya Production team is a business that provides the physical basis for works in the fields of performing arts, new media art, film, television, radio, comics, interactive arts, video games, websites, and video.",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

@@ -119,10 +119,10 @@
             "Title": "Venio Systems",
             "Description": "Venio est la meilleure plate-forme d'eDiscovery intégrée sur le marché, et <span class='underline'>OPTiMO</span> offre cette technologie de pointe en tant que service géré pour rationaliser le processus d'eDiscovery, réduire les coûts et fournir une solution prévisible Modèle de prix.",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "Sajha Investment",
             "Description": "Sajha Real Estate Investment Company Pvt. Ltd. a été créée pour rendre l'activité immobilière systématique, fiable et accessible à tous. C'est une entreprise formée par des personnalités d'affaires jeunes et énergiques.",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "Allpasal",
             "Description": "Allpasal est une organisation avec un objectif clair de gestion et de distribution des biens produits par l'entreprise de production vers les marchés. Allpasal vise à distribuer les marchandises de la manière la plus simple, la moins chère et la plus pratique aux clients. Malgré les riches ressources du Népal et ses marchés florissants, 80% de nos marchés népalais sont contrôlés par des sociétés étrangères et leurs différents produits.",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "Omlot Express",
             "Description": "Omlot Express est une application logicielle qui aide les entreprises et les particuliers à gérer les opérations de leur chaîne d'approvisionnement, y compris le transport, l'entreposage, la gestion des stocks et la livraison. L'application peut être utilisée par les entreprises de logistique, les fabricants, les détaillants et les grossistes pour rationaliser leurs opérations et améliorer leur efficacité.",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "BRIKSHYA PRODUCTION",
             "Description": "L'équipe de production de Brikshya est une entreprise qui fournit la base physique d'œuvres dans les domaines des arts de la scène, de l'art des nouveaux médias, du cinéma, de la télévision, de la radio, de la bande dessinée, des arts interactifs, des jeux vidéo, des sites Web et de la vidéo.",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

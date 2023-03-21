@@ -119,10 +119,10 @@
             "Title": "Venio Systems",
             "Description": "Venio 是市场上最好的集成电子取证平台，<span class='underline'>OPTiMO</span> 提供同类最佳技术作为托管服务，以简化电子取证流程、降低成本并提供可预测的服务定价模型。",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "Sajha Investment",
             "Description": "Sajha 房地产投资公司列兵。 Ltd. 的成立是为了使房地产业务系统化、可靠并为所有人所用。它是由年轻而充满活力的商业人士组成的公司。",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "Allpasal",
             "Description": "Allpasal 是一个目标明确的组织，负责管理生产公司生产的产品并将其分配到市场。 Allpasal，旨在以最简单、最便宜和最方便的方式向客户分发商品。尽管尼泊尔拥有丰富的资源和繁荣的市场，但我们尼泊尔80%的市场都被外国公司及其各种产品所控制。",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "Omlot Express",
             "Description": "Omlot Express 是一款软件应用程序，可帮助企业和个人管理其供应链运营，包括运输、仓储、库存管理和交付。物流公司、制造商、零售商和批发商可以使用该应用程序来简化他们的运营并提高效率。",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "BRIKSHYA PRODUCTION",
             "Description": "Brikshya Production team 是一家为表演艺术、新媒体艺术、电影、电视、广播、漫画、互动艺术、视频游戏、网站和视频领域的作品提供物理基础的企业。",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

@@ -119,10 +119,10 @@
             "Title": "Venio Systems",
             "Description": "Venio は、市場で最高の統合型 eDiscovery プラットフォームです。<span class='underline'>OPTiMO</span> は、eDiscovery プロセスを合理化し、コストを削減し、予測可能な価格モデル。",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "Sajha Investment",
             "Description": "Sajha Real Estate Investment Company Pvt。株式会社は、不動産ビジネスを体系的で信頼性が高く、誰もがアクセスできるようにするために設立されました。若くてエネルギッシュなビジネスパーソナリティによって形成された会社です。",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "Allpasal",
             "Description": "アルパサールは、制作会社から制作された商品を管理し、市場に流通させるという明確な目的を持つ組織です。 Allpasal は、最も簡単で、最も安価で、最も便利な方法で商品を顧客に配布することを目指しています。ネパールの豊富な資源と繁栄する市場にもかかわらず、ネパール市場の 80% は外国企業とそのさまざまな製品によって支配されています。",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "Omlot Express",
             "Description": "Omlot Express は、企業や個人が輸送、倉庫保管、在庫管理、配送などのサプライ チェーン業務を管理するのに役立つソフトウェア アプリケーションです。このアプリは、物流会社、メーカー、小売業者、および卸売業者が業務を合理化し、効率を向上させるために使用できます。",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "BRIKSHYA PRODUCTION",
             "Description": "Brikshya プロダクション チームは、パフォーミング アーツ、ニュー メディア アート、映画、テレビ、ラジオ、コミック、インタラクティブ アート、ビデオ ゲーム、ウェブサイト、ビデオの分野の作品に物理的な基盤を提供するビジネスです。",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

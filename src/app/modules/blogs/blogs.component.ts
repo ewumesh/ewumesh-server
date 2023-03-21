@@ -83,7 +83,7 @@ export class BlogsComponent implements OnInit {
         },
         {
           property: 'og:image',
-          content: 'https://ewumesh.com/assets/images/blogs.png',
+          content: 'https://ewumesh.com/assets/images/blogs.webp',
         },
   
         {
@@ -105,7 +105,7 @@ export class BlogsComponent implements OnInit {
         },
         {
           property: 'twitter:image',
-          content: 'https://ewumesh.com/assets/images/blogs.png',
+          content: 'https://ewumesh.com/assets/images/blogs.webp',
         },
         {
           property: 'twitter:url',

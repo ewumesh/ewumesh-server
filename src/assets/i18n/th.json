@@ -119,10 +119,10 @@
             "Title": "เวนิโอซิสเต็มส์",
             "Description": "Venio เป็นแพลตฟอร์ม eDiscovery ที่ผสานรวมที่ดีที่สุดในตลาด และ <span class='underline'>OPTiMO</span> นำเสนอเทคโนโลยีที่ดีที่สุดในสายพันธุ์เป็นบริการที่มีการจัดการเพื่อปรับปรุงกระบวนการ eDiscovery ลดค่าใช้จ่าย และจัดเตรียมสิ่งที่คาดการณ์ได้ รูปแบบการกำหนดราคา",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "สัจจะการลงทุน",
             "Description": "ก่อตั้งขึ้นเพื่อทำให้ธุรกิจอสังหาริมทรัพย์เป็นระบบ น่าเชื่อถือ และเข้าถึงได้สำหรับทุกคน เป็นบริษัทที่ก่อตั้งโดยนักธุรกิจรุ่นใหม่ไฟแรง",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "ออลปาซัล",
             "Description": "เป็นองค์กรที่มีวัตถุประสงค์ชัดเจนในการจัดการและกระจายสินค้าที่ผลิตจากบริษัทผู้ผลิตไปสู่ตลาด Allpasal มีเป้าหมายในการกระจายสินค้าด้วยวิธีที่ง่าย ถูกที่สุด และสะดวกที่สุดให้กับลูกค้า แม้ว่าเนปาลจะมีทรัพยากรที่อุดมสมบูรณ์และตลาดที่เฟื่องฟู แต่ 80% ของตลาดเนปาลของเราถูกควบคุมโดยบริษัทต่างชาติและผลิตภัณฑ์ต่างๆ ของพวกเขา",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "ออมลอต เอ็กซ์เพรส",
             "Description": "เป็นแอปพลิเคชันซอฟต์แวร์ที่ช่วยให้ธุรกิจและบุคคลจัดการการดำเนินงานของห่วงโซ่อุปทาน รวมถึงการขนส่ง คลังสินค้า การจัดการสินค้าคงคลัง และการจัดส่ง บริษัทโลจิสติกส์ ผู้ผลิต ผู้ค้าปลีก และผู้ค้าส่งสามารถใช้แอปนี้เพื่อปรับปรุงการดำเนินงานและปรับปรุงประสิทธิภาพ",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "บริคชยา โปรดักชั่น",
             "Description": "ทีมคือธุรกิจที่ให้บริการพื้นฐานทางกายภาพสำหรับผลงานในด้านศิลปะการแสดง ศิลปะสื่อใหม่ ภาพยนตร์ โทรทัศน์ วิทยุ การ์ตูน ศิลปะเชิงโต้ตอบ วิดีโอเกม เว็บไซต์ และวิดีโอ",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

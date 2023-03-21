@@ -116,10 +116,10 @@
             "Title": "Venio Systems",
             "Description": "Venio es la mejor plataforma integrada de eDiscovery del mercado y ofrece la mejor tecnología en su clase como un servicio administrado para agilizar el proceso de eDiscovery, reducir los costos y proporcionar un modelo de precios predecible.",
             "imgs": [
-              "assets/images/venio/v1.png",
-              "assets/images/venio/v3.png",
-              "assets/images/venio/v2.png",
-              "assets/images/venio/v4.png"
+              "assets/images/venio/v1.webp",
+              "assets/images/venio/v3.webp",
+              "assets/images/venio/v2.webp",
+              "assets/images/venio/v4.webp"
           ],
           "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -127,11 +127,11 @@
             "Title": "Sajha Investment",
             "Description": "Sajha Real Estate Investment Company Pvt. Ltd. se estableció para hacer que el negocio inmobiliario sea sistemático, confiable y accesible para todos. Es una empresa formada por personalidades empresariales jóvenes y enérgicas.",
             "imgs": [
-              "assets/images/sajha/s1.png",
-              "assets/images/sajha/s2.png",
-              "assets/images/sajha/s3.png",
-              "assets/images/sajha/s4.png",
-              "assets/images/sajha/s5.png"
+              "assets/images/sajha/s1.webp",
+              "assets/images/sajha/s2.webp",
+              "assets/images/sajha/s3.webp",
+              "assets/images/sajha/s4.webp",
+              "assets/images/sajha/s5.webp"
           ],
           "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -139,11 +139,11 @@
             "Title": "Allpasal",
             "Description": "Allpasal es una organización con un claro objetivo de gestionar y distribuir los bienes producidos desde la productora a los mercados. Allpasal, tiene como objetivo distribuir mercancías de la manera más fácil, económica y conveniente para los clientes. A pesar de los ricos recursos y los florecientes mercados de Nepal, el 80% de nuestros mercados nepalíes están controlados por empresas extranjeras y sus diversos productos.",
             "imgs": [
-              "assets/images/allpasal/a1.png",
-              "assets/images/allpasal/a2.png",
-              "assets/images/allpasal/a3.png",
-              "assets/images/allpasal/a4.png",
-              "assets/images/allpasal/a5.png"
+              "assets/images/allpasal/a1.webp",
+              "assets/images/allpasal/a2.webp",
+              "assets/images/allpasal/a3.webp",
+              "assets/images/allpasal/a4.webp",
+              "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -151,22 +151,22 @@
             "Title": "Omlot Express",
             "Description": "Omlot Express es una aplicación de software que ayuda a empresas e individuos a administrar las operaciones de su cadena de suministro, incluido el transporte, el almacenamiento, la gestión de inventario y la entrega. La aplicación puede ser utilizada por empresas de logística, fabricantes, minoristas y mayoristas para optimizar sus operaciones y mejorar la eficiencia.",
             "imgs": [
-              "assets/images/omlot/o1.png",
-            "assets/images/omlot/o2.png",
-            "assets/images/omlot/o3.png",
-            "assets/images/omlot/o5.png",
-            "assets/images/omlot/o6.png"],
+              "assets/images/omlot/o1.webp",
+            "assets/images/omlot/o2.webp",
+            "assets/images/omlot/o3.webp",
+            "assets/images/omlot/o5.webp",
+            "assets/images/omlot/o6.webp"],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
         {
             "Title": "BRIKSHYA PRODUCTION",
             "Description": "El equipo de producción de Brikshya es una empresa que proporciona la base física para trabajos en los campos de las artes escénicas, el arte de los nuevos medios, el cine, la televisión, la radio, los cómics, las artes interactivas, los videojuegos, los sitios web y los videos.",
             "imgs": [
-              "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+              "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }

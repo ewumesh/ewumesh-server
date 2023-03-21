@@ -119,10 +119,10 @@
             "Title": "Венио Системы",
             "Description": "Venio — это лучшая интегрированная платформа для обнаружения электронных данных на рынке, а OPTiMO предлагает эту лучшую в своем классе технологию в качестве управляемой услуги для оптимизации процесса обнаружения электронных данных, снижения затрат и обеспечения предсказуемой модели ценообразования.",
             "imgs": [
-                "assets/images/venio/v1.png",
-                "assets/images/venio/v3.png",
-                "assets/images/venio/v2.png",
-                "assets/images/venio/v4.png"
+                "assets/images/venio/v1.webp",
+                "assets/images/venio/v3.webp",
+                "assets/images/venio/v2.webp",
+                "assets/images/venio/v4.webp"
             ],
             "Technologies": [".NET", "Angular", "SASS", "Angular Material", "RxJS", "eDiscovery"]
         },
@@ -130,11 +130,11 @@
             "Title": "Саджа Инвестмент",
             "Description": "Он был создан, чтобы сделать бизнес с недвижимостью системным, надежным и доступным для всех. Это компания, созданная молодыми и энергичными бизнесменами.",
             "imgs": [
-                "assets/images/sajha/s1.png",
-                "assets/images/sajha/s2.png",
-                "assets/images/sajha/s3.png",
-                "assets/images/sajha/s4.png",
-                "assets/images/sajha/s5.png"
+                "assets/images/sajha/s1.webp",
+                "assets/images/sajha/s2.webp",
+                "assets/images/sajha/s3.webp",
+                "assets/images/sajha/s4.webp",
+                "assets/images/sajha/s5.webp"
             ],
             "Technologies": ["Java", "Angular", "SASS", "Angular Material", "RxJS"]
         },
@@ -142,11 +142,11 @@
             "Title": "Алпасаль",
             "Description": "Это организация с четкой целью управлять и распространять товары, произведенные производственной компанией, на рынки. Allpasal стремится распространять товары самыми простыми, дешевыми и удобными для клиентов способами. Несмотря на богатые ресурсы Непала и процветающие рынки, 80% наших непальских рынков контролируются иностранными компаниями и их различной продукцией.",
             "imgs": [
-                "assets/images/allpasal/a1.png",
-                "assets/images/allpasal/a2.png",
-                "assets/images/allpasal/a3.png",
-                "assets/images/allpasal/a4.png",
-                "assets/images/allpasal/a5.png"
+                "assets/images/allpasal/a1.webp",
+                "assets/images/allpasal/a2.webp",
+                "assets/images/allpasal/a3.webp",
+                "assets/images/allpasal/a4.webp",
+                "assets/images/allpasal/a5.webp"
             ],
             "Technologies": ["Laravel", "Vuejs", "SASS", "Bootstrap", "RxJS", "MYSQL"]
         },
@@ -154,11 +154,11 @@
             "Title": "Омлот Экспресс",
             "Description": "Это программное приложение, которое помогает предприятиям и частным лицам управлять операциями в цепочке поставок, включая транспортировку, складирование, управление запасами и доставку. Приложение может использоваться логистическими компаниями, производителями, розничными и оптовыми торговцами для оптимизации своих операций и повышения эффективности.",
             "imgs": [
-                "assets/images/omlot/o1.png",
-                "assets/images/omlot/o2.png",
-                "assets/images/omlot/o3.png",
-                "assets/images/omlot/o5.png",
-                "assets/images/omlot/o6.png"
+                "assets/images/omlot/o1.webp",
+                "assets/images/omlot/o2.webp",
+                "assets/images/omlot/o3.webp",
+                "assets/images/omlot/o5.webp",
+                "assets/images/omlot/o6.webp"
             ],
             "Technologies": ["Vuejs", "CSS GRID", "SASS", "Laravel", "Nuxtjs"]
         },
@@ -166,11 +166,11 @@
             "Title": "Брикшья Продакшн",
             "Description": "Команда Brikshya Production — это бизнес, который обеспечивает физическую основу для работ в области исполнительского искусства, новых медиа, кино, телевидения, радио, комиксов, интерактивного искусства, видеоигр, веб-сайтов и видео.",
             "imgs": [
-                "assets/images/brikshya/b1.png",
-                "assets/images/brikshya/b2.png",
-                "assets/images/brikshya/b3.png",
-                "assets/images/brikshya/b4.png",
-                "assets/images/brikshya/b5.png"
+                "assets/images/brikshya/b1.webp",
+                "assets/images/brikshya/b2.webp",
+                "assets/images/brikshya/b3.webp",
+                "assets/images/brikshya/b4.webp",
+                "assets/images/brikshya/b5.webp"
             ],
             "Technologies": ["Angular", "CSS3", "SASS", "HTML", "Animations", "Bootstrap"]
         }
