@@ -1,54 +1,154 @@
-html, body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: sans-serif;
-    background-color: #E7FFFF;
-  }
-  
-  h1, a{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
-  
-  .section{
-    padding: 4rem 2rem;
-  }
-  
-  .section .error{
-    font-size: 150px;
-    color: #008B62;
-    text-shadow: 
-      1px 1px 1px #00593E,    
-      2px 2px 1px #00593E,
-      3px 3px 1px #00593E,
-      4px 4px 1px #00593E,
-      5px 5px 1px #00593E,
-      6px 6px 1px #00593E,
-      7px 7px 1px #00593E,
-      8px 8px 1px #00593E,
-      25px 25px 8px rgba(0,0,0, 0.2);
-  }
-  
-  .page{
-    margin: 2rem 0;
-    font-size: 20px;
-    font-weight: 600;
-    color: #444;
-  }
-  
-  .back-home{
-    display: inline-block;
-    border: 2px solid #222;
-    color: #222;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 0.75rem 1rem 0.6rem;
-    transition: all 0.2s linear;
-    box-shadow: 0 3px 8px rgba(0,0,0, 0.3);
-  }
-  .back-home:hover{
-    background: #222;
-    color: #ddd;
-  }
+$gb: #F2EEE8;
+$wh: #FFFFFF;
+$dark: #383A41;
+$red: #EB6D6D;
+$blue: #5E7FDC;
+
+$break: 400px;
+
+.face {
+	width: 300px;
+	height: 300px;
+	border: 4px solid $dark;
+	border-radius: 10px;
+	background-color: $wh;
+	margin: 0 auto;
+	margin-top: 100px;
+	
+	@media screen and (max-width: $break) {
+		margin-top: 40px;
+    	transform: scale(.8);
+  	}
+	
+	.band {
+		width: 350px;
+		height: 27px;
+		border: 4px solid $dark;
+		border-radius: 5px;
+		margin-left: -25px;
+		margin-top: 50px;
+		
+		.red {
+			height: calc(100% / 3);
+			width: 100%;
+			background-color: $red;
+		}
+		
+		.white {
+			height: calc(100% / 3);
+			width: 100%;
+			background-color: $wh;
+		}
+		
+		.blue {
+			height: calc(100% / 3);
+			width: 100%;
+			background-color: $blue;
+		}
+		
+		&:before {
+			content: "";
+			display: inline-block;
+			height: 27px;
+			width: 30px;
+			background-color: rgba($wh,0.3);
+			position: absolute;	
+			z-index: 999;
+		}
+		
+		&:after {
+			content: "";
+			display: inline-block;
+			height: 27px;
+			width: 30px;
+			background-color: rgba($dark,0.3);
+			position: absolute;	
+			z-index: 999;
+			right: 0;
+			margin-top: -27px;
+		}
+	}
+	
+	.eyes {
+		width: 128px;
+		margin: 0 auto;
+		margin-top: 40px;
+		
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 30px;
+			height: 15px;
+			border: 7px solid $dark;
+			margin-right: 20px; 
+			border-top-left-radius: 22px;
+    		border-top-right-radius: 22px;
+			border-bottom: 0;
+		}
+		
+		&:after {
+			content: "";
+			display: inline-block;
+			width: 30px;
+			height: 15px;
+			border: 7px solid $dark;
+			margin-left: 20px;
+			border-top-left-radius: 22px;
+    		border-top-right-radius: 22px;
+			border-bottom: 0;
+		}
+	}
+	
+	.dimples {
+		width: 180px;
+		margin: 0 auto;
+		margin-top: 15px;
+		
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin-right: 80px; 
+			border-radius: 50%;
+			background-color: rgba($red,0.4);
+		}
+		
+		&:after {
+			content: "";
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin-left: 80px;
+			border-radius: 50%;
+			background-color: rgba($red,0.4);
+		}
+	}
+	
+	.mouth {
+		width: 40px;
+		height: 5px;
+		border-radius: 5px;
+		background-color: $dark;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+}
+
+h1 {
+	font-weight: 800;
+	color: $dark;
+	text-align: center;
+	font-size: 2.5em;
+	padding-top: 20px;
+	
+	@media screen and (max-width: $break) {
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 2em;
+  	}
+}
+
+.go-home {
+  margin: 120px 0;
+}
