@@ -6,10 +6,10 @@
           <h3>
             <span class='n-section-title'>03.</span>{{"AI.Title"| translate}}
           </h3>
-          <p [innerHTML]="AI.Sub"></p>
+          <p>{{"AI.Sub" | translate}}</p>
         </div>
-        <button style="margin-right:10px" class="main-btn" (click)="webcam_init()">{{"AI.StartWebcam"}}</button>
-        <button class="main-btn" (click)="stopWebcam()">{{"AI.StopWebcam"}}</button>
+        <button style="margin-right:10px" class="main-btn" (click)="webcam_init()">{{"AI.StartWebcam" | translate}}</button>
+        <button class="main-btn" (click)="stopWebcam()">{{"AI.StopWebcam" | translate}}</button>
 
         <div class="text-center">
           <div id="load" *ngIf="loading">
