@@ -1,10 +1,9 @@
 import { Component, Inject } from '@angular/core';
 import * as AOS from 'aos';
 import { Title, Meta } from '@angular/platform-browser';
-import { LanguageService } from './services/language/language.service';
 
-import { PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser, isPlatformServer } from '@angular/common';
+/* Import the custom Service */
+import { LanguageService } from 'src/app/services/language/language.service'
 
 @Component({
   selector: 'app-root',
@@ -14,33 +13,35 @@ import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 export class AppComponent {
   title = 'Ewumesh';
 
-  isClient:boolean = false;
-
   constructor(
+    /* Inject the Title set title for the page */
     private titleService: Title,
+    /* Inject the Meta set/update meta details for the page */
     private meta: Meta,
-    private languageService: LanguageService,
-    @Inject(PLATFORM_ID) private platformId: Object
-  ) {}
+    /* Inject the custom service for initialization of language */
+    private languageService: LanguageService
+  ) { }
 
   ngOnInit(): void {
-    if (isPlatformBrowser(this.platformId)) {
-      // Client only code.
-      this.isClient = true;
-      
-   }
+    /* 
+    Retrieve the selected language if selected otherwise select the default language
+    */
     let currentLang = localStorage.getItem('lang');
     if (currentLang) {
       this.languageService.changeLanguage(currentLang.toString());
     } else {
       this.languageService.initLanguage();
     }
+    /* Call the function for set meta details*/
     this.setMetaTag();
+
+    /* Initialize the AOS */
     AOS.init();
 
   }
 
-  private setMetaTag() { 
+  /* Set the meta details for the page*/
+  private setMetaTag() {
     this.titleService.setTitle("Ewumesh | Discover and Explore Yourself!");
     this.meta.addTag({ name: 'description', content: 'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others.' });
     this.meta.addTag({ name: 'author', content: 'Umesh Thapa' });
@@ -102,6 +103,4 @@ export class AppComponent {
       },
     ]);
   }
-
-
 }
