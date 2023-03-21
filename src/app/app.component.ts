@@ -48,7 +48,7 @@ export class AppComponent {
     this.meta.addTags([
       {
         property: 'og:title',
-        content: "Ewumesh | Discover Yourself!",
+        content: "Ewumesh | Discover and Explore Yourself!",
       },
       {
         property: 'og:url',
@@ -83,7 +83,7 @@ export class AppComponent {
       },
       {
         property: 'twitter:title',
-        content: `${'Ewumesh | Discover Yourself!'}`,
+        content: `${'Ewumesh | Discover and Explore Yourself!'}`,
       },
       {
         property: 'twitter:description',
