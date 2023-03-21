@@ -22,6 +22,7 @@ import { environment } from '../environments/environment';
 import { GeneralModule } from './modules/general/general.module';
 import { HomeModule } from './modules/home/home.module';
 import { GoogleAnalyticsGTagComponent } from './google-analytics';
+import { NotFoundComponent } from './shared/404/404.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -58,7 +59,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   declarations: [
     AppComponent,
-    GoogleAnalyticsGTagComponent
+    GoogleAnalyticsGTagComponent,
+    NotFoundComponent
   ],
   bootstrap: [ AppComponent ]
 })

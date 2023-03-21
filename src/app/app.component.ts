@@ -41,7 +41,7 @@ export class AppComponent {
   }
 
   private setMetaTag() { 
-    this.titleService.setTitle("Ewumesh | Discover Yourself!");
+    this.titleService.setTitle("Ewumesh | Discover and Explore Yourself!");
     this.meta.addTag({ name: 'description', content: 'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others. It is typically designed and developed to reflect the unique style, personality, and interests of the website owner.' });
     this.meta.addTag({ name: 'author', content: 'Umesh Thapa' });
     this.meta.addTags([
