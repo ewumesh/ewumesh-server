@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment';
   template: '',
 })
 export class GoogleAnalyticsGTagComponent {
+  /** Set the google track ID from environment file */
   trackingCode = environment.trackAnalyticID;
 
   constructor(
@@ -14,7 +15,9 @@ export class GoogleAnalyticsGTagComponent {
     private readonly renderer: Renderer2,
     private readonly el: ElementRef,
   ) {
-    // BROWSER
+    /** check the application status(Server OR Client).
+     * If App run in Client then add the google tracking ID.
+     */
     if (isPlatformBrowser(this.platformId)) {
       const script = this.renderer.createElement('script') as HTMLScriptElement;
       script.src = `//www.googletagmanager.com/gtag/js?id=${this.trackingCode}`;
