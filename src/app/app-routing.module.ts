@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'games/maze', loadChildren: () => import('./modules/games/games.module').then(m => m.GamesModule) },
   { path: 'ai/object-detection', loadChildren: () => import('./modules/objection-detection/object-detection.module').then(m => m.ObjectDetectionModule) },
 
-  { path: '**', pathMatch: 'full', redirectTo: '/home' },
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: '404', component: NotFoundComponent },
   { path: '**', redirectTo: '/404' }
 ];
