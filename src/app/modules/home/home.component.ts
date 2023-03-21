@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
       },
       {
         property: 'og:image',
-        content: 'https://ewumesh.com/assets/images/profile.JPG',
+        content: 'https://ewumesh.com/assets/images/profile.webp',
       },
 
       {
@@ -70,7 +70,7 @@ export class HomeComponent implements OnInit {
       },
       {
         property: 'twitter:image',
-        content: 'https://ewumesh.com/assets/images/profile.JPG',
+        content: 'https://ewumesh.com/assets/images/profile.webp',
       },
       {
         property: 'twitter:url',
