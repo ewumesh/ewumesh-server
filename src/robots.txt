@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ewumesh.com/sitemap.xml
