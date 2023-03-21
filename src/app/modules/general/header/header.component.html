@@ -5,65 +5,65 @@
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='goHome()'>
-                <a ngbNavLink><span class='nav-number'>01. </span> <span class="underline nav-text"> {{"Header.Home" |
+                <a title="Home" ngbNavLink><span class='nav-number'>01. </span> <span class="underline nav-text"> {{"Header.Home" |
                         translate}}</span></a>
                 <ng-template ngbNavContent>Home</ng-template>
             </li>
             <li ngbNavItem (click)='gotoBlogsPage()'>
-                <a ngbNavLink><span class='nav-number'>02. </span> <span class="underline nav-text"> {{"Header.Blogs" |
+                <a title="Blogs" ngbNavLink><span class='nav-number'>02. </span> <span class="underline nav-text"> {{"Header.Blogs" |
                         translate}}</span></a>
                 <ng-template ngbNavContent>Blog content</ng-template>
             </li>
 
             <li ngbNavItem (click)='gotoAI()'>
-                <a ngbNavLink><span class='nav-number'>03. </span> <span class="underline nav-text"> {{"Header.AI" |
+                <a title="Artificial Intelligence" ngbNavLink><span class='nav-number'>03. </span> <span class="underline nav-text"> {{"Header.AI" |
                         translate}}</span></a>
                 <ng-template ngbNavContent>Artificial Intelligence</ng-template>
             </li>
             <li ngbNavItem>
-                <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
+                <a title="Download CV" (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                     {{"Header.cvBtn" | translate}}
                 </a>
             </li>
             <li>
                 <div ngbDropdown class="d-inline-block">
                     <div class="language-container" id="dropdownForm1" ngbDropdownToggle>
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' width="20px"
+                        <img title="Thai Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_th-flag.gif" alt="Thailand">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' class="flag-text">Thai</span>
+                        <span title="Thai Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "th"' class="flag-text">Thai</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "kr"' width="20px"
+                        <img title="Korean Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "kr"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_ks-flag.gif" alt="Korea">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "kr"' class="flag-text">Korean</span>
+                        <span title="Korean Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "kr"' class="flag-text">Korean</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "fr"' width="20px"
+                        <img title="French Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "fr"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_fr-flag.gif" alt="French">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "fr"' class="flag-text">French</span>
+                        <span title="French Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "fr"' class="flag-text">French</span>
                         
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ru"' width="20px"
+                        <img title="Russian Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ru"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_fr-flag.gif" alt="Russian">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ru"' class="flag-text">Russian</span>
+                        <span title="Russian Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ru"' class="flag-text">Russian</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "en"' width="20px"
+                        <img title="English Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "en"' width="20px"
                             src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "en"' class="flag-text">English</span>
+                        <span title="English Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "en"' class="flag-text">English</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "es"' width="20px"
+                        <img title="Español Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "es"' width="20px"
                             src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "es"' class="flag-text">Español</span>
+                        <span title="Español Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "es"' class="flag-text">Español</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "jp"' width="20px"
+                        <img title="日本 Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "jp"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_ja-flag.gif" alt="日本">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "jp"' class="flag-text">日本</span>
+                        <span title="日本 Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "jp"' class="flag-text">日本</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ch"' width="20px"
+                        <img title="中国人 Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ch"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_ch-flag.gif" alt="中国人">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ch"' class="flag-text">中国人</span>
+                        <span title="中国人 Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ch"' class="flag-text">中国人</span>
 
-                        <img (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ar"' width="20px"
+                        <img title="عربي Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ar"' width="20px"
                             src="https://www.worldometers.info/img/flags/small/tn_sa-flag.gif"
                             alt="عربي">
-                        <span (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ar"' class="flag-text">عربي</span>
+                        <span title="عربي Language Selected" (click)="clickOnLanguage()" *ngIf='languageFormControl.value == "ar"' class="flag-text">عربي</span>
 
 
                         <svg (click)="clickOnLanguage()" class='arrow-language' xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -116,6 +116,7 @@
                                     d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                             </svg>
                         </div>
+
                         <div (click)='changeLanguage("ar")'
                             style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                             class="language-container language-container-selector active"
@@ -130,6 +131,7 @@
                                     d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                             </svg>
                         </div>
+
                         <div (click)='changeLanguage("ch")'
                             style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                             class="language-container language-container-selector active"
@@ -143,6 +145,7 @@
                                     d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                             </svg>
                         </div>
+
                         <div (click)='changeLanguage("jp")'
                             style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                             class="language-container language-container-selector active"
@@ -156,6 +159,7 @@
                                     d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                             </svg>
                         </div>
+
                         <div (click)='changeLanguage("es")'
                             style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                             class="language-container language-container-selector active"
@@ -168,6 +172,7 @@
                                     d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
                             </svg>
                         </div>
+
                         <div (click)='changeLanguage("en")'
                             style="margin-top: 1px !important; border-top-left-radius: 0px !important; border-top-right-radius: 0px !important;"
                             class="language-container language-container-selector"
