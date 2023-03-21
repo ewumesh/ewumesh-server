@@ -32,13 +32,13 @@
 
                             <div class="row w-100 text-left m-0 p-0">
                                 <div class="col-6 p-0">
-                                    <a (click)='analyticsService.sendAnalyticEvent("click_medium", "blogs", "medium")'
+                                    <a rel='canonical' (click)='analyticsService.sendAnalyticEvent("click_medium", "blogs", "medium")'
                                         href="https://medium.com/@ewumesh" target='_blank'>
                                         <i class="fab fa-medium"></i>
                                     </a>
                                 </div>
                                 <div class="col-6 d-flex p-0 justify-content-end">
-                                    <a [href]="blog.link" class="color-inherit"
+                                    <a rel='canonical' [href]="blog.link" class="color-inherit"
                                         (click)='analyticsService.sendAnalyticEvent("click_medium_link", "blogs", "click")'
                                          target="_blank"><i id="demoLink"
                                             class="ml-3 fas fa-link"></i></a>

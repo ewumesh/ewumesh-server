@@ -211,7 +211,7 @@
                 <nav>
                     <ol>
                         <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
-                            <a href="/home">
+                            <a rel='canonical' href="/home">
                                 <span>01. </span> {{"Header.Home" | translate}}
                             </a>
                         </li>

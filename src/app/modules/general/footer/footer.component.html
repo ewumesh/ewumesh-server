@@ -2,57 +2,57 @@
     <div [@animateFooter]>
         <ul class="footer-left-bar d-none d-md-block">
             <li>
-                <a title="Medium" (click)='analyticsService.sendAnalyticEvent("click_medium", "footer", "medium")'
+                <a rel='canonical' title="Medium" (click)='analyticsService.sendAnalyticEvent("click_medium", "footer", "medium")'
                     href="https://medium.com/@ewumesh" target='_blank'>
                     <i class="fab fa-medium"></i>
                 </a>
             </li>
             <li>
-                <a title="Instagram"
+                <a rel='canonical' title="Instagram"
                     (click)='analyticsService.sendAnalyticEvent("click_instagram", "footer", "instagram")'
                     href="https://instagram.com/ewumesh" target='_blank'>
                     <i class="fab fa-instagram"></i>
                 </a>
             </li>
             <li>
-                <a title="Facebook" (click)='analyticsService.sendAnalyticEvent("click_facebook", "footer", "facebook")'
+                <a rel='canonical' title="Facebook" (click)='analyticsService.sendAnalyticEvent("click_facebook", "footer", "facebook")'
                     href="https://facebook.com/ewumesh" target='_blank'>
                     <i class="fab fa-facebook"></i>
                 </a>
             </li>
             <li>
-                <a title="Twitter" (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")'
+                <a rel='canonical' title="Twitter" (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")'
                     href="https://twitter.com/ewumesh" target='_blank'>
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
             <li>
-                <a title="GitLab" (click)='analyticsService.sendAnalyticEvent("click_gitlab", "footer", "gitlab")'
+                <a rel='canonical' title="GitLab" (click)='analyticsService.sendAnalyticEvent("click_gitlab", "footer", "gitlab")'
                     href="https://gitlab.com/umesh122" target='_blank'>
                     <i class="fab fa-gitlab"></i>
                 </a>
             </li>
             <li>
-                <a title="Github" (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
+                <a rel='canonical' title="Github" (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")'
                     href="https://github.com/umeshthapa12/" target='_blank'>
                     <i class="fab fa-github"></i>
                 </a>
             </li>
             <li>
-                <a title="Linkedin" (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
+                <a rel='canonical' title="Linkedin" (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")'
                     href="https://www.linkedin.com/in/ewumesh/" target='_blank'>
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </li>
         </ul>
         <div class="footer-right-bar d-none d-md-block">
-            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")'
+            <a rel='canonical' (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")'
                 href="mailto:ewumesh@gmail.com" target='_blank'>ewumesh@gmail.com </a>
         </div>
     </div>
 
     <div class="footer-credits text-center">
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_ewumesh", "footer", "click")'
+        <a rel='canonical' (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_ewumesh", "footer", "click")'
             href="https://github.com/ewumesh" target="_blank" rel="nofollow noopener noreferrer">
             <div>{{"Footer.Content" | translate}}</div>
         </a>
@@ -61,14 +61,14 @@
                 *ngFor='let l of "Footer.Shortcuts" | translate; let i = index'>
                 <a *ngIf="l.ID === 7" (click)='downloadCV()' class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID !== 7 && l.ID !== 5 && l.ID !== 2 && l.ID !== 3 && l.ID !== 4 && l.ID !==9 && l.ID !==10 && l.ID !==11"
-                    [href]="l.link" class="underline">{{l.Name}}</a>
+                    [href]="l.link" rel='canonical' class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID === 5" (click)="scroll('jobs')" class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID === 2" (click)="scroll('about')" class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID === 3" (click)="scroll('proyects')" class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID === 4" (click)="scroll('contact')" class="underline">{{l.Name}}</a>
-                <a *ngIf="l.ID === 9" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
-                <a *ngIf="l.ID === 10" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
-                <a *ngIf="l.ID === 11" target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 9" rel='canonical' target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 10" rel='canonical' target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
+                <a *ngIf="l.ID === 11" rel='canonical' target="_blank" [href]="l.link" class="underline">{{l.Name}}</a>
 
             </li>
         </ul>
