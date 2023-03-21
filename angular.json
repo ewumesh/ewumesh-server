@@ -32,7 +32,9 @@
                 "output": "/"
               },
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/sitemap.xml",
+              "src/robots.txt"
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.css",

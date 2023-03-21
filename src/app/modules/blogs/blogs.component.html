@@ -26,7 +26,7 @@
                             (click)='analyticsService.sendAnalyticEvent("click_medium_box", "blogs", "click")'>
                             <div class="row">
                                 <div class="col-12">
-                                    <img style="max-width:100%" [src]="blog.thumbnail" />
+                                    <img [alt]="blog?.title" style="max-width:100%" [src]="blog.thumbnail" />
                                 </div>
                             </div>
 
