@@ -19,7 +19,7 @@
                 </owl-carousel-o>
                 <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
                     <div class="img-feature-proyect-box">
-                        <div class="img-container" style='width: auto;'>
+                        <div class="img-container w-auto"> 
                             <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
                         </div>
                     </div>
@@ -39,8 +39,8 @@
                             </li>
                         </ul>
                         <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
-                            <a *ngIf="project['ghLink']" style='color: inherit' [href]="project['ghLink']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
-                            <a *ngIf="project['demoLink']" style='color: inherit' [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                            <a *ngIf="project['ghLink']" class="color-inherit" [href]="project['ghLink']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a *ngIf="project['demoLink']" class="color-inherit" [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                 </owl-carousel-o>
                 <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">
                     <div class="img-feature-proyect-box">
-                        <div class="img-container" style='width: auto;'>
+                        <div class="img-container w-auto">
                             <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
                         </div>
                     </div>

@@ -56,8 +56,8 @@
             href="https://github.com/ewumesh" target="_blank" rel="nofollow noopener noreferrer">
             <div>{{"Footer.Content" | translate}}</div>
         </a>
-        <ul style="margin-top: 1%;">
-            <li class="cursor-pointer" style="display: inline;margin: 1% 0.6%;"
+        <ul class="mt-1p"> 
+            <li class="cursor-pointer footer-list"
                 *ngFor='let l of "Footer.Shortcuts" | translate; let i = index'>
                 <a *ngIf="l.ID === 7" (click)='downloadCV()' class="underline">{{l.Name}}</a>
                 <a *ngIf="l.ID !== 7 && l.ID !== 5 && l.ID !== 2 && l.ID !== 3 && l.ID !== 4 && l.ID !==9 && l.ID !==10 && l.ID !==11"
@@ -73,8 +73,8 @@
             </li>
         </ul>
 
-        <ul style="margin-top: 1%;">
-            <li class="cursor-pointer" (click)="changeLanguage(l.value)" style="display: inline;margin: 1% 0.6%;"
+        <ul class="mt-1p">
+            <li class="cursor-pointer footer-list" (click)="changeLanguage(l.value)"
                 *ngFor='let l of languages'>
                 <img [src]="l.image" width="20" /> <span class="underline">{{l.name}}</span>
             </li>
