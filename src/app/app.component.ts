@@ -33,7 +33,7 @@ export class AppComponent {
       this.languageService.initLanguage();
     }
     /* Call the function for set meta details*/
-    this.setMetaTag();
+    // this.setMetaTag();
 
     /* Initialize the AOS */
     AOS.init();
