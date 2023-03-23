@@ -12,7 +12,9 @@ export class ShopComponent implements OnInit {
     constructor(
         private meta: Meta,
         private titleService: Title
-    ) {}
+    ) {
+      this.setMetaTag();
+    }
 
 
     ngOnInit() {
