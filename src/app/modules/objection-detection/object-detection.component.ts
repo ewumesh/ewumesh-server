@@ -36,6 +36,8 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
         private meta: Meta
     ) {
         this.setMetaTag();
+
+        console.log(this,meta.getTags, "TAGS....")
     }
 
     ngOnInit() { }
@@ -128,6 +130,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
     }
 
     private setMetaTag() {
+        console.log('Set Meta details...')
         this.titleService.setTitle('Ewumesh | AI | Real Time Object Detection using Tensorflow | Artificial Intelligence');
         this.meta.addTags([
             {
