@@ -145,7 +145,7 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
             },
             {
                 property: 'og:type',
-                content: `website`,
+                content: `article`,
             },
             {
                 property: 'og:site_name',
