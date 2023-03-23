@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
       },
       {
         property: 'og:type',
-        content: `article`,
+        content: `website`,
       },
       {
         property: 'og:site_name',
