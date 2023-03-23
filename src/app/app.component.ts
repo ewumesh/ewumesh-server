@@ -62,7 +62,7 @@ export class AppComponent {
       },
       {
         property: 'og:type',
-        content: `website`,
+        content: `article`,
       },
       {
         property: 'og:site_name',
