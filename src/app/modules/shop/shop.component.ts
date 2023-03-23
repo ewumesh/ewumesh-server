@@ -26,7 +26,7 @@ export class ShopComponent implements OnInit {
       /* Set the meta details for the page*/
   private setMetaTag() {
     this.titleService.setTitle("Shop for Personalized and Handcrafted Products on My Personal Site -Ewumesh");
-    this.meta.addTag({ name: 'description', content: 'Discover a world of unique and personalized products on my personal site shop. From custom gifts to handcrafted jewelry, find something special that speaks to you. Shop now and add a touch of individuality to your life.' });
+    // this.meta.addTag({ name: 'description', content: 'Discover a world of unique and personalized products on my personal site shop. From custom gifts to handcrafted jewelry, find something special that speaks to you. Shop now and add a touch of individuality to your life.' });
     this.meta.addTag({name: 'keywords', content: 'ewumesh, ewumesh.com, buy, sell'})
     this.meta.addTag({ name: 'author', content: 'Umesh Thapa' });
     this.meta.addTags([
