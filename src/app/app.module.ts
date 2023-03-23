@@ -17,6 +17,9 @@ import { GoogleAnalyticsGTagComponent } from 'src/app/google-analytics';
 import { NotFoundComponent } from 'src/app/shared/404/404.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { AppComponent } from 'src/app/app.component';
+import { BlogsModule } from './modules/blogs/blogs.module';
+import { ObjectDetectionModule } from './modules/objection-detection/object-detection.module';
+import { GamesModule } from './modules/games/games.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,6 +32,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     HttpClientModule,
     GeneralModule,
+    HomeModule,
+    BlogsModule,
+    ObjectDetectionModule,
+    GamesModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
