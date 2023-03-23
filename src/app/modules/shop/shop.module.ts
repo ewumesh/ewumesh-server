@@ -7,7 +7,7 @@ import { ShopComponent } from 'src/app/modules/shop/shop.component';
 @NgModule({
     declarations: [ShopComponent],
     imports: [CommonModule],
-    exports: [],
+    exports: [ShopComponent],
     providers:[]
 })
 
