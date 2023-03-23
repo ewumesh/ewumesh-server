@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
   private setMetaTag() {
     this.titleService.setTitle("Ewumesh | Frontend Developer | UI/UX Designer");
     this.metaService.addTag({ name: 'description', content: 'Five years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.' });
+    this.metaService.addTag({name: 'keywords', content: 'ewumesh, umesh, umes, thapa, Ewumesh, Umesh Thapa, portfolio, developer, frontend, UI, Ux, Designer, Nepal, Kathmandu, home, projects'})
     this.metaService.addTags([
       {
         property: 'og:title',
