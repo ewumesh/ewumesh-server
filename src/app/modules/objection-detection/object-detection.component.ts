@@ -127,10 +127,6 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
         });
     }
 
-    ngOnDestroy() {
-        this.stopWebcam();
-    }
-
     private setMetaTag() {
         this.titleService.setTitle('Ewumesh | AI | Real Time Object Detection using Tensorflow | Artificial Intelligence');
         this.meta.addTags([
@@ -190,6 +186,10 @@ export class ObjectDetectionComponent implements OnInit, OnDestroy {
                 content: `${'https://ewumesh.com/ai/object-detection'}`,
             },
         ]);
+    }
+
+    ngOnDestroy() {
+        this.stopWebcam();
     }
 
 }

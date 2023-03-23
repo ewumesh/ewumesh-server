@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
 
   private setMetaTag() {
     this.titleService.setTitle("Ewumesh | Frontend Developer | UI/UX Designer");
+    this.metaService.addTag({ name: 'description', content: 'Five years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.' });
     this.metaService.addTags([
       {
         property: 'og:title',
@@ -36,7 +37,7 @@ export class HomeComponent implements OnInit {
 
       {
         property: 'og:description',
-        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+        content: `${'Five years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
       },
       {
         property: 'og:type',
@@ -66,7 +67,7 @@ export class HomeComponent implements OnInit {
       },
       {
         property: 'twitter:description',
-        content: `${'I have 5 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
+        content: `${'Five years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in Angular/Vuejs/React and sometimes in Nodejs applying good practices and development standards.'+ 'Frontend, software, developer, Nepal, Umesh, Ewumesh, ewumesh, nepali'}`,
       },
       {
         property: 'twitter:image',
