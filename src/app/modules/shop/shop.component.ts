@@ -45,7 +45,7 @@ export class ShopComponent implements OnInit {
       },
       {
         property: 'og:type',
-        content: `website`,
+        content: `article`,
       },
       {
         property: 'og:site_name',
