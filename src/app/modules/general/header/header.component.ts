@@ -109,6 +109,11 @@ export class HeaderComponent implements OnInit {
 
     gotoAI() {
       this.analyticsService.sendAnalyticEvent("click_AI", "menu", "click");
-      this.router.navigate(['/ai/object-detection'])
+      this.router.navigate(['/ai/object-detection']);
+    }
+
+    gotoShop() {
+      this.analyticsService.sendAnalyticEvent("click_Shop", "menu", "click");
+      this.router.navigate(['/shop'])
     }
 }

@@ -18,6 +18,9 @@ const routes: Routes = [
   /** Define AI Route Lazy loading */
   { path: 'ai/object-detection', loadChildren: () => import('src/app/modules/objection-detection/object-detection.module').then(m => m.ObjectDetectionModule) },
 
+  /** Define AI Route Lazy loading */
+  { path: 'shop', loadChildren: () => import('src/app/modules/shop/shop.module').then(m => m.ShopModule) },
+
   /** If route path is empty then it redirect to home */
   { path: '', pathMatch: 'full', redirectTo: '/home' },
 

@@ -20,6 +20,11 @@
                         translate}}</span></a>
                 <ng-template ngbNavContent>Artificial Intelligence</ng-template>
             </li>
+            <li ngbNavItem (click)='gotoShop()'>
+                <a title="Artificial Intelligence" ngbNavLink><span class='nav-number'>04. </span> <span class="underline nav-text"> {{"Header.Shop" |
+                        translate}}</span></a>
+                <ng-template ngbNavContent>Shop</ng-template>
+            </li>
             <li ngbNavItem>
                 <a title="Download CV" (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                     {{"Header.cvBtn" | translate}}
@@ -224,6 +229,12 @@
                         <li>
                             <a (click)='gotoAI()'>
                                 <span>03. </span> {{"Header.AI" | translate}}
+                            </a>
+                        </li>
+
+                        <li>
+                            <a (click)='gotoShop()'>
+                                <span>03. </span> {{"Header.Shop" | translate}}
                             </a>
                         </li>
 
