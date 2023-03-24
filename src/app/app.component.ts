@@ -41,28 +41,27 @@ export class AppComponent {
   }
 
   /* Set the meta details for the page*/
-  private setMetaTag() {
-    this.titleService.setTitle("Ewumesh | Discover and Explore Yourself!");
-    this.meta.addTag({ name: 'description', content: 'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others.' });
-    this.meta.addTag({name: 'keywords', content: 'ewumesh, ewumesh.com'})
+  private setMetaTags() {
+    this.titleService.setTitle("Discover and Explore Yourself with Ewumesh");
+    this.meta.addTag({ name: 'description', content: 'Ewumesh is a digital platform where you can showcase your personal brand, share your thoughts and ideas, and connect with others.' });
+    this.meta.addTag({name: 'keywords', content: 'ewumesh, personal brand, online presence, social network'});
     this.meta.addTag({ name: 'author', content: 'Umesh Thapa' });
     this.meta.addTags([
       {
         property: 'og:title',
-        content: "Ewumesh | Discover and Explore Yourself!",
+        content: "Discover and Explore Yourself with Ewumesh",
       },
       {
         property: 'og:url',
         content: `${'https://ewumesh.com'}`,
       },
-
       {
         property: 'og:description',
-        content: `${'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others.'}`,
+        content: `${'Ewumesh is a digital platform where you can showcase your personal brand, share your thoughts and ideas, and connect with others.'}`,
       },
       {
         property: 'og:type',
-        content: `article`,
+        content: `website`,
       },
       {
         property: 'og:site_name',
@@ -72,23 +71,21 @@ export class AppComponent {
         property: 'og:image',
         content: 'https://ewumesh.com/assets/images/banner.webp',
       },
-
       {
         property: 'twitter:card',
         content: `summary_large_image`,
       },
-
       {
         property: 'twitter:site',
         content: `@ewumesh`,
       },
       {
         property: 'twitter:title',
-        content: `${'Ewumesh | Discover and Explore Yourself!'}`,
+        content: `${'Discover and Explore Yourself with Ewumesh'}`,
       },
       {
         property: 'twitter:description',
-        content: `${'Ewumesh is a digital platform that provides individuals with an online presence where they can showcase their personal brand, share their thoughts and ideas, and connect with others.'}`,
+        content: `${'Ewumesh is a digital platform where you can showcase your personal brand, share your thoughts and ideas, and connect with others.'}`,
       },
       {
         property: 'twitter:image',
@@ -100,7 +97,7 @@ export class AppComponent {
       },
       {
         name: 'twitter:name:alt',
-        content: `${'https://ewumesh.com/'}`,
+        content: `${'Discover and Explore Yourself! - Ewumesh'}`,
       },
     ]);
   }
