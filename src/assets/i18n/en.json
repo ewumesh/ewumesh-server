@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Ewumesh Blogging Site",
             "Description": "Ewumesh is a platform where individuals or organizations can create and publish written content on various topics, usually in the form of articles or blog posts. Blogging sites allow users to express their opinions, share their experiences, and connect with a wide audience.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA Travel and Tours",
             "Description": "IBA Travel and Tours is a web application designed to help people plan, book and organize their travel experiences. It typically includes features such as trip planning tools, travel guides, booking systems for flights, hotels, and activities, as well as user reviews and ratings.",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Lumbini Academic College",
             "Description": "Lumbini Academic College is an online platform for colleges to showcase their academic programs, campus facilities, student life, and resources to potential students, faculty members, and the general public.",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Hand man game",
             "Description": "Hangman is a word-guessing game that can be played by one or more players. The game begins with one player choosing a word and writing a series of dashes on a piece of paper to represent the number of letters in the word. The other player(s) then try to guess the letters in the word, one at a time.",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Tic Tac Toe Game",
             "Description": "Tic-tac-toe, also known as noughts and crosses, is a simple two-player strategy game played on a 3x3 grid. The objective of the game is to get three of your symbols (either X or O) in a row, either horizontally, vertically, or diagonally.",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

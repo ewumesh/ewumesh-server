@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Ewumesh Blogging Site",
             "Description": "Ewumesh 是一个平台，个人或组织可以在其中创建和发布关于各种主题的书面内容，通常以文章或博客文章的形式。博客站点允许用户表达他们的意见、分享他们的经验并与广大受众建立联系。",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA Travel and Tours",
             "Description": "IBA Travel and Tours 是一个网络应用程序，旨在帮助人们计划、预订和组织他们的旅行体验。它通常包括旅行计划工具、旅行指南、航班、酒店和活动预订系统以及用户评论和评级等功能。",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Lumbini Academic College",
             "Description": "Lumbini Academic College 是一个在线平台，供大学向潜在的学生、教职员工和公众展示他们的学术课程、校园设施、学生生活和资源。",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Hand man game",
             "Description": "Hangman 是一种可以由一个或多个玩家玩的猜词游戏。游戏开始时，一个玩家选择一个单词并在一张纸上写下一系列破折号来表示单词中的字母数。然后其他玩家尝试猜测单词中的字母，一次一个。",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Tic Tac Toe Game",
             "Description": "Tic-tac-toe，也称为 noughts 和 crosses，是一种在 3x3 网格上玩的简单的两人策略游戏。游戏的目标是让您的三个符号（X 或 O）水平、垂直或对角连续。",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

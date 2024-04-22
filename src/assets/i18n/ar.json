@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Ewumesh Blogging Site",
             "Description": "Ewumesh عبارة عن منصة حيث يمكن للأفراد أو المنظمات إنشاء ونشر محتوى مكتوب حول مواضيع مختلفة ، عادة في شكل مقالات أو منشورات مدونة. تسمح مواقع التدوين للمستخدمين بالتعبير عن آرائهم ومشاركة تجاربهم والتواصل مع جمهور عريض.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA Travel and Tours",
             "Description": "IBA Travel and Tours هو تطبيق ويب مصمم لمساعدة الأشخاص على تخطيط تجارب سفرهم وحجزها وتنظيمها. يتضمن عادةً ميزات مثل أدوات تخطيط الرحلة ، وأدلة السفر ، وأنظمة الحجز للرحلات الجوية ، والفنادق ، والأنشطة ، بالإضافة إلى تقييمات المستخدمين وتقييماتهم.",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Lumbini Academic College",
             "Description": "Lumbini Academic College هي عبارة عن منصة عبر الإنترنت للكليات لعرض برامجها الأكاديمية ومرافق الحرم الجامعي والحياة الطلابية والموارد للطلاب المحتملين وأعضاء هيئة التدريس وعامة الناس.",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Hand man game",
             "Description": "الجلاد هي لعبة تخمين الكلمات يمكن أن يلعبها لاعب واحد أو أكثر. تبدأ اللعبة باختيار لاعب واحد للكلمة وكتابة سلسلة من الشرطات على قطعة من الورق لتمثيل عدد الأحرف في الكلمة. ثم حاول اللاعب (اللاعبون) الآخر تخمين الأحرف في الكلمة ، واحدًا تلو الآخر.",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Tic Tac Toe Game",
             "Description": "Tic-tac-toe ، المعروفة أيضًا باسم noughts والصلبان ، هي لعبة إستراتيجية بسيطة للاعبين يتم لعبها على شبكة 3x3. الهدف من اللعبة هو الحصول على ثلاثة من رموزك (إما X أو O) على التوالي ، إما أفقيًا أو رأسيًا أو قطريًا.",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

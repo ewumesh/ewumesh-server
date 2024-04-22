@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "블로깅 사이트",
             "Description": "개인이나 조직이 일반적으로 기사나 블로그 게시물의 형태로 다양한 주제에 대한 서면 콘텐츠를 만들고 게시할 수 있는 플랫폼입니다. 블로깅 사이트를 통해 사용자는 자신의 의견을 표현하고 경험을 공유하며 다양한 청중과 연결할 수 있습니다.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA 여행 및 투어",
             "Description": "사람들이 여행 경험을 계획, 예약 및 구성할 수 있도록 설계된 웹 애플리케이션입니다. 여기에는 일반적으로 여행 계획 도구, 여행 가이드, 항공편, 호텔 및 활동 예약 시스템, 사용자 리뷰 및 평가와 같은 기능이 포함됩니다.",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "룸비니 아카데믹 컬리지",
             "Description": "대학이 학업 프로그램, 캠퍼스 시설, 학생 생활 및 리소스를 잠재 학생, 교수진 및 일반 대중에게 선보일 수 있는 온라인 플랫폼입니다.",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "핸드맨 게임",
             "Description": "행맨은 한 명 이상의 플레이어가 할 수 있는 단어 추측 게임입니다. 게임은 한 플레이어가 단어를 선택하고 단어의 문자 수를 나타내는 일련의 대시를 종이에 쓰는 것으로 시작됩니다. 그런 다음 다른 플레이어는 한 번에 하나씩 단어의 문자를 추측하려고 합니다.",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "박하 사탕 발가락 게임",
             "Description": "noughts and crosses라고도 하는 Tic-tac-toe는 3x3 그리드에서 플레이하는 간단한 2인용 전략 게임입니다. 이 게임의 목표는 가로, 세로 또는 대각선으로 세 개의 기호(X 또는 O)를 한 줄에 모으는 것입니다.",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

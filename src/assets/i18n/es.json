@@ -179,14 +179,14 @@
     "OtherProjects.Projects": [{
             "Title": "Ewumesh Blogging Site",
             "Description": "Ewumesh es una plataforma donde individuos u organizaciones pueden crear y publicar contenido escrito sobre varios temas, generalmente en forma de artículos o publicaciones de blog. Los sitios de blogs permiten a los usuarios expresar sus opiniones, compartir sus experiencias y conectarse con una amplia audiencia.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
           "Title": "IBA Travel and Tours",
           "Description": "IBA Travel and Tours es una aplicación web diseñada para ayudar a las personas a planificar, reservar y organizar sus experiencias de viaje. Por lo general, incluye funciones como herramientas de planificación de viajes, guías de viaje, sistemas de reserva de vuelos, hoteles y actividades, así como reseñas y calificaciones de los usuarios.",
-          "ghLink": "https://github.com/umeshthapa12/iba-travel",
+          "ghLink": "https://github.com/ewumesh/iba-travel",
           "demoLink": "https://iba-travel.netlify.app/home",
           "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
       },
@@ -200,21 +200,21 @@
       {
           "Title": "Lumbini Academic College",
           "Description": "Lumbini Academic College es una plataforma en línea para que las universidades muestren sus programas académicos, las instalaciones del campus, la vida estudiantil y los recursos para estudiantes potenciales, profesores y público en general.",
-          "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+          "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
           "demoLink": "https://lumbiniacademiccollege.netlify.app/",
           "Technologies": ["Angular", "CSS GRID", "GIT"]
       },
       {
           "Title": "Hand man game",
           "Description": "Hangman es un juego de adivinanzas de palabras que pueden jugar uno o más jugadores. El juego comienza cuando un jugador elige una palabra y escribe una serie de guiones en una hoja de papel para representar el número de letras de la palabra. Los otros jugadores intentan adivinar las letras de la palabra, una a la vez.",
-          "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-          "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+          "ghLink": "https://github.com/ewumesh/Hang-man-react",
+          "demoLink": "https://github.com/ewumesh/Hang-man-react",
           "Technologies": ["React", "CSS GRID", "HTML"]
       },
       {
           "Title": "Tic Tac Toe Game",
           "Description": "Tic-tac-toe, también conocido como tres en raya, es un simple juego de estrategia para dos jugadores que se juega en una cuadrícula de 3x3. El objetivo del juego es conseguir tres de tus símbolos (ya sea X u O) en una fila, ya sea horizontal, vertical o diagonal.",
-          "ghLink": "https://github.com/umeshthapa12/tictactoe",
+          "ghLink": "https://github.com/ewumesh/tictactoe",
           "demoLink": "https://game-tiktac.netlify.app/",
           "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
       }

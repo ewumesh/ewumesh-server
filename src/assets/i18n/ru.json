@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Сайт блогов Эвумеш",
             "Description": "Ewumesh — это платформа, на которой отдельные лица или организации могут создавать и публиковать письменный контент на различные темы, обычно в виде статей или сообщений в блогах. Сайты блогов позволяют пользователям выражать свое мнение, делиться своим опытом и общаться с широкой аудиторией.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA Travel and Tours",
             "Description": "Это веб-приложение, разработанное, чтобы помочь людям планировать, бронировать и организовывать свои путешествия. Обычно он включает в себя такие функции, как инструменты планирования поездок, путеводители, системы бронирования авиабилетов, отелей и мероприятий, а также отзывы и рейтинги пользователей.",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Академический колледж Лумбини",
             "Description": "Это онлайн-платформа, на которой колледжи могут демонстрировать свои академические программы, объекты кампуса, студенческую жизнь и ресурсы потенциальным студентам, преподавателям и широкой публике.",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Игра «Ручной человек»",
             "Description": "Это игра на угадывание слов, в которую могут играть один или несколько игроков. Игра начинается с того, что один игрок выбирает слово и пишет серию черточек на листе бумаги, чтобы обозначить количество букв в слове. Затем другие игроки пытаются угадать буквы в слове по одной.",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Крестики-нолики",
             "Description": "Также известная как крестики-нолики, это простая стратегическая игра для двух игроков, в которую играют на сетке 3x3. Цель игры состоит в том, чтобы собрать три своих символа (X или O) в ряд по горизонтали, вертикали или диагонали.",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "เว็บไซต์บล็อก Ewumesh",
             "Description": "เป็นแพลตฟอร์มที่บุคคลหรือองค์กรสามารถสร้างและเผยแพร่เนื้อหาที่เป็นลายลักษณ์อักษรในหัวข้อต่างๆ โดยปกติจะอยู่ในรูปของบทความหรือบล็อกโพสต์ ไซต์บล็อกช่วยให้ผู้ใช้สามารถแสดงความคิดเห็น แบ่งปันประสบการณ์ และเชื่อมต่อกับผู้ชมจำนวนมาก",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "ไอบีเอทราเวลแอนด์ทัวร์",
             "Description": "เป็นเว็บแอปพลิเคชันที่ออกแบบมาเพื่อช่วยให้ผู้คนวางแผน จอง และจัดการประสบการณ์การเดินทางของตน โดยทั่วไปจะประกอบด้วยคุณสมบัติต่างๆ เช่น เครื่องมือวางแผนการเดินทาง คู่มือการเดินทาง ระบบจองเที่ยวบิน โรงแรม และกิจกรรม ตลอดจนบทวิจารณ์และการให้คะแนนของผู้ใช้",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "วิทยาลัยอาชีวศึกษาลุมพินี",
             "Description": "วิทยาลัยทุกแห่งมักเป็นแพลตฟอร์มออนไลน์สำหรับวิทยาลัยในการแสดงโปรแกรมวิชาการ สิ่งอำนวยความสะดวกในวิทยาเขต ชีวิตนักศึกษา และทรัพยากรต่างๆ แก่นักศึกษา คณาจารย์ และบุคคลทั่วไป",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "เกมมือคน",
             "Description": "เป็นเกมทายคำศัพท์ที่ผู้เล่นหนึ่งคนหรือหลายคนสามารถเล่นได้ เกมเริ่มต้นด้วยผู้เล่นคนหนึ่งเลือกคำและเขียนชุดขีดบนกระดาษเพื่อแสดงจำนวนตัวอักษรในคำนั้น ผู้เล่นคนอื่นพยายามเดาตัวอักษรในคำนั้นทีละตัว",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "เกม Tic Tac Toe",
             "Description": "Tic-tac-toe หรือที่เรียกว่า nought and crosses เป็นเกมกลยุทธ์ผู้เล่นสองคนที่เล่นบนตาราง 3x3 วัตถุประสงค์ของเกมคือการได้รับสัญลักษณ์ของคุณสามตัว (อาจเป็น X หรือ O) ในแถว แนวนอน แนวตั้ง หรือแนวทแยงมุม",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

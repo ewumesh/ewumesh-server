@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Ewumesh Blogging Site",
             "Description": "Ewumesh は、個人または組織が、通常は記事やブログ投稿の形式で、さまざまなトピックに関するコンテンツを作成および公開できるプラットフォームです。ブログ サイトを使用すると、ユーザーは自分の意見を表明し、経験を共有し、幅広い視聴者とつながることができます。",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "IBA Travel and Tours",
             "Description": "IBA Travel and Tours は、人々が旅行体験を計画、予約、整理できるように設計された Web アプリケーションです。通常、旅行計画ツール、旅行ガイド、フライト、ホテル、アクティビティの予約システム、ユーザー レビューや評価などの機能が含まれます。",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Lumbini Academic College",
             "Description": "ルンビニ アカデミック カレッジは、大学がアカデミック プログラム、キャンパス施設、学生生活、およびリソースを潜在的な学生、教職員、および一般大衆に紹介するためのオンライン プラットフォームです。",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Hand man game",
             "Description": "Hangman は、1 人または複数のプレイヤーがプレイできる単語推測ゲームです。ゲームは、1 人のプレーヤーが単語を選択し、単語の文字数を表す一連のダッシュを紙に書くことから始まります。次に、他のプレーヤーは、単語の文字を 1 つずつ推測しようとします。",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Tic Tac Toe Game",
             "Description": "Tic-tac-toe (三目並べ) は、3x3 グリッドでプレイされるシンプルな 2 人用戦略ゲームです。ゲームの目的は、シンボル (X または O) を横、縦、または斜めに 3 つ並べることです。",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }

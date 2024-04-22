@@ -183,14 +183,14 @@
     "OtherProjects.Projects": [{
             "Title": "Site de blogs Ewumesh",
             "Description": "Ewumesh est une plate-forme où des individus ou des organisations peuvent créer et publier du contenu écrit sur divers sujets, généralement sous la forme d'articles ou de billets de blog. Les sites de blogs permettent aux utilisateurs d'exprimer leurs opinions, de partager leurs expériences et de se connecter avec un large public.",
-            "ghLink": "https://github.com/umeshthapa12/ewumesh",
-            "demoLink": "https://thapaumesh.com.np/",
+            "ghLink": "https://github.com/ewumesh/ewumesh",
+            "demoLink": "https://umesthapa.com.np/",
             "Technologies": ["Angular", "RxJs", "Firebase", "Bootstrap"]
         },
         {
             "Title": "Voyages et circuits IBA",
             "Description": "IBA Travel and Tours est une application Web conçue pour aider les gens à planifier, réserver et organiser leurs expériences de voyage. Il comprend généralement des fonctionnalités telles que des outils de planification de voyage, des guides de voyage, des systèmes de réservation de vols, d'hôtels et d'activités, ainsi que des avis et des évaluations d'utilisateurs.",
-            "ghLink": "https://github.com/umeshthapa12/iba-travel",
+            "ghLink": "https://github.com/ewumesh/iba-travel",
             "demoLink": "https://iba-travel.netlify.app/home",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
@@ -204,21 +204,21 @@
         {
             "Title": "Collège universitaire de Lumbini",
             "Description": "Il s'agit d'une plate-forme en ligne permettant aux collèges de présenter leurs programmes universitaires, les installations du campus, la vie étudiante et les ressources aux étudiants potentiels, aux membres du corps professoral et au grand public.",
-            "ghLink": "https://github.com/umeshthapa12/lumbiniacademiccollege",
+            "ghLink": "https://github.com/ewumesh/lumbiniacademiccollege",
             "demoLink": "https://lumbiniacademiccollege.netlify.app/",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "Jeu de l'homme à la main",
             "Description": "C'est un jeu de devinettes qui peut être joué par un ou plusieurs joueurs. Le jeu commence avec un joueur choisissant un mot et écrivant une série de tirets sur un morceau de papier pour représenter le nombre de lettres dans le mot. Les autres joueurs essaient ensuite de deviner les lettres du mot, une à la fois.",
-            "ghLink": "https://github.com/umeshthapa12/Hang-man-react",
-            "demoLink": "https://github.com/umeshthapa12/Hang-man-react",
+            "ghLink": "https://github.com/ewumesh/Hang-man-react",
+            "demoLink": "https://github.com/ewumesh/Hang-man-react",
             "Technologies": ["React", "CSS GRID", "HTML"]
         },
         {
             "Title": "Jeu de tic tac toe",
             "Description": "Tic-tac-toe, également connu sous le nom de morpion, est un simple jeu de stratégie à deux joueurs joué sur une grille 3x3. L'objectif du jeu est d'obtenir trois de vos symboles (X ou O) à la suite, horizontalement, verticalement ou en diagonale.",
-            "ghLink": "https://github.com/umeshthapa12/tictactoe",
+            "ghLink": "https://github.com/ewumesh/tictactoe",
             "demoLink": "https://game-tiktac.netlify.app/",
             "Technologies": ["Vue", "SASS", "GIT", "Bootstrap"]
         }
